@@ -1,0 +1,74 @@
+[
+  {
+    "id": "0fe4a0b7-7fbd-419a-b0b3-852331cd7722",
+    "name":"Teddy Bear, Teddy Bear, Say Goodnight",
+    "thumbnail": "https://cms.alpha.kidsloop.net/static/media/bada-rhyme.07b94224.png",
+    "description": "unit one",
+    "lesson_plans": [
+      {
+        "id": "429916b1-974c-4f27-a48b-f211eb19dfa0",
+        "name": "Teddy Bear, Teddy Bear, Say Goodnight",
+        "no": 1,
+        "thumbnail": "https://res.kidsloop.live/thumbnail/5fc584f9ec74c56216f3bec3.png",
+        "description": "Students will learn the steps that lead to bedtime.",
+        "content_id": "5fd01b8719c96568d20ac4c5"
+      },
+      {
+        "id": "f384048b-9232-4d05-aa32-5e25b08d78ec",
+        "name": "Teddy Bear, Teddy Bear, Say Goodnight",
+        "no": 2,
+        "thumbnail": "https://res.kidsloop.live/thumbnail/5fc5852445cdb5e3d0b01aa1.png",
+        "description": "Students will learn the steps that lead to bedtime.",
+        "content_id": "606419680a770f2a0d9477db"
+      }
+    ]
+  },
+  {
+    "id": "369cff1c-82f7-4f7f-824e-367e9783ff93",
+    "name": "Star Light, Star Bright",
+    "thumbnail": "https://cms.alpha.kidsloop.net/static/media/bada-genius.c01c6e23.png",
+    "description": "unit two",
+    "lesson_plans": [
+      {
+        "id": "b70a6594-6d5f-4a0f-a1d6-fe27e2a0205a",
+        "name": "Muffin Man",
+        "no": 3,
+        "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19c682f496458ab6e9b0c.JPG",
+        "description": "Students will learn repetition and patterns in a nursery rhyme.",
+        "content_id": "606d13ee3402f28e4e934f43"
+      },
+      {
+        "id": "b18dfcc7-c190-4bb0-8448-db7430917556",
+        "name": "Muffin Man",
+        "no": 4,
+        "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19d564615b7260da75f03.JPG",
+        "description": "Students will learn repetition and patterns in a nursery rhyme.",
+        "content_id": "606d143c74945ce9b0d233b6"
+      }
+    ]
+  },
+  {
+    "id": "daa96eb0-fe7a-4554-bb28-6c08871f9a08",
+    "name": "Rain, Rain, Go Away",
+    "thumbnail": "https://cms.alpha.kidsloop.net/static/media/bada-talk.0b432b3e.png",
+    "description": "unit three",
+    "lesson_plans": [
+      {
+        "id": "15ce9d45-911e-4e06-a120-c67ee76f4c70",
+        "name": "Teddy Bear, Teddy Bear, Say Goodnight",
+        "no": 5,
+        "thumbnail": "https://res.kidsloop.live/thumbnail/5fc584f9ec74c56216f3bec3.png",
+        "description": "Students will learn the steps that lead to bedtime.",
+        "content_id": "5fd01b8719c96568d20ac4c5"
+      },
+      {
+        "id": "ed0f81f4-0468-465f-99d8-84c40a4348bb",
+        "name": "Teddy Bear, Teddy Bear, Say Goodnight",
+        "no": 6,
+        "thumbnail": "https://res.kidsloop.live/thumbnail/5fc5852445cdb5e3d0b01aa1.png",
+        "description": "Students will learn the steps that lead to bedtime.",
+        "content_id": "606419680a770f2a0d9477db"
+      }
+    ]
+  }
+]
