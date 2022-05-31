@@ -1,7 +1,7 @@
 [
   {
     "id": "0fe4a0b7-7fbd-419a-b0b3-852331cd7722",
-    "name":"Teddy Bear, Teddy Bear, Say Goodnight",
+    "name":"Unit 1. Teddy Bear, Teddy Bear, Say Goodnight",
     "thumbnail": "https://cms.alpha.kidsloop.net/static/media/bada-rhyme.07b94224.png",
     "description": "unit one",
     "lesson_plans": [
@@ -25,7 +25,7 @@
   },
   {
     "id": "369cff1c-82f7-4f7f-824e-367e9783ff93",
-    "name": "Star Light, Star Bright",
+    "name": "Unit 2. Star Light, Star Bright",
     "thumbnail": "https://cms.alpha.kidsloop.net/static/media/bada-genius.c01c6e23.png",
     "description": "unit two",
     "lesson_plans": [
@@ -49,7 +49,7 @@
   },
   {
     "id": "daa96eb0-fe7a-4554-bb28-6c08871f9a08",
-    "name": "Rain, Rain, Go Away",
+    "name": "Unit 3. Rain, Rain, Go Away",
     "thumbnail": "https://cms.alpha.kidsloop.net/static/media/bada-talk.0b432b3e.png",
     "description": "unit three",
     "lesson_plans": [
