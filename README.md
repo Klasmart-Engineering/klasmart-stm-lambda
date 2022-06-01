@@ -23,4 +23,4 @@ path: /lesson_plans/{lesson_plan_id}.json <br>
 . [STM-61](https://calmisland.atlassian.net/jira/software/c/projects/STM/boards/328?modal=detail&selectedIssue=STM-61) , [STM-62](https://calmisland.atlassian.net/jira/software/c/projects/STM/boards/328?modal=detail&selectedIssue=STM-62)
 
 path: /lesson_plans/{lesson_plan_id}.json <br>
-[response](doc/json/lesson_plans/lesson_plan.json)
+[response](doc/json/lesson_plans/429916b1-974c-4f27-a48b-f211eb19dfa0.json)
