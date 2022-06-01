@@ -1,0 +1,118 @@
+{
+  "id": "6063bf79cf9dafb599c4cecf",
+  "no": 1,
+  "name": "Rain, Rain, Go Away",
+  "thumbnail": "https://res.kidsloop.live/thumbnail/5fd0249f7eba6df7e916b726.png",
+  "description": "Students will learn the names of the Badanamu characters.",
+  "content_id": "6063bf79cf9dafb599c4cecf",
+  "materials": [
+    {
+      "id": "5fd0731e64e058683716340b",
+      "no": 1,
+      "name": "Rain, Rain, Go Away - Video",
+      "thumbnail": "https://res.kidsloop.live/thumbnail/HAYIVF2WQVCHF4E5XMA3YMEUUHX3OIGLPGHMJF4RNEWGCKUT4QUQ====.jpg",
+      "description": "All the friends want to play. They ask the rain to go away.",
+      "content_id": "5fd0731e64e058683716340b",
+      "data": "{\"source\": \"assets/df409ffd5e1eca7c6eb3ddcd19f2238bc8fbe2fccc4805012f1afa928658bb79da4eeb6b7a5d00a718651e68d6cd0bd3.mp4\", \"file_type\": 2, \"input_source\": 2}"
+    },
+    {
+      "id": "5fb32c5a55572f4ca745ff20",
+      "no": 2,
+      "name": "Weather (Rain) Keywords",
+      "thumbnail": "https://res.kidsloop.live/thumbnail/L7B3KN5WZE3J42AH3F3IMYZFZ62MFSLLT2OTBUJSIZ2O2LBCZXQA====.jpg",
+      "description": "Learn the keywords.",
+      "content_id": "5fb32c5a55572f4ca745ff20",
+      "data": "{\"source\": \"5f55bd8f75bb96001235e85f\", \"file_type\": 5, \"input_source\": 1}"
+    },
+    {
+      "id": "601ca3f365586c77cb913edd",
+      "no": 3,
+      "name": "Rain, Rain, Go Away - Storybook",
+      "thumbnail": "https://res.kidsloop.live/thumbnail/ZHWXSALWW5VSKVXX5XGMQI7WHXTVTXGOM7KPP5Q6VTDGNUFE3BHA====.png",
+      "description": "All the friends want to play. They ask the rain to go away.",
+      "content_id": "601ca3f365586c77cb913edd",
+      "data": "{\"source\": \"5ee30c8a414d5b3cfeaeeaa1\", \"file_type\": 5, \"input_source\": 1}"
+    },
+    {
+      "id": "5fd0731e64e058683716340b",
+      "no": 4,
+      "name": "Rain, Rain, Go Away - Video",
+      "thumbnail": "https://res.kidsloop.live/thumbnail/HAYIVF2WQVCHF4E5XMA3YMEUUHX3OIGLPGHMJF4RNEWGCKUT4QUQ====.jpg",
+      "description": "All the friends want to play. They ask the rain to go away.",
+      "content_id": "5fd0731e64e058683716340b",
+      "data": "{\"source\": \"assets/df409ffd5e1eca7c6eb3ddcd19f2238bc8fbe2fccc4805012f1afa928658bb79da4eeb6b7a5d00a718651e68d6cd0bd3.mp4\", \"file_type\": 2, \"input_source\": 2}"
+    },
+    {
+      "id": "5fb32c5a55572f4ca745ff21",
+      "no": 5,
+      "name": "Weather (Rain) Keywords Sound",
+      "thumbnail": "https://res.kidsloop.live/thumbnail/HHNVPMEV4SXRACU2TKBXL4FALQ5EL2GEGJS2WS5MHR3Z7CXVQYHQ====.jpg",
+      "description": "Tap the images to hear the keywords.",
+      "content_id": "5fb32c5a55572f4ca745ff21",
+      "data": "{\"source\": \"5f55be7275bb96001235e860\", \"file_type\": 5, \"input_source\": 1}"
+    },
+    {
+      "id": "5fb32c5a55572f4ca745ff22",
+      "no": 6,
+      "name": "Weather (Rain) Memory Game 1",
+      "thumbnail": "https://res.kidsloop.live/thumbnail/5fcdba6c10da136dde658e1c.jpg",
+      "description": "Practice the keywords: rain, play, Bada, Mimi.",
+      "content_id": "5fb32c5a55572f4ca745ff22",
+      "data": "{\"source\": \"5f55bf5a75bb96001235e861\", \"file_type\": 5, \"input_source\": 1}"
+    },
+    {
+      "id": "5fb32c5a55572f4ca745ff23",
+      "no": 7,
+      "name": "Weather (Rain) Memory Game 2",
+      "thumbnail": "https://res.kidsloop.live/thumbnail/5fcdbaa41963a82e0304511e.jpg",
+      "description": "Practice the keywords: Abby, Jess, Curly, Pogo.",
+      "content_id": "5fb32c5a55572f4ca745ff23",
+      "data": "{\"source\": \"5f55bfe475bb96001235e862\", \"file_type\": 5, \"input_source\": 1}"
+    },
+    {
+      "id": "5fb32c5a55572f4ca745ff24",
+      "no": 8,
+      "name": "Weather (Rain) Trace 1",
+      "thumbnail": "https://res.kidsloop.live/thumbnail/FT4GJTHQX6WWWALPHYNERTN74NTTIOL23PRGLSLDTJM66WIZVHTQ====.jpg",
+      "description": "Trace the lines.",
+      "content_id": "5fb32c5a55572f4ca745ff24",
+      "data": "{\"source\": \"5f55c22b75bb96001235e863\", \"file_type\": 5, \"input_source\": 1}"
+    },
+    {
+      "id": "5fb32c5a55572f4ca745ff25",
+      "no": 9,
+      "name": "Weather (Rain) Trace 2",
+      "thumbnail": "https://res.kidsloop.live/thumbnail/BQBQC6ZDFPJJQ2VUUNKZ6SNDFPC37CU7NEJAFKQUT5QDZZWGDPIQ====.jpg",
+      "description": "Trace the lines.",
+      "content_id": "5fb32c5a55572f4ca745ff25",
+      "data": "{\"source\": \"5f55c45b75bb96001235e864\", \"file_type\": 5, \"input_source\": 1}"
+    },
+    {
+      "id": "5fb32c5a55572f4ca745ff26",
+      "no": 10,
+      "name": "Weather (Rain) Match",
+      "thumbnail": "https://res.kidsloop.live/thumbnail/3WKNIR7P5P6QTPGZWQBEBO7MTG2LN7PA34A6R2ZV6YSQDWVLGSLA====.png",
+      "description": "Match each friend to the correct silhouette.",
+      "content_id": "5fb32c5a55572f4ca745ff26",
+      "data": "{\"source\": \"5f55c4e975bb96001235e865\", \"file_type\": 5, \"input_source\": 1}"
+    },
+    {
+      "id": "5fb32c5a55572f4ca745ff27",
+      "no": 11,
+      "name": "Weather (Rain) Color 1",
+      "thumbnail": "https://res.kidsloop.live/thumbnail/VT4QASA3DGZHZ6CR7HW6QUXNZ4WDL7AC2ABJFSG6V3RNOBKSTZGA====.jpg",
+      "description": "Color Bada in the rain.",
+      "content_id": "5fb32c5a55572f4ca745ff27",
+      "data": "{\"source\": \"5f55c54175bb96001235e866\", \"file_type\": 5, \"input_source\": 1}"
+    },
+    {
+      "id": "6062c611904e14606e329ef4",
+      "no": 12,
+      "name": "Rain, Rain, Go Away - Song",
+      "thumbnail": "https://res.kidsloop.live/thumbnail/A4HVJW3DCHF5QDKSRTQXDNTHDLVIATSMHPICVWMCEKPVP4RJUA5Q====.jpg",
+      "description": "All the friends want to play. They ask the rain to go away.",
+      "content_id": "6062c611904e14606e329ef4",
+      "data": "{\"source\": \"assets/a9158cc75f048e0abe96888fb094d9c416dd04e7ad7f0e15ce752efc8b6843914c172299f83b5ff7f70b787708fc67f8.mp3\", \"file_type\": 3, \"input_source\": 2}"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "id": "606d143c74945ce9b0d233b6",
+  "no": 4,
+  "name": "Muffin Man",
+  "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19d564615b7260da75f03.JPG",
+  "description": "Students will learn repetition and patterns in a nursery rhyme.",
+  "content_id": "606d143c74945ce9b0d233b6",
+  "materials": [
+    {
+      "id": "5fa272bff3acb3be36084ebd",
+      "no": 1,
+      "name": "Muffin Man - Video",
+      "thumbnail": "https://res.kidsloop.live/thumbnail/5fd02d0728b859808a14e1f4.JPG",
+      "description": "Bada is the popular muffin man. Everyone comes to his kitchen to try his delicious muffins.",
+      "content_id": "5fa272bff3acb3be36084ebd",
+      "data": "{\"source\": \"assets/P277FPUNW3DBFE7VPXAYGA6OMVSFNQ5PL7ZDJYB3WVD4DX3BSSDQ====.mp4\", \"file_type\": 2, \"input_source\": 2}"
+    },
+    {
+      "id": "60504486cee0f16206bccca1",
+      "no": 2,
+      "name": "People in the Community Keywords Poster",
+      "thumbnail": "https://res.kidsloop.live/thumbnail/605044ac3c563278718eed31.jpg",
+      "description": "Review the keywords: muffin, man, lives (live), know, you, I, we",
+      "content_id": "60504486cee0f16206bccca1",
+      "data": "{\"source\": \"assets/605044b93c563278718eed3a.jpg\", \"file_type\": 1, \"input_source\": 2}"
+    },
+    {
+      "id": "6048323f4ec65c1e51ac94a7",
+      "no": 3,
+      "name": "Muffin Man - Storybook",
+      "thumbnail": "https://res.kidsloop.live/thumbnail/AIBDLJVEL4WGNVG2MZYJBIL2VTTF6SOHWG6PUVA6BFQ6K5AMIXFQ====.jpg",
+      "description": "Bada is the popular muffin man. Everyone comes to his kitchen to try his delicious muffins.",
+      "content_id": "6048323f4ec65c1e51ac94a7",
+      "data": "{\"source\": \"5f5adaec75bb96001235e933\", \"file_type\": 5, \"input_source\": 1}"
+    },
+    {
+      "id": "5fa272bff3acb3be36084ebd",
+      "no": 4,
+      "name": "Muffin Man - Video",
+      "thumbnail": "https://res.kidsloop.live/thumbnail/5fd02d0728b859808a14e1f4.JPG",
+      "description": "Bada is the popular muffin man. Everyone comes to his kitchen to try his delicious muffins.",
+      "content_id": "5fa272bff3acb3be36084ebd",
+      "data": "{\"source\": \"assets/P277FPUNW3DBFE7VPXAYGA6OMVSFNQ5PL7ZDJYB3WVD4DX3BSSDQ====.mp4\", \"file_type\": 2, \"input_source\": 2}"
+    },
+    {
+      "id": "6050451977d9d1d6c8a8153e",
+      "no": 5,
+      "name": "People in the Community Keywords Poster with Sounds",
+      "thumbnail": "https://res.kidsloop.live/thumbnail/6050452e8c681e38f2ef1f24.jpg",
+      "description": "Review and repeat the keywords: muffin, man, lives (live), know, you, I, we",
+      "content_id": "6050451977d9d1d6c8a8153e",
+      "data": "{\"source\": \"5f4da11975bb96001235e793\", \"file_type\": 5, \"input_source\": 1}"
+    },
+    {
+      "id": "5fb32c5a55572f4ca745fed1",
+      "no": 6,
+      "name": "People in the Community Memory Game 1",
+      "thumbnail": "https://res.kidsloop.live/thumbnail/DTKFPR6O5WD6U7OYBVN7OMTZ2WX5BXYE4SAWIWB6K44TWIRSRJHQ====.jpg",
+      "description": "Practice the keywords: muffin, man, lives (live)",
+      "content_id": "5fb32c5a55572f4ca745fed1",
+      "data": "{\"source\": \"5f4d8d6a75bb96001235e782\", \"file_type\": 5, \"input_source\": 1}"
+    },
+    {
+      "id": "5fb32c5a55572f4ca745fed2",
+      "no": 7,
+      "name": "People in the Community Memory Game 2",
+      "thumbnail": "https://res.kidsloop.live/thumbnail/DTKFPR6O5WD6U7OYBVN7OMTZ2WX5BXYE4SAWIWB6K44TWIRSRJHQ====.jpg",
+      "description": "Practice the keywords: know, you, I, we",
+      "content_id": "5fb32c5a55572f4ca745fed2",
+      "data": "{\"source\": \"5f4d8dc075bb96001235e783\", \"file_type\": 5, \"input_source\": 1}"
+    },
+    {
+      "id": "6050476fa0edf5a225ddd626",
+      "no": 8,
+      "name": "People in the Community Identify Sounds 1",
+      "thumbnail": "https://res.kidsloop.live/thumbnail/6050479d00c71e6162f64964.jpg",
+      "description": "Identify the words that start with the /m/ sound.",
+      "content_id": "6050476fa0edf5a225ddd626",
+      "data": "{\"source\": \"5f4d96ea75bb96001235e78c\", \"file_type\": 5, \"input_source\": 1}"
+    },
+    {
+      "id": "605049171bc3055ec67d8157",
+      "no": 9,
+      "name": "People in the Community Identify Sounds 2",
+      "thumbnail": "https://res.kidsloop.live/thumbnail/60504926dc5906bddc91b6bc.jpg",
+      "description": "Identify the words that end with the /n/ sound.",
+      "content_id": "605049171bc3055ec67d8157",
+      "data": "{\"source\": \"5f4d97bb75bb96001235e78e\", \"file_type\": 5, \"input_source\": 1}"
+    },
+    {
+      "id": "605049cec845d1aaf07f0fae",
+      "no": 10,
+      "name": "People in the Community Decorate",
+      "thumbnail": "https://res.kidsloop.live/thumbnail/605049d9dc5906bddc91b744.jpg",
+      "description": "Move the toppings to decorate the muffin.",
+      "content_id": "605049cec845d1aaf07f0fae",
+      "data": "{\"source\": \"5f4d987b75bb96001235e790\", \"file_type\": 5, \"input_source\": 1}"
+    },
+    {
+      "id": "60504cd3a78591c850586fb5",
+      "no": 11,
+      "name": "People in the Community Scene",
+      "thumbnail": "https://res.kidsloop.live/thumbnail/60504e52e47bf4ac3cc4a2ea.jpg",
+      "description": "Move the characters and objects to finish the scene.",
+      "content_id": "60504cd3a78591c850586fb5",
+      "data": "{\"source\": \"5f4d992c75bb96001235e791\", \"file_type\": 5, \"input_source\": 1}"
+    },
+    {
+      "id": "5fb32c5a55572f4ca745fed9",
+      "no": 12,
+      "name": "Muffin Man - Song",
+      "thumbnail": "https://res.kidsloop.live/thumbnail/NQAOCYK25UK65X7NP7KZ4TZNAMF4T6YUCH5QCYH4LKIV6MAL4YSA====.jpg",
+      "description": "Bada is the popular muffin man. Everyone comes to his kitchen to try his delicious muffins.",
+      "content_id": "5fb32c5a55572f4ca745fed9",
+      "data": "{\"source\": \"assets/273c1316037f165a87ee319029c64b9302d707d45d0d116fcaa33cb2c8b60fc198d87aff2bbd3b57a69497dfb8704afd.mp3\", \"file_type\": 3, \"input_source\": 2}"
+    }
+  ]
+}

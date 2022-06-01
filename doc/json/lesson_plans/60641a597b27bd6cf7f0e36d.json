@@ -1,0 +1,118 @@
+{
+  "id": "60641a597b27bd6cf7f0e36d",
+  "no": 1,
+  "name": "Star Light, Star Bright",
+  "thumbnail": "https://res.kidsloop.live/thumbnail/5fd01c0d518fe693b05db885.png",
+  "description": "Students will learn about making a wish on the first star.",
+  "content_id": "60641a597b27bd6cf7f0e36d",
+  "materials": [
+    {
+      "id": "5fa272bff3acb3be36084e42",
+      "no": 1,
+      "name": "Star Light, Star Bright - Video",
+      "thumbnail": "https://res.kidsloop.live/thumbnail/5fcd7a700736026d90e73948.png",
+      "description": "Bada and Mimi see the first star in the night sky. They make a wish upon the star.",
+      "content_id": "5fa272bff3acb3be36084e42",
+      "data": "{\"source\": \"assets/FOUWJDNDNEYRGAUT4QSW2TCBMHBOA4TRSOG2JJDCBCUIB3K5DRKA====.mp4\", \"file_type\": 2, \"input_source\": 2}"
+    },
+    {
+      "id": "5fb32c5a55572f4ca745feb2",
+      "no": 2,
+      "name": "Night Sky Keywords",
+      "thumbnail": "https://res.kidsloop.live/thumbnail/B4NH6IM3ANZIRP57Z37GWMO2AFYSB7FNMFUD2BHTI2HFH7UYUUYA====.jpg",
+      "description": "Learn the keywords.",
+      "content_id": "5fb32c5a55572f4ca745feb2",
+      "data": "{\"source\": \"5f4cb66a75bb96001235e752\", \"file_type\": 5, \"input_source\": 1}"
+    },
+    {
+      "id": "601c9b11ccb5b51a3a2410d9",
+      "no": 3,
+      "name": "Star Light, Star Bright - Storybook",
+      "thumbnail": "https://res.kidsloop.live/thumbnail/5fcd7baf63006fe532595b02.jpg",
+      "description": "Bada and Mimi see the first star in the night sky. They make a wish upon the star.",
+      "content_id": "601c9b11ccb5b51a3a2410d9",
+      "data": "{\"source\": \"5ee1c668414d5b630daeea77\", \"file_type\": 5, \"input_source\": 1}"
+    },
+    {
+      "id": "5fa272bff3acb3be36084e42",
+      "no": 4,
+      "name": "Star Light, Star Bright - Video",
+      "thumbnail": "https://res.kidsloop.live/thumbnail/5fcd7a700736026d90e73948.png",
+      "description": "Bada and Mimi see the first star in the night sky. They make a wish upon the star.",
+      "content_id": "5fa272bff3acb3be36084e42",
+      "data": "{\"source\": \"assets/FOUWJDNDNEYRGAUT4QSW2TCBMHBOA4TRSOG2JJDCBCUIB3K5DRKA====.mp4\", \"file_type\": 2, \"input_source\": 2}"
+    },
+    {
+      "id": "5fcdb204331e452580dd8d19",
+      "no": 5,
+      "name": "Night Sky Keywords Sound",
+      "thumbnail": "https://res.kidsloop.live/thumbnail/B4NH6IM3ANZIRP57Z37GWMO2AFYSB7FNMFUD2BHTI2HFH7UYUUYA====.jpg",
+      "description": "Tap the images to hear the keywords.",
+      "content_id": "5fcdb204331e452580dd8d19",
+      "data": "{\"source\": \"5f4cb74a75bb96001235e753\", \"file_type\": 5, \"input_source\": 1}"
+    },
+    {
+      "id": "5fb32c5a55572f4ca745feb4",
+      "no": 6,
+      "name": "Night Sky Memory Game 1",
+      "thumbnail": "https://res.kidsloop.live/thumbnail/5fcd978d97b9a9ca049e45a4.jpg",
+      "description": "Practice the keywords: star, light, bright.",
+      "content_id": "5fb32c5a55572f4ca745feb4",
+      "data": "{\"source\": \"5f4cb7a575bb96001235e755\", \"file_type\": 5, \"input_source\": 1}"
+    },
+    {
+      "id": "5fb32c5a55572f4ca745feb6",
+      "no": 7,
+      "name": "Night Sky Memory Game 2",
+      "thumbnail": "https://res.kidsloop.live/thumbnail/5fcd9a35685ace31e53dd705.jpg",
+      "description": "Practice the keywords: tonight, wish, first.",
+      "content_id": "5fb32c5a55572f4ca745feb6",
+      "data": "{\"source\": \"5f4cb7ff75bb96001235e757\", \"file_type\": 5, \"input_source\": 1}"
+    },
+    {
+      "id": "5fb32c5a55572f4ca745feb8",
+      "no": 8,
+      "name": "Night Sky Color 1",
+      "thumbnail": "https://res.kidsloop.live/thumbnail/ROR6WILS6KNH35I47VND2IA4ETQIYXSQNPDKFE7MEU74HFEDCQCQ====.jpg",
+      "description": "Color the image.",
+      "content_id": "5fb32c5a55572f4ca745feb8",
+      "data": "{\"source\": \"5f4cb86775bb96001235e75a\", \"file_type\": 5, \"input_source\": 1}"
+    },
+    {
+      "id": "5fb32c5a55572f4ca745feb9",
+      "no": 9,
+      "name": "Night Sky Trace 1",
+      "thumbnail": "https://res.kidsloop.live/thumbnail/KRRBBA63X74YYEL22JYCRDWXLGBDHAGBZCE2YP6UO7S5ACBYCUZA====.jpg",
+      "description": "Trace the lines.",
+      "content_id": "5fb32c5a55572f4ca745feb9",
+      "data": "{\"source\": \"5f4cb8c175bb96001235e75b\", \"file_type\": 5, \"input_source\": 1}"
+    },
+    {
+      "id": "5fb32c5a55572f4ca745feba",
+      "no": 10,
+      "name": "Night Sky Trace 2",
+      "thumbnail": "https://res.kidsloop.live/thumbnail/3IYKOUTQ5S3XUFGFDA3HWFHUXLWRGWT7ET7TETRYK2YOPSVST4VA====.jpg",
+      "description": "Trace the lines.",
+      "content_id": "5fb32c5a55572f4ca745feba",
+      "data": "{\"source\": \"5f4cb94875bb96001235e75d\", \"file_type\": 5, \"input_source\": 1}"
+    },
+    {
+      "id": "5fb32c5a55572f4ca745febc",
+      "no": 11,
+      "name": "Night Sky Trace and Count",
+      "thumbnail": "https://res.kidsloop.live/thumbnail/27XHNT3GMTDH3BLKPRACXXSDUQPTOQSAY72LNBM5FN2OW6NVDSEA====.jpg",
+      "description": "Trace and then count.",
+      "content_id": "5fb32c5a55572f4ca745febc",
+      "data": "{\"source\": \"5f4cb9bd75bb96001235e75e\", \"file_type\": 5, \"input_source\": 1}"
+    },
+    {
+      "id": "5fb32c5a55572f4ca745fd4a",
+      "no": 12,
+      "name": "Star Light, Star Bright - Song",
+      "thumbnail": "https://res.kidsloop.live/thumbnail/JJWVMXQLEHW5VFKUNKAZUQUTYIHW344XMCO34LQGTYEBVURZ7SXQ====.jpg",
+      "description": "Bada and Mimi see the first star in the night sky. They make a wish upon the star.",
+      "content_id": "5fb32c5a55572f4ca745fd4a",
+      "data": "{\"source\": \"assets/f3cfbf9c8fe44e30c793a3228a85ba7648f06e77e2c163acbebf011876f5a2a2c0b7e01fe9ad94723f53c8f87697b816.mp3\", \"file_type\": 3, \"input_source\": 2}"
+    }
+  ]
+}

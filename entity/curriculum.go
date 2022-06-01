@@ -8,8 +8,14 @@ type BaseField struct {
 	Description string `json:"description"`
 }
 
+type CurriculumLevels struct {
+	ID    string   `json:"id"`
+	Units []string `json:"units"`
+}
+
 type Curriculum struct {
 	BaseField
+	Levels []*CurriculumLevels `json:"levels"`
 }
 
 type Level struct {
@@ -18,7 +24,8 @@ type Level struct {
 
 type LessonPlan struct {
 	BaseField
-	ContentID string `json:"content_id"`
+	ContentID string      `json:"content_id"`
+	Materials []*Material `json:"materials"`
 }
 
 type Unit struct {
