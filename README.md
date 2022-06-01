@@ -2,8 +2,8 @@
 
 . [STM-47](https://calmisland.atlassian.net/jira/software/c/projects/STM/boards/328?modal=detail&selectedIssue=STM-47) , [STM-48](https://calmisland.atlassian.net/jira/software/c/projects/STM/boards/328?modal=detail&selectedIssue=STM-48)
 
-path: /curriculums/curriculum.json <br>
-[response](doc/json/curriculums/curriculum.json)
+path: /curriculums/curriculums.json <br>
+[response](doc/json/curriculums/curriculums.json)
 
 . [STM-49](https://calmisland.atlassian.net/jira/software/c/projects/STM/boards/328?modal=detail&selectedIssue=STM-49) , [STM-50](https://calmisland.atlassian.net/jira/software/c/projects/STM/boards/328?modal=detail&selectedIssue=STM-50)
 
