@@ -1,0 +1,26 @@
+{
+  "id": "e9c74512-0244-42cf-b307-1819cbdf5eb6",
+  "name": "Unit 37. Muffin Man",
+  "thumbnail": "",
+  "description": "",
+  "lesson_plans": [
+    {
+      "id": "606d13ee3402f28e4e934f43",
+      "name": "Muffin Man",
+      "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19c682f496458ab6e9b0c.JPG",
+      "description": "Students will learn repetition and patterns in a nursery rhyme."
+    },
+    {
+      "id": "606d143c74945ce9b0d233b6",
+      "name": "Muffin Man",
+      "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19d564615b7260da75f03.JPG",
+      "description": "Students will learn repetition and patterns in a nursery rhyme."
+    },
+    {
+      "id": "60641a597b27bd6cf7f0e36d",
+      "name": "Star Light, Star Bright",
+      "thumbnail": "https://res.kidsloop.live/thumbnail/5fd01c0d518fe693b05db885.png",
+      "description": "Students will learn about making a wish on the first star."
+    }
+  ]
+}

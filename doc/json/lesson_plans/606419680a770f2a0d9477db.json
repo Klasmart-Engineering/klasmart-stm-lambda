@@ -1,171 +1,133 @@
 {
   "id": "606419680a770f2a0d9477db",
-  "no": 2,
   "name": "Teddy Bear, Teddy Bear, Say Goodnight",
   "thumbnail": "https://res.kidsloop.live/thumbnail/5fc5852445cdb5e3d0b01aa1.png",
   "description": "Students will learn the steps that lead to bedtime.",
-  "content_id": "606419680a770f2a0d9477db",
   "materials": [
     {
       "id": "5fa272bff3acb3be36084ed0",
-      "no": 1,
       "name": "Teddy Bear, Teddy Bear, Say Goodnight - Video",
       "thumbnail": "https://res.kidsloop.live/thumbnail/5fc58f70fdffc13b9a1fe83f.jpg",
       "description": "Bada loves to play with Teddy Bear. His doll also helps him go to sleep.",
-      "content_id": "5fa272bff3acb3be36084ed0",
       "data": "{\"source\": \"assets/FLVEJUPIWAQJKL766ZHOTUSBIV6SRLWUOR6I6N54K5TQWSSBXPHQ====.mp4\", \"file_type\": 2, \"input_source\": 2}"
     },
     {
       "id": "5fb32c5a55572f4ca745fe93",
-      "no": 2,
       "name": "Getting Ready for Bed Keyword Poster",
       "thumbnail": "https://res.kidsloop.live/thumbnail/MCUPBAKTL6PXJ574YVDXSFJAG5SXWAKSYG6WEXY3JWEVIZJGTTCQ====.jpg",
       "description": "Learn the keywords: teddy bear, wiggle, nose, toes, light, turn around, I love you",
-      "content_id": "5fb32c5a55572f4ca745fe93",
       "data": "{\"source\": \"5f4ca4c775bb96001235e725\", \"file_type\": 5, \"input_source\": 1}"
     },
     {
       "id": "601c934d80784c18592bf8be",
-      "no": 3,
       "name": "Teddy Bear, Teddy Bear, Say Goodnight - Storybook",
       "thumbnail": "https://res.kidsloop.live/thumbnail/D2HIGZERHJJAI3EGSWE4I3TFC2IUOPGIFK3LTBFSMLSL2AITAAIQ====.jpg",
       "description": "Bada loves to play with Teddy Bear. His doll also helps him go to sleep.",
-      "content_id": "601c934d80784c18592bf8be",
       "data": "{\"source\": \"5ee2e35c414d5b611faeea9f\", \"file_type\": 5, \"input_source\": 1}"
     },
     {
       "id": "5fa272bff3acb3be36084ed0",
-      "no": 4,
       "name": "Teddy Bear, Teddy Bear, Say Goodnight - Video",
       "thumbnail": "https://res.kidsloop.live/thumbnail/5fc58f70fdffc13b9a1fe83f.jpg",
       "description": "Bada loves to play with Teddy Bear. His doll also helps him go to sleep.",
-      "content_id": "5fa272bff3acb3be36084ed0",
       "data": "{\"source\": \"assets/FLVEJUPIWAQJKL766ZHOTUSBIV6SRLWUOR6I6N54K5TQWSSBXPHQ====.mp4\", \"file_type\": 2, \"input_source\": 2}"
     },
     {
       "id": "5fb32c5a55572f4ca745fe94",
-      "no": 5,
       "name": "Getting Ready for Bed Keyword Poster Sound",
       "thumbnail": "https://res.kidsloop.live/thumbnail/MCUPBAKTL6PXJ574YVDXSFJAG5SXWAKSYG6WEXY3JWEVIZJGTTCQ====.jpg",
       "description": "Learn the keywords and practice the sounds: teddy bear, wiggle, nose, toes, light, turn around, I love you",
-      "content_id": "5fb32c5a55572f4ca745fe94",
       "data": "{\"source\": \"5f4ca53575bb96001235e726\", \"file_type\": 5, \"input_source\": 1}"
     },
     {
       "id": "5fb32c5a55572f4ca745fe76",
-      "no": 6,
       "name": "Getting Ready for Bed Memory Game 1",
       "thumbnail": "https://res.kidsloop.live/thumbnail/5fc582e0ec74c56216f3be78.jpg",
       "description": "Match the cards and practice the keywords: teddy bear, wiggle, nose",
-      "content_id": "5fb32c5a55572f4ca745fe76",
       "data": "{\"source\": \"5f4c963475bb96001235e6fb\", \"file_type\": 5, \"input_source\": 1}"
     },
     {
       "id": "5fb32c5a55572f4ca745fe7e",
-      "no": 7,
       "name": "Getting Ready for Bed Memory Game 1",
       "thumbnail": "https://res.kidsloop.live/thumbnail/5fc58325b83a9275ecf290a7.jpg",
       "description": "Match the cards and practice the keywords: toes, light, turn around, I love you",
-      "content_id": "5fb32c5a55572f4ca745fe7e",
       "data": "{\"source\": \"5f4c97dd75bb96001235e704\", \"file_type\": 5, \"input_source\": 1}"
     },
     {
       "id": "5fb32c5a55572f4ca745fe95",
-      "no": 8,
       "name": "Getting Ready for Bed Match Sounds",
       "thumbnail": "https://res.kidsloop.live/thumbnail/NAB6VMQ7AFMC2AJTCTN6LKRPZ3I5XLNDH7IQUKURK7B3P2PF74QA====.png",
       "description": "Listen and match the sounds: -ound, -ose, -ight",
-      "content_id": "5fb32c5a55572f4ca745fe95",
       "data": "{\"source\": \"5f4ca70a75bb96001235e728\", \"file_type\": 5, \"input_source\": 1}"
     },
     {
       "id": "5fcf256b55f5a91fd017010e",
-      "no": 9,
       "name": "Getting Ready for Bed Identify Sounds (/t/)",
       "thumbnail": "https://res.kidsloop.live/thumbnail/3QTANENWYRATYEUX6MW3VDAENABMI5C7GGGRZE3ESUTXAE4NXENQ====.png",
       "description": "Tap to listen for the beginning /t/ sound. On the second page, identify all the words that start with a /t/ sound.",
-      "content_id": "5fcf256b55f5a91fd017010e",
       "data": "{\"source\": \"5f4ca77875bb96001235e729\", \"file_type\": 5, \"input_source\": 1}"
     },
     {
       "id": "5fb32c5a55572f4ca745fe97",
-      "no": 10,
       "name": "Getting Ready for Bed Color 2",
       "thumbnail": "https://res.kidsloop.live/thumbnail/ULLLWOJF2ESXUTZC72L7WZI7VCMTH476DHR2QEAZQT2MJIFFIZTQ====.jpg",
       "description": "Color the teddy bear",
-      "content_id": "5fb32c5a55572f4ca745fe97",
       "data": "{\"source\": \"5f4ca7bc75bb96001235e72a\", \"file_type\": 5, \"input_source\": 1}"
     },
     {
       "id": "5fb32c5a55572f4ca745fe99",
-      "no": 11,
       "name": "Getting Ready for Bed Body Parts",
       "thumbnail": "https://res.kidsloop.live/thumbnail/TWUQCEFMCK3DQQ6LRSJUM5FQPFWI6VBJ34GWEMML5Z6E6SNFHOEA====.jpg",
       "description": "Put teddy together.",
-      "content_id": "5fb32c5a55572f4ca745fe99",
       "data": "{\"source\": \"5f4ca8ec75bb96001235e72d\", \"file_type\": 5, \"input_source\": 1}"
     },
     {
       "id": "5fb32c5a55572f4ca745fe9c",
-      "no": 12,
       "name": "Getting Ready for Bed Scene",
       "thumbnail": "https://res.kidsloop.live/thumbnail/2ION35U5IELI7J2IEF4YNWC3XHLWF7I7KXF7XC7HWMXUBYZORETQ====.jpg",
       "description": "Move the objects and create a scene",
-      "content_id": "5fb32c5a55572f4ca745fe9c",
       "data": "{\"source\": \"5f4caa7075bb96001235e731\", \"file_type\": 5, \"input_source\": 1}"
     },
     {
       "id": "5fb32c5a55572f4ca745fd5b",
-      "no": 13,
       "name": "Teddy Bear, Teddy Bear, Say Goodnight - Song",
       "thumbnail": "https://res.kidsloop.live/thumbnail/6EPNDSD4OJOCZWZEFQ654LSXDL434B3B6NDZALSY6IBPLAYLDLHA====.jpg",
       "description": "Bada loves to play with Teddy Bear. His doll also helps him go to sleep.",
-      "content_id": "5fb32c5a55572f4ca745fd5b",
       "data": "{\"source\": \"assets/eeef1541ec555716b571d9352c5faf581b21e4a4b6b74152b6b79f7163e4117a91375fed3960a90e5695dab19e78211a.mp3\", \"file_type\": 3, \"input_source\": 2}"
     },
     {
       "id": "",
-      "no": 14,
       "name": "Genius Tracingwords",
       "thumbnail": "https://badanamu-app-web.s3.ap-northeast-2.amazonaws.com/esl/stm_poc/thumbnails/09_genius_tracingwords.png",
       "description": "",
-      "content_id": "",
       "data": "{\"source\": \"https://badanamu-app-web.s3.ap-northeast-2.amazonaws.com/esl/stm_poc/09_genius_tracingwords/index.html\", \"file_type\": 100, \"input_source\": 100}"
     },
     {
       "id": "",
-      "no": 15,
       "name": "Genius StickerQuiz Shapes",
       "thumbnail": "https://badanamu-app-web.s3.ap-northeast-2.amazonaws.com/esl/stm_poc/thumbnails/01_genius_stickerquiz_shapes.png",
       "description": "",
-      "content_id": "",
       "data": "{\"source\": \"https://badanamu-app-web.s3.ap-northeast-2.amazonaws.com/esl/stm_poc/01_genius_stickerquizshapes/index.html\", \"file_type\": 100, \"input_source\": 100}"
     },
     {
       "id": "",
-      "no": 16,
       "name": "Genius Blendsyllables",
       "thumbnail": "https://badanamu-app-web.s3.ap-northeast-2.amazonaws.com/esl/stm_poc/thumbnails/08_genius_blendsyllables.png",
       "description": "",
-      "content_id": "",
       "data": "{\"source\": \"https://badanamu-app-web.s3.ap-northeast-2.amazonaws.com/esl/stm_poc/08_genius_blendsyllables/index.html\", \"file_type\": 100, \"input_source\": 100}"
     },
     {
       "id": "",
-      "no": 17,
       "name": "Sound Memorygame",
       "thumbnail": "https://badanamu-app-web.s3.ap-northeast-2.amazonaws.com/esl/stm_poc/thumbnails/11_sound_memorygame.png",
       "description": "",
-      "content_id": "",
       "data": "{\"source\": \"https://badanamu-app-web.s3.ap-northeast-2.amazonaws.com/esl/stm_poc/11_sound_memorygame/index.html\", \"file_type\": 100, \"input_source\": 100}"
     },
     {
       "id": "",
-      "no": 18,
       "name": "Sound Tapanecco",
       "thumbnail": "https://badanamu-app-web.s3.ap-northeast-2.amazonaws.com/esl/stm_poc/thumbnails/10_read_tapanecco.png",
       "description": "",
-      "content_id": "",
       "data": "{\"source\": \"https://badanamu-app-web.s3.ap-northeast-2.amazonaws.com/esl/stm_poc/10_read_tapanecco/index.html\", \"file_type\": 100, \"input_source\": 100}"
     }
   ]

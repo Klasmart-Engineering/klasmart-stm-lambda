@@ -1,117 +1,91 @@
 {
   "id": "5fd01b8719c96568d20ac4c5",
-  "no": 1,
   "name": "Teddy Bear, Teddy Bear, Say Goodnight",
   "thumbnail": "https://res.kidsloop.live/thumbnail/5fc584f9ec74c56216f3bec3.png",
   "description": "Students will learn the steps that lead to bedtime.",
-  "content_id": "5fd01b8719c96568d20ac4c5",
   "materials": [
     {
       "id": "5fa272bff3acb3be36084ed0",
-      "no": 1,
       "name": "Teddy Bear, Teddy Bear, Say Goodnight - Video",
       "thumbnail": "https://res.kidsloop.live/thumbnail/5fc58f70fdffc13b9a1fe83f.jpg",
       "description": "Bada loves to play with Teddy Bear. His doll also helps him go to sleep.",
-      "content_id": "5fa272bff3acb3be36084ed0",
       "data": "{\"source\": \"assets/FLVEJUPIWAQJKL766ZHOTUSBIV6SRLWUOR6I6N54K5TQWSSBXPHQ====.mp4\", \"file_type\": 2, \"input_source\": 2}"
     },
     {
       "id": "5fb32c5a55572f4ca745fe6c",
-      "no": 2,
       "name": "Getting Ready for Bed Keywords",
       "thumbnail": "https://res.kidsloop.live/thumbnail/5fc57bbecc36c60fa80e0107.jpg",
       "description": "Learn the keywords: teddy bear, wiggle, nose, toes, light, turn around, I love you",
-      "content_id": "5fb32c5a55572f4ca745fe6c",
       "data": "{\"source\": \"5f4c943075bb96001235e6ed\", \"file_type\": 5, \"input_source\": 1}"
     },
     {
       "id": "601c934d80784c18592bf8be",
-      "no": 3,
       "name": "Teddy Bear, Teddy Bear, Say Goodnight - Storybook",
       "thumbnail": "https://res.kidsloop.live/thumbnail/D2HIGZERHJJAI3EGSWE4I3TFC2IUOPGIFK3LTBFSMLSL2AITAAIQ====.jpg",
       "description": "Bada loves to play with Teddy Bear. His doll also helps him go to sleep.",
-      "content_id": "601c934d80784c18592bf8be",
       "data": "{\"source\": \"5ee2e35c414d5b611faeea9f\", \"file_type\": 5, \"input_source\": 1}"
     },
     {
       "id": "5fa272bff3acb3be36084ed0",
-      "no": 4,
       "name": "Teddy Bear, Teddy Bear, Say Goodnight - Video",
       "thumbnail": "https://res.kidsloop.live/thumbnail/5fc58f70fdffc13b9a1fe83f.jpg",
       "description": "Bada loves to play with Teddy Bear. His doll also helps him go to sleep.",
-      "content_id": "5fa272bff3acb3be36084ed0",
       "data": "{\"source\": \"assets/FLVEJUPIWAQJKL766ZHOTUSBIV6SRLWUOR6I6N54K5TQWSSBXPHQ====.mp4\", \"file_type\": 2, \"input_source\": 2}"
     },
     {
       "id": "5fb32c5a55572f4ca745fe71",
-      "no": 5,
       "name": "Getting Ready for Bed Keywords Sound",
       "thumbnail": "https://res.kidsloop.live/thumbnail/5fc57bd7f633909ab35abffa.jpg",
       "description": "Learn the keywords and practice the sounds: teddy bear, wiggle, nose, toes, light, turn around, I love you",
-      "content_id": "5fb32c5a55572f4ca745fe71",
       "data": "{\"source\": \"5f4c951075bb96001235e6f2\", \"file_type\": 5, \"input_source\": 1}"
     },
     {
       "id": "5fb32c5a55572f4ca745fe76",
-      "no": 6,
       "name": "Getting Ready for Bed Memory Game 1",
       "thumbnail": "https://res.kidsloop.live/thumbnail/5fc582e0ec74c56216f3be78.jpg",
       "description": "Match the cards and practice the keywords: teddy bear, wiggle, nose",
-      "content_id": "5fb32c5a55572f4ca745fe76",
       "data": "{\"source\": \"5f4c963475bb96001235e6fb\", \"file_type\": 5, \"input_source\": 1}"
     },
     {
       "id": "5fb32c5a55572f4ca745fe7e",
-      "no": 7,
       "name": "Getting Ready for Bed Memory Game 1",
       "thumbnail": "https://res.kidsloop.live/thumbnail/5fc58325b83a9275ecf290a7.jpg",
       "description": "Match the cards and practice the keywords: toes, light, turn around, I love you",
-      "content_id": "5fb32c5a55572f4ca745fe7e",
       "data": "{\"source\": \"5f4c97dd75bb96001235e704\", \"file_type\": 5, \"input_source\": 1}"
     },
     {
       "id": "5fceda316bc9e06f5f338d1f",
-      "no": 8,
       "name": "Getting Ready for Bed Color 1",
       "thumbnail": "https://res.kidsloop.live/thumbnail/METFYEAQ2PYTTIFIWNFXYRKBQNRZ2Y7XLXIUSCFLX6NTHVRG5HHQ====.jpg",
       "description": "Color the teddy bear.",
-      "content_id": "5fceda316bc9e06f5f338d1f",
       "data": "{\"source\": \"5f4c9f8a75bb96001235e71c\", \"file_type\": 5, \"input_source\": 1}"
     },
     {
       "id": "5fceda8c127302634c1ff28d",
-      "no": 9,
       "name": "Getting Ready for Bed Trace 1",
       "thumbnail": "https://res.kidsloop.live/thumbnail/SIYV3AFNFLVKAD52EZJQVUZ36FJUFBU2O6UOTHWHERJK4R4MFBJA====.jpg",
       "description": "Trace the line.",
-      "content_id": "5fceda8c127302634c1ff28d",
       "data": "{\"source\": \"5f4c997975bb96001235e708\", \"file_type\": 5, \"input_source\": 1}"
     },
     {
       "id": "5fcedaa7e45cf4857c3587e5",
-      "no": 10,
       "name": "Getting Ready for Bed Trace 2",
       "thumbnail": "https://res.kidsloop.live/thumbnail/XOGMBSAPHZPAGDM5TZZTIXQT3SJUQJGRXFPDTTBJV3KDK76LAFWA====.jpg",
       "description": "Trace the lines.",
-      "content_id": "5fcedaa7e45cf4857c3587e5",
       "data": "{\"source\": \"5f4c99b575bb96001235e709\", \"file_type\": 5, \"input_source\": 1}"
     },
     {
       "id": "5fcedac85ee1ef5a19f7cc6b",
-      "no": 11,
       "name": "Getting Ready for Bed Match Object",
       "thumbnail": "https://res.kidsloop.live/thumbnail/LAUJZ7SATD2LB7O7Y2EON7PIHDBM2YFPMKCXFRHGBW4VSLGAJEIQ====.jpg",
       "description": "Trace the lines to match the objects.",
-      "content_id": "5fcedac85ee1ef5a19f7cc6b",
       "data": "{\"source\": \"5f4c9a0b75bb96001235e70b\", \"file_type\": 5, \"input_source\": 1}"
     },
     {
       "id": "5fb32c5a55572f4ca745fd5b",
-      "no": 12,
       "name": "Teddy Bear, Teddy Bear, Say Goodnight - Song",
       "thumbnail": "https://res.kidsloop.live/thumbnail/6EPNDSD4OJOCZWZEFQ654LSXDL434B3B6NDZALSY6IBPLAYLDLHA====.jpg",
       "description": "Bada loves to play with Teddy Bear. His doll also helps him go to sleep.",
-      "content_id": "5fb32c5a55572f4ca745fd5b",
       "data": "{\"source\": \"assets/eeef1541ec555716b571d9352c5faf581b21e4a4b6b74152b6b79f7163e4117a91375fed3960a90e5695dab19e78211a.mp3\", \"file_type\": 3, \"input_source\": 2}"
     }
   ]

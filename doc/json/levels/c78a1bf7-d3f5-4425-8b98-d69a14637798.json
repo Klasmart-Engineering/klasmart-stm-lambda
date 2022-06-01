@@ -1,0 +1,2694 @@
+{
+  "id": "c78a1bf7-d3f5-4425-8b98-d69a14637798",
+  "name": "Bada Read",
+  "thumbnail": "https://cms.alpha.kidsloop.net/static/media/bada-read.c5380a1f.png",
+  "description": "Age 8-9",
+  "units": [
+    {
+      "id": "9e3c8d13-fa68-41ad-8592-a8ad7069365b",
+      "name": "Unit 1. Teddy Bear, Teddy Bear, Say Goodnight",
+      "thumbnail": "",
+      "description": "",
+      "lesson_plans": [
+        {
+          "id": "5fd01b8719c96568d20ac4c5",
+          "name": "Teddy Bear, Teddy Bear, Say Goodnight",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fc584f9ec74c56216f3bec3.png",
+          "description": "Students will learn the steps that lead to bedtime."
+        },
+        {
+          "id": "606419680a770f2a0d9477db",
+          "name": "Teddy Bear, Teddy Bear, Say Goodnight",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fc5852445cdb5e3d0b01aa1.png",
+          "description": "Students will learn the steps that lead to bedtime."
+        },
+        {
+          "id": "606d13ee3402f28e4e934f43",
+          "name": "Muffin Man",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19c682f496458ab6e9b0c.JPG",
+          "description": "Students will learn repetition and patterns in a nursery rhyme."
+        },
+        {
+          "id": "606d143c74945ce9b0d233b6",
+          "name": "Muffin Man",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19d564615b7260da75f03.JPG",
+          "description": "Students will learn repetition and patterns in a nursery rhyme."
+        },
+        {
+          "id": "5fd01b8719c96568d20ac4c5",
+          "name": "Teddy Bear, Teddy Bear, Say Goodnight",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fc584f9ec74c56216f3bec3.png",
+          "description": "Students will learn the steps that lead to bedtime."
+        },
+        {
+          "id": "606419680a770f2a0d9477db",
+          "name": "Teddy Bear, Teddy Bear, Say Goodnight",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fc5852445cdb5e3d0b01aa1.png",
+          "description": "Students will learn the steps that lead to bedtime."
+        }
+      ]
+    },
+    {
+      "id": "2689ea8a-374e-4469-9931-768496185a90",
+      "name": "Unit 2. Star Light, Star Bright",
+      "thumbnail": "",
+      "description": "",
+      "lesson_plans": [
+        {
+          "id": "60641a597b27bd6cf7f0e36d",
+          "name": "Star Light, Star Bright",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd01c0d518fe693b05db885.png",
+          "description": "Students will learn about making a wish on the first star."
+        },
+        {
+          "id": "60641a5ae22a795140b7a823",
+          "name": "Star Light, Star Bright",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd071ebdb470b9aec44de2f.png",
+          "description": "Students will learn about making a wish on the first star."
+        },
+        {
+          "id": "6087cf72e1f47ed91fb39562",
+          "name": "Row, Row, Row Your Boat",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19db1be7560f2019305b1.jpg",
+          "description": "Students will learn rhyming words and keywords in a nursery rhyme."
+        },
+        {
+          "id": "6087d00434ce8181317a2b9b",
+          "name": "Row, Row, Row Your Boat",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19edabe7560f2019305d1.jpg",
+          "description": "Students will learn rhyming words and keywords in a nursery rhyme."
+        },
+        {
+          "id": "60641a597b27bd6cf7f0e36d",
+          "name": "Star Light, Star Bright",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd01c0d518fe693b05db885.png",
+          "description": "Students will learn about making a wish on the first star."
+        },
+        {
+          "id": "60641a5ae22a795140b7a823",
+          "name": "Star Light, Star Bright",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd071ebdb470b9aec44de2f.png",
+          "description": "Students will learn about making a wish on the first star."
+        },
+        {
+          "id": "6087cf72e1f47ed91fb39562",
+          "name": "Row, Row, Row Your Boat",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19db1be7560f2019305b1.jpg",
+          "description": "Students will learn rhyming words and keywords in a nursery rhyme."
+        },
+        {
+          "id": "6087d00434ce8181317a2b9b",
+          "name": "Row, Row, Row Your Boat",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19edabe7560f2019305d1.jpg",
+          "description": "Students will learn rhyming words and keywords in a nursery rhyme."
+        },
+        {
+          "id": "60641a597b27bd6cf7f0e36d",
+          "name": "Star Light, Star Bright",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd01c0d518fe693b05db885.png",
+          "description": "Students will learn about making a wish on the first star."
+        },
+        {
+          "id": "60641a5ae22a795140b7a823",
+          "name": "Star Light, Star Bright",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd071ebdb470b9aec44de2f.png",
+          "description": "Students will learn about making a wish on the first star."
+        }
+      ]
+    },
+    {
+      "id": "49f47ebc-23ec-4af9-866a-40d3b141f568",
+      "name": "Unit 3. Rain, Rain, Go Away",
+      "thumbnail": "",
+      "description": "",
+      "lesson_plans": [
+        {
+          "id": "6063bf79cf9dafb599c4cecf",
+          "name": "Rain, Rain, Go Away",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd0249f7eba6df7e916b726.png",
+          "description": "Students will learn the names of the Badanamu characters."
+        },
+        {
+          "id": "60641a5bf9ed665793f60df0",
+          "name": "Rain, Rain, Go Away",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd0253d74b07971df06e689.png",
+          "description": "Students will learn the names of the Badanamu characters."
+        },
+        {
+          "id": "606d158ac8f274f8d2ad628d",
+          "name": "Head, Shoulders, Knees, and Toes",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fffa06efc637c985fc05cd1.png",
+          "description": "Students will learn the names of body parts."
+        },
+        {
+          "id": "606d16724cdee0cde0eefabc",
+          "name": "Head, Shoulders, Knees, and Toes",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/6000eaa9367b014af681f930.png",
+          "description": "Students will learn the names of body parts."
+        },
+        {
+          "id": "6063bf79cf9dafb599c4cecf",
+          "name": "Rain, Rain, Go Away",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd0249f7eba6df7e916b726.png",
+          "description": "Students will learn the names of the Badanamu characters."
+        }
+      ]
+    },
+    {
+      "id": "b4fe615d-2f9d-4d52-9a71-908d6e1176e9",
+      "name": "Unit 4. Rain, Rain, Go Away",
+      "thumbnail": "",
+      "description": "",
+      "lesson_plans": [
+        {
+          "id": "60641a5bf9ed665793f60df0",
+          "name": "Rain, Rain, Go Away",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd0253d74b07971df06e689.png",
+          "description": "Students will learn the names of the Badanamu characters."
+        },
+        {
+          "id": "606d158ac8f274f8d2ad628d",
+          "name": "Head, Shoulders, Knees, and Toes",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fffa06efc637c985fc05cd1.png",
+          "description": "Students will learn the names of body parts."
+        },
+        {
+          "id": "606d16724cdee0cde0eefabc",
+          "name": "Head, Shoulders, Knees, and Toes",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/6000eaa9367b014af681f930.png",
+          "description": "Students will learn the names of body parts."
+        },
+        {
+          "id": "5fd01b8719c96568d20ac4c5",
+          "name": "Teddy Bear, Teddy Bear, Say Goodnight",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fc584f9ec74c56216f3bec3.png",
+          "description": "Students will learn the steps that lead to bedtime."
+        },
+        {
+          "id": "606419680a770f2a0d9477db",
+          "name": "Teddy Bear, Teddy Bear, Say Goodnight",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fc5852445cdb5e3d0b01aa1.png",
+          "description": "Students will learn the steps that lead to bedtime."
+        },
+        {
+          "id": "606d13ee3402f28e4e934f43",
+          "name": "Muffin Man",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19c682f496458ab6e9b0c.JPG",
+          "description": "Students will learn repetition and patterns in a nursery rhyme."
+        },
+        {
+          "id": "606d143c74945ce9b0d233b6",
+          "name": "Muffin Man",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19d564615b7260da75f03.JPG",
+          "description": "Students will learn repetition and patterns in a nursery rhyme."
+        },
+        {
+          "id": "60641a597b27bd6cf7f0e36d",
+          "name": "Star Light, Star Bright",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd01c0d518fe693b05db885.png",
+          "description": "Students will learn about making a wish on the first star."
+        },
+        {
+          "id": "60641a5ae22a795140b7a823",
+          "name": "Star Light, Star Bright",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd071ebdb470b9aec44de2f.png",
+          "description": "Students will learn about making a wish on the first star."
+        },
+        {
+          "id": "6087cf72e1f47ed91fb39562",
+          "name": "Row, Row, Row Your Boat",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19db1be7560f2019305b1.jpg",
+          "description": "Students will learn rhyming words and keywords in a nursery rhyme."
+        },
+        {
+          "id": "6087d00434ce8181317a2b9b",
+          "name": "Row, Row, Row Your Boat",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19edabe7560f2019305d1.jpg",
+          "description": "Students will learn rhyming words and keywords in a nursery rhyme."
+        }
+      ]
+    },
+    {
+      "id": "bb964089-d07b-47ab-8a41-9d9c73afd501",
+      "name": "Unit 5. Muffin Man",
+      "thumbnail": "",
+      "description": "",
+      "lesson_plans": [
+        {
+          "id": "606d13ee3402f28e4e934f43",
+          "name": "Muffin Man",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19c682f496458ab6e9b0c.JPG",
+          "description": "Students will learn repetition and patterns in a nursery rhyme."
+        },
+        {
+          "id": "606d143c74945ce9b0d233b6",
+          "name": "Muffin Man",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19d564615b7260da75f03.JPG",
+          "description": "Students will learn repetition and patterns in a nursery rhyme."
+        },
+        {
+          "id": "60641a597b27bd6cf7f0e36d",
+          "name": "Star Light, Star Bright",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd01c0d518fe693b05db885.png",
+          "description": "Students will learn about making a wish on the first star."
+        },
+        {
+          "id": "60641a5ae22a795140b7a823",
+          "name": "Star Light, Star Bright",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd071ebdb470b9aec44de2f.png",
+          "description": "Students will learn about making a wish on the first star."
+        },
+        {
+          "id": "6087cf72e1f47ed91fb39562",
+          "name": "Row, Row, Row Your Boat",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19db1be7560f2019305b1.jpg",
+          "description": "Students will learn rhyming words and keywords in a nursery rhyme."
+        },
+        {
+          "id": "6087d00434ce8181317a2b9b",
+          "name": "Row, Row, Row Your Boat",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19edabe7560f2019305d1.jpg",
+          "description": "Students will learn rhyming words and keywords in a nursery rhyme."
+        },
+        {
+          "id": "6063bf79cf9dafb599c4cecf",
+          "name": "Rain, Rain, Go Away",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd0249f7eba6df7e916b726.png",
+          "description": "Students will learn the names of the Badanamu characters."
+        }
+      ]
+    },
+    {
+      "id": "8ef0d0d6-e9c5-4085-b995-c44c7b02c1a6",
+      "name": "Unit 6. Teddy Bear, Teddy Bear, Say Goodnight",
+      "thumbnail": "",
+      "description": "",
+      "lesson_plans": [
+        {
+          "id": "5fd01b8719c96568d20ac4c5",
+          "name": "Teddy Bear, Teddy Bear, Say Goodnight",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fc584f9ec74c56216f3bec3.png",
+          "description": "Students will learn the steps that lead to bedtime."
+        },
+        {
+          "id": "606419680a770f2a0d9477db",
+          "name": "Teddy Bear, Teddy Bear, Say Goodnight",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fc5852445cdb5e3d0b01aa1.png",
+          "description": "Students will learn the steps that lead to bedtime."
+        },
+        {
+          "id": "606d13ee3402f28e4e934f43",
+          "name": "Muffin Man",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19c682f496458ab6e9b0c.JPG",
+          "description": "Students will learn repetition and patterns in a nursery rhyme."
+        },
+        {
+          "id": "606d143c74945ce9b0d233b6",
+          "name": "Muffin Man",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19d564615b7260da75f03.JPG",
+          "description": "Students will learn repetition and patterns in a nursery rhyme."
+        }
+      ]
+    },
+    {
+      "id": "5c19dd85-3939-475e-a7ba-a5cb5bd65a72",
+      "name": "Unit 7. Star Light, Star Bright",
+      "thumbnail": "",
+      "description": "",
+      "lesson_plans": [
+        {
+          "id": "60641a597b27bd6cf7f0e36d",
+          "name": "Star Light, Star Bright",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd01c0d518fe693b05db885.png",
+          "description": "Students will learn about making a wish on the first star."
+        },
+        {
+          "id": "60641a5ae22a795140b7a823",
+          "name": "Star Light, Star Bright",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd071ebdb470b9aec44de2f.png",
+          "description": "Students will learn about making a wish on the first star."
+        },
+        {
+          "id": "6087cf72e1f47ed91fb39562",
+          "name": "Row, Row, Row Your Boat",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19db1be7560f2019305b1.jpg",
+          "description": "Students will learn rhyming words and keywords in a nursery rhyme."
+        },
+        {
+          "id": "6087d00434ce8181317a2b9b",
+          "name": "Row, Row, Row Your Boat",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19edabe7560f2019305d1.jpg",
+          "description": "Students will learn rhyming words and keywords in a nursery rhyme."
+        },
+        {
+          "id": "6063bf79cf9dafb599c4cecf",
+          "name": "Rain, Rain, Go Away",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd0249f7eba6df7e916b726.png",
+          "description": "Students will learn the names of the Badanamu characters."
+        },
+        {
+          "id": "60641a5bf9ed665793f60df0",
+          "name": "Rain, Rain, Go Away",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd0253d74b07971df06e689.png",
+          "description": "Students will learn the names of the Badanamu characters."
+        },
+        {
+          "id": "606d158ac8f274f8d2ad628d",
+          "name": "Head, Shoulders, Knees, and Toes",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fffa06efc637c985fc05cd1.png",
+          "description": "Students will learn the names of body parts."
+        }
+      ]
+    },
+    {
+      "id": "cbedc358-d8b0-43a7-9e11-1ee5d658028a",
+      "name": "Unit 8. Star Light, Star Bright",
+      "thumbnail": "",
+      "description": "",
+      "lesson_plans": [
+        {
+          "id": "60641a597b27bd6cf7f0e36d",
+          "name": "Star Light, Star Bright",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd01c0d518fe693b05db885.png",
+          "description": "Students will learn about making a wish on the first star."
+        },
+        {
+          "id": "60641a5ae22a795140b7a823",
+          "name": "Star Light, Star Bright",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd071ebdb470b9aec44de2f.png",
+          "description": "Students will learn about making a wish on the first star."
+        },
+        {
+          "id": "6087cf72e1f47ed91fb39562",
+          "name": "Row, Row, Row Your Boat",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19db1be7560f2019305b1.jpg",
+          "description": "Students will learn rhyming words and keywords in a nursery rhyme."
+        },
+        {
+          "id": "6087d00434ce8181317a2b9b",
+          "name": "Row, Row, Row Your Boat",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19edabe7560f2019305d1.jpg",
+          "description": "Students will learn rhyming words and keywords in a nursery rhyme."
+        }
+      ]
+    },
+    {
+      "id": "016b5fc6-302a-48d9-a100-c10d129a9bd6",
+      "name": "Unit 9. Teddy Bear, Teddy Bear, Say Goodnight",
+      "thumbnail": "",
+      "description": "",
+      "lesson_plans": [
+        {
+          "id": "5fd01b8719c96568d20ac4c5",
+          "name": "Teddy Bear, Teddy Bear, Say Goodnight",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fc584f9ec74c56216f3bec3.png",
+          "description": "Students will learn the steps that lead to bedtime."
+        },
+        {
+          "id": "606419680a770f2a0d9477db",
+          "name": "Teddy Bear, Teddy Bear, Say Goodnight",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fc5852445cdb5e3d0b01aa1.png",
+          "description": "Students will learn the steps that lead to bedtime."
+        },
+        {
+          "id": "606d13ee3402f28e4e934f43",
+          "name": "Muffin Man",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19c682f496458ab6e9b0c.JPG",
+          "description": "Students will learn repetition and patterns in a nursery rhyme."
+        },
+        {
+          "id": "606d143c74945ce9b0d233b6",
+          "name": "Muffin Man",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19d564615b7260da75f03.JPG",
+          "description": "Students will learn repetition and patterns in a nursery rhyme."
+        },
+        {
+          "id": "60641a597b27bd6cf7f0e36d",
+          "name": "Star Light, Star Bright",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd01c0d518fe693b05db885.png",
+          "description": "Students will learn about making a wish on the first star."
+        },
+        {
+          "id": "60641a5ae22a795140b7a823",
+          "name": "Star Light, Star Bright",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd071ebdb470b9aec44de2f.png",
+          "description": "Students will learn about making a wish on the first star."
+        },
+        {
+          "id": "6087cf72e1f47ed91fb39562",
+          "name": "Row, Row, Row Your Boat",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19db1be7560f2019305b1.jpg",
+          "description": "Students will learn rhyming words and keywords in a nursery rhyme."
+        }
+      ]
+    },
+    {
+      "id": "01e1d984-bfd7-468f-9994-62b68fd6f713",
+      "name": "Unit 10. Row, Row, Row Your Boat",
+      "thumbnail": "",
+      "description": "",
+      "lesson_plans": [
+        {
+          "id": "6087cf72e1f47ed91fb39562",
+          "name": "Row, Row, Row Your Boat",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19db1be7560f2019305b1.jpg",
+          "description": "Students will learn rhyming words and keywords in a nursery rhyme."
+        },
+        {
+          "id": "6087d00434ce8181317a2b9b",
+          "name": "Row, Row, Row Your Boat",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19edabe7560f2019305d1.jpg",
+          "description": "Students will learn rhyming words and keywords in a nursery rhyme."
+        },
+        {
+          "id": "6063bf79cf9dafb599c4cecf",
+          "name": "Rain, Rain, Go Away",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd0249f7eba6df7e916b726.png",
+          "description": "Students will learn the names of the Badanamu characters."
+        },
+        {
+          "id": "60641a5bf9ed665793f60df0",
+          "name": "Rain, Rain, Go Away",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd0253d74b07971df06e689.png",
+          "description": "Students will learn the names of the Badanamu characters."
+        },
+        {
+          "id": "606d158ac8f274f8d2ad628d",
+          "name": "Head, Shoulders, Knees, and Toes",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fffa06efc637c985fc05cd1.png",
+          "description": "Students will learn the names of body parts."
+        }
+      ]
+    },
+    {
+      "id": "0b79916d-be97-4622-ad73-bcc6d5f94f91",
+      "name": "Unit 11. Muffin Man",
+      "thumbnail": "",
+      "description": "",
+      "lesson_plans": [
+        {
+          "id": "606d143c74945ce9b0d233b6",
+          "name": "Muffin Man",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19d564615b7260da75f03.JPG",
+          "description": "Students will learn repetition and patterns in a nursery rhyme."
+        },
+        {
+          "id": "60641a597b27bd6cf7f0e36d",
+          "name": "Star Light, Star Bright",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd01c0d518fe693b05db885.png",
+          "description": "Students will learn about making a wish on the first star."
+        },
+        {
+          "id": "60641a5ae22a795140b7a823",
+          "name": "Star Light, Star Bright",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd071ebdb470b9aec44de2f.png",
+          "description": "Students will learn about making a wish on the first star."
+        },
+        {
+          "id": "6087cf72e1f47ed91fb39562",
+          "name": "Row, Row, Row Your Boat",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19db1be7560f2019305b1.jpg",
+          "description": "Students will learn rhyming words and keywords in a nursery rhyme."
+        },
+        {
+          "id": "6087d00434ce8181317a2b9b",
+          "name": "Row, Row, Row Your Boat",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19edabe7560f2019305d1.jpg",
+          "description": "Students will learn rhyming words and keywords in a nursery rhyme."
+        },
+        {
+          "id": "6063bf79cf9dafb599c4cecf",
+          "name": "Rain, Rain, Go Away",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd0249f7eba6df7e916b726.png",
+          "description": "Students will learn the names of the Badanamu characters."
+        },
+        {
+          "id": "60641a5bf9ed665793f60df0",
+          "name": "Rain, Rain, Go Away",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd0253d74b07971df06e689.png",
+          "description": "Students will learn the names of the Badanamu characters."
+        }
+      ]
+    },
+    {
+      "id": "1756504b-fd74-4292-b5ec-1c909e939f15",
+      "name": "Unit 12. Head, Shoulders, Knees, and Toes",
+      "thumbnail": "",
+      "description": "",
+      "lesson_plans": [
+        {
+          "id": "606d158ac8f274f8d2ad628d",
+          "name": "Head, Shoulders, Knees, and Toes",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fffa06efc637c985fc05cd1.png",
+          "description": "Students will learn the names of body parts."
+        },
+        {
+          "id": "606d16724cdee0cde0eefabc",
+          "name": "Head, Shoulders, Knees, and Toes",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/6000eaa9367b014af681f930.png",
+          "description": "Students will learn the names of body parts."
+        },
+        {
+          "id": "5fd01b8719c96568d20ac4c5",
+          "name": "Teddy Bear, Teddy Bear, Say Goodnight",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fc584f9ec74c56216f3bec3.png",
+          "description": "Students will learn the steps that lead to bedtime."
+        },
+        {
+          "id": "606419680a770f2a0d9477db",
+          "name": "Teddy Bear, Teddy Bear, Say Goodnight",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fc5852445cdb5e3d0b01aa1.png",
+          "description": "Students will learn the steps that lead to bedtime."
+        },
+        {
+          "id": "606d13ee3402f28e4e934f43",
+          "name": "Muffin Man",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19c682f496458ab6e9b0c.JPG",
+          "description": "Students will learn repetition and patterns in a nursery rhyme."
+        },
+        {
+          "id": "606d143c74945ce9b0d233b6",
+          "name": "Muffin Man",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19d564615b7260da75f03.JPG",
+          "description": "Students will learn repetition and patterns in a nursery rhyme."
+        },
+        {
+          "id": "60641a597b27bd6cf7f0e36d",
+          "name": "Star Light, Star Bright",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd01c0d518fe693b05db885.png",
+          "description": "Students will learn about making a wish on the first star."
+        },
+        {
+          "id": "60641a5ae22a795140b7a823",
+          "name": "Star Light, Star Bright",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd071ebdb470b9aec44de2f.png",
+          "description": "Students will learn about making a wish on the first star."
+        },
+        {
+          "id": "6087cf72e1f47ed91fb39562",
+          "name": "Row, Row, Row Your Boat",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19db1be7560f2019305b1.jpg",
+          "description": "Students will learn rhyming words and keywords in a nursery rhyme."
+        },
+        {
+          "id": "6087d00434ce8181317a2b9b",
+          "name": "Row, Row, Row Your Boat",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19edabe7560f2019305d1.jpg",
+          "description": "Students will learn rhyming words and keywords in a nursery rhyme."
+        },
+        {
+          "id": "6063bf79cf9dafb599c4cecf",
+          "name": "Rain, Rain, Go Away",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd0249f7eba6df7e916b726.png",
+          "description": "Students will learn the names of the Badanamu characters."
+        },
+        {
+          "id": "60641a5bf9ed665793f60df0",
+          "name": "Rain, Rain, Go Away",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd0253d74b07971df06e689.png",
+          "description": "Students will learn the names of the Badanamu characters."
+        }
+      ]
+    },
+    {
+      "id": "4de4b472-b0a0-4213-92b1-b67778a0997c",
+      "name": "Unit 13. Head, Shoulders, Knees, and Toes",
+      "thumbnail": "",
+      "description": "",
+      "lesson_plans": [
+        {
+          "id": "606d158ac8f274f8d2ad628d",
+          "name": "Head, Shoulders, Knees, and Toes",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fffa06efc637c985fc05cd1.png",
+          "description": "Students will learn the names of body parts."
+        },
+        {
+          "id": "606d16724cdee0cde0eefabc",
+          "name": "Head, Shoulders, Knees, and Toes",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/6000eaa9367b014af681f930.png",
+          "description": "Students will learn the names of body parts."
+        },
+        {
+          "id": "5fd01b8719c96568d20ac4c5",
+          "name": "Teddy Bear, Teddy Bear, Say Goodnight",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fc584f9ec74c56216f3bec3.png",
+          "description": "Students will learn the steps that lead to bedtime."
+        },
+        {
+          "id": "606419680a770f2a0d9477db",
+          "name": "Teddy Bear, Teddy Bear, Say Goodnight",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fc5852445cdb5e3d0b01aa1.png",
+          "description": "Students will learn the steps that lead to bedtime."
+        },
+        {
+          "id": "606d13ee3402f28e4e934f43",
+          "name": "Muffin Man",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19c682f496458ab6e9b0c.JPG",
+          "description": "Students will learn repetition and patterns in a nursery rhyme."
+        },
+        {
+          "id": "606d143c74945ce9b0d233b6",
+          "name": "Muffin Man",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19d564615b7260da75f03.JPG",
+          "description": "Students will learn repetition and patterns in a nursery rhyme."
+        },
+        {
+          "id": "60641a597b27bd6cf7f0e36d",
+          "name": "Star Light, Star Bright",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd01c0d518fe693b05db885.png",
+          "description": "Students will learn about making a wish on the first star."
+        },
+        {
+          "id": "60641a5ae22a795140b7a823",
+          "name": "Star Light, Star Bright",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd071ebdb470b9aec44de2f.png",
+          "description": "Students will learn about making a wish on the first star."
+        }
+      ]
+    },
+    {
+      "id": "8ba36945-846d-4b08-9594-9d0e4f68d354",
+      "name": "Unit 14. Head, Shoulders, Knees, and Toes",
+      "thumbnail": "",
+      "description": "",
+      "lesson_plans": [
+        {
+          "id": "606d16724cdee0cde0eefabc",
+          "name": "Head, Shoulders, Knees, and Toes",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/6000eaa9367b014af681f930.png",
+          "description": "Students will learn the names of body parts."
+        },
+        {
+          "id": "5fd01b8719c96568d20ac4c5",
+          "name": "Teddy Bear, Teddy Bear, Say Goodnight",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fc584f9ec74c56216f3bec3.png",
+          "description": "Students will learn the steps that lead to bedtime."
+        },
+        {
+          "id": "606419680a770f2a0d9477db",
+          "name": "Teddy Bear, Teddy Bear, Say Goodnight",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fc5852445cdb5e3d0b01aa1.png",
+          "description": "Students will learn the steps that lead to bedtime."
+        },
+        {
+          "id": "606d13ee3402f28e4e934f43",
+          "name": "Muffin Man",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19c682f496458ab6e9b0c.JPG",
+          "description": "Students will learn repetition and patterns in a nursery rhyme."
+        },
+        {
+          "id": "606d143c74945ce9b0d233b6",
+          "name": "Muffin Man",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19d564615b7260da75f03.JPG",
+          "description": "Students will learn repetition and patterns in a nursery rhyme."
+        },
+        {
+          "id": "60641a597b27bd6cf7f0e36d",
+          "name": "Star Light, Star Bright",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd01c0d518fe693b05db885.png",
+          "description": "Students will learn about making a wish on the first star."
+        },
+        {
+          "id": "60641a5ae22a795140b7a823",
+          "name": "Star Light, Star Bright",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd071ebdb470b9aec44de2f.png",
+          "description": "Students will learn about making a wish on the first star."
+        },
+        {
+          "id": "6087cf72e1f47ed91fb39562",
+          "name": "Row, Row, Row Your Boat",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19db1be7560f2019305b1.jpg",
+          "description": "Students will learn rhyming words and keywords in a nursery rhyme."
+        },
+        {
+          "id": "6087d00434ce8181317a2b9b",
+          "name": "Row, Row, Row Your Boat",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19edabe7560f2019305d1.jpg",
+          "description": "Students will learn rhyming words and keywords in a nursery rhyme."
+        },
+        {
+          "id": "6063bf79cf9dafb599c4cecf",
+          "name": "Rain, Rain, Go Away",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd0249f7eba6df7e916b726.png",
+          "description": "Students will learn the names of the Badanamu characters."
+        },
+        {
+          "id": "60641a5bf9ed665793f60df0",
+          "name": "Rain, Rain, Go Away",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd0253d74b07971df06e689.png",
+          "description": "Students will learn the names of the Badanamu characters."
+        },
+        {
+          "id": "606d158ac8f274f8d2ad628d",
+          "name": "Head, Shoulders, Knees, and Toes",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fffa06efc637c985fc05cd1.png",
+          "description": "Students will learn the names of body parts."
+        }
+      ]
+    },
+    {
+      "id": "14a89bf0-34fe-429f-850f-0b6e91d23c46",
+      "name": "Unit 15. Head, Shoulders, Knees, and Toes",
+      "thumbnail": "",
+      "description": "",
+      "lesson_plans": [
+        {
+          "id": "606d16724cdee0cde0eefabc",
+          "name": "Head, Shoulders, Knees, and Toes",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/6000eaa9367b014af681f930.png",
+          "description": "Students will learn the names of body parts."
+        },
+        {
+          "id": "5fd01b8719c96568d20ac4c5",
+          "name": "Teddy Bear, Teddy Bear, Say Goodnight",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fc584f9ec74c56216f3bec3.png",
+          "description": "Students will learn the steps that lead to bedtime."
+        },
+        {
+          "id": "606419680a770f2a0d9477db",
+          "name": "Teddy Bear, Teddy Bear, Say Goodnight",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fc5852445cdb5e3d0b01aa1.png",
+          "description": "Students will learn the steps that lead to bedtime."
+        },
+        {
+          "id": "606d13ee3402f28e4e934f43",
+          "name": "Muffin Man",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19c682f496458ab6e9b0c.JPG",
+          "description": "Students will learn repetition and patterns in a nursery rhyme."
+        },
+        {
+          "id": "606d143c74945ce9b0d233b6",
+          "name": "Muffin Man",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19d564615b7260da75f03.JPG",
+          "description": "Students will learn repetition and patterns in a nursery rhyme."
+        },
+        {
+          "id": "60641a597b27bd6cf7f0e36d",
+          "name": "Star Light, Star Bright",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd01c0d518fe693b05db885.png",
+          "description": "Students will learn about making a wish on the first star."
+        },
+        {
+          "id": "60641a5ae22a795140b7a823",
+          "name": "Star Light, Star Bright",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd071ebdb470b9aec44de2f.png",
+          "description": "Students will learn about making a wish on the first star."
+        },
+        {
+          "id": "6087cf72e1f47ed91fb39562",
+          "name": "Row, Row, Row Your Boat",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19db1be7560f2019305b1.jpg",
+          "description": "Students will learn rhyming words and keywords in a nursery rhyme."
+        },
+        {
+          "id": "6087d00434ce8181317a2b9b",
+          "name": "Row, Row, Row Your Boat",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19edabe7560f2019305d1.jpg",
+          "description": "Students will learn rhyming words and keywords in a nursery rhyme."
+        }
+      ]
+    },
+    {
+      "id": "742ec7c8-f5bc-4b97-8283-cac69ab55d3d",
+      "name": "Unit 16. Muffin Man",
+      "thumbnail": "",
+      "description": "",
+      "lesson_plans": [
+        {
+          "id": "606d143c74945ce9b0d233b6",
+          "name": "Muffin Man",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19d564615b7260da75f03.JPG",
+          "description": "Students will learn repetition and patterns in a nursery rhyme."
+        },
+        {
+          "id": "60641a597b27bd6cf7f0e36d",
+          "name": "Star Light, Star Bright",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd01c0d518fe693b05db885.png",
+          "description": "Students will learn about making a wish on the first star."
+        }
+      ]
+    },
+    {
+      "id": "303dcce6-68a4-4c1c-a65c-c6909aaedcd3",
+      "name": "Unit 17. Muffin Man",
+      "thumbnail": "",
+      "description": "",
+      "lesson_plans": [
+        {
+          "id": "606d13ee3402f28e4e934f43",
+          "name": "Muffin Man",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19c682f496458ab6e9b0c.JPG",
+          "description": "Students will learn repetition and patterns in a nursery rhyme."
+        },
+        {
+          "id": "606d143c74945ce9b0d233b6",
+          "name": "Muffin Man",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19d564615b7260da75f03.JPG",
+          "description": "Students will learn repetition and patterns in a nursery rhyme."
+        },
+        {
+          "id": "60641a597b27bd6cf7f0e36d",
+          "name": "Star Light, Star Bright",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd01c0d518fe693b05db885.png",
+          "description": "Students will learn about making a wish on the first star."
+        },
+        {
+          "id": "60641a5ae22a795140b7a823",
+          "name": "Star Light, Star Bright",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd071ebdb470b9aec44de2f.png",
+          "description": "Students will learn about making a wish on the first star."
+        },
+        {
+          "id": "6087cf72e1f47ed91fb39562",
+          "name": "Row, Row, Row Your Boat",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19db1be7560f2019305b1.jpg",
+          "description": "Students will learn rhyming words and keywords in a nursery rhyme."
+        },
+        {
+          "id": "6087d00434ce8181317a2b9b",
+          "name": "Row, Row, Row Your Boat",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19edabe7560f2019305d1.jpg",
+          "description": "Students will learn rhyming words and keywords in a nursery rhyme."
+        },
+        {
+          "id": "6063bf79cf9dafb599c4cecf",
+          "name": "Rain, Rain, Go Away",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd0249f7eba6df7e916b726.png",
+          "description": "Students will learn the names of the Badanamu characters."
+        },
+        {
+          "id": "60641a5bf9ed665793f60df0",
+          "name": "Rain, Rain, Go Away",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd0253d74b07971df06e689.png",
+          "description": "Students will learn the names of the Badanamu characters."
+        },
+        {
+          "id": "606d158ac8f274f8d2ad628d",
+          "name": "Head, Shoulders, Knees, and Toes",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fffa06efc637c985fc05cd1.png",
+          "description": "Students will learn the names of body parts."
+        }
+      ]
+    },
+    {
+      "id": "1f7c9051-d181-4432-bae3-38c7b9ae0b64",
+      "name": "Unit 18. Head, Shoulders, Knees, and Toes",
+      "thumbnail": "",
+      "description": "",
+      "lesson_plans": [
+        {
+          "id": "606d158ac8f274f8d2ad628d",
+          "name": "Head, Shoulders, Knees, and Toes",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fffa06efc637c985fc05cd1.png",
+          "description": "Students will learn the names of body parts."
+        },
+        {
+          "id": "606d16724cdee0cde0eefabc",
+          "name": "Head, Shoulders, Knees, and Toes",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/6000eaa9367b014af681f930.png",
+          "description": "Students will learn the names of body parts."
+        },
+        {
+          "id": "5fd01b8719c96568d20ac4c5",
+          "name": "Teddy Bear, Teddy Bear, Say Goodnight",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fc584f9ec74c56216f3bec3.png",
+          "description": "Students will learn the steps that lead to bedtime."
+        },
+        {
+          "id": "606419680a770f2a0d9477db",
+          "name": "Teddy Bear, Teddy Bear, Say Goodnight",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fc5852445cdb5e3d0b01aa1.png",
+          "description": "Students will learn the steps that lead to bedtime."
+        }
+      ]
+    },
+    {
+      "id": "40f72d82-17fa-403f-8ec4-e53f9d15e88e",
+      "name": "Unit 19. Teddy Bear, Teddy Bear, Say Goodnight",
+      "thumbnail": "",
+      "description": "",
+      "lesson_plans": [
+        {
+          "id": "606419680a770f2a0d9477db",
+          "name": "Teddy Bear, Teddy Bear, Say Goodnight",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fc5852445cdb5e3d0b01aa1.png",
+          "description": "Students will learn the steps that lead to bedtime."
+        },
+        {
+          "id": "606d13ee3402f28e4e934f43",
+          "name": "Muffin Man",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19c682f496458ab6e9b0c.JPG",
+          "description": "Students will learn repetition and patterns in a nursery rhyme."
+        },
+        {
+          "id": "606d143c74945ce9b0d233b6",
+          "name": "Muffin Man",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19d564615b7260da75f03.JPG",
+          "description": "Students will learn repetition and patterns in a nursery rhyme."
+        }
+      ]
+    },
+    {
+      "id": "1d003152-34bd-4bd7-bc10-b52e830be372",
+      "name": "Unit 20. Rain, Rain, Go Away",
+      "thumbnail": "",
+      "description": "",
+      "lesson_plans": [
+        {
+          "id": "60641a5bf9ed665793f60df0",
+          "name": "Rain, Rain, Go Away",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd0253d74b07971df06e689.png",
+          "description": "Students will learn the names of the Badanamu characters."
+        },
+        {
+          "id": "606d158ac8f274f8d2ad628d",
+          "name": "Head, Shoulders, Knees, and Toes",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fffa06efc637c985fc05cd1.png",
+          "description": "Students will learn the names of body parts."
+        },
+        {
+          "id": "606d16724cdee0cde0eefabc",
+          "name": "Head, Shoulders, Knees, and Toes",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/6000eaa9367b014af681f930.png",
+          "description": "Students will learn the names of body parts."
+        },
+        {
+          "id": "5fd01b8719c96568d20ac4c5",
+          "name": "Teddy Bear, Teddy Bear, Say Goodnight",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fc584f9ec74c56216f3bec3.png",
+          "description": "Students will learn the steps that lead to bedtime."
+        },
+        {
+          "id": "606419680a770f2a0d9477db",
+          "name": "Teddy Bear, Teddy Bear, Say Goodnight",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fc5852445cdb5e3d0b01aa1.png",
+          "description": "Students will learn the steps that lead to bedtime."
+        },
+        {
+          "id": "606d13ee3402f28e4e934f43",
+          "name": "Muffin Man",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19c682f496458ab6e9b0c.JPG",
+          "description": "Students will learn repetition and patterns in a nursery rhyme."
+        },
+        {
+          "id": "606d143c74945ce9b0d233b6",
+          "name": "Muffin Man",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19d564615b7260da75f03.JPG",
+          "description": "Students will learn repetition and patterns in a nursery rhyme."
+        },
+        {
+          "id": "60641a597b27bd6cf7f0e36d",
+          "name": "Star Light, Star Bright",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd01c0d518fe693b05db885.png",
+          "description": "Students will learn about making a wish on the first star."
+        }
+      ]
+    },
+    {
+      "id": "98af927f-57dc-4195-8c69-09cb52cd6aaf",
+      "name": "Unit 21. Teddy Bear, Teddy Bear, Say Goodnight",
+      "thumbnail": "",
+      "description": "",
+      "lesson_plans": [
+        {
+          "id": "606419680a770f2a0d9477db",
+          "name": "Teddy Bear, Teddy Bear, Say Goodnight",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fc5852445cdb5e3d0b01aa1.png",
+          "description": "Students will learn the steps that lead to bedtime."
+        },
+        {
+          "id": "606d13ee3402f28e4e934f43",
+          "name": "Muffin Man",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19c682f496458ab6e9b0c.JPG",
+          "description": "Students will learn repetition and patterns in a nursery rhyme."
+        },
+        {
+          "id": "606d143c74945ce9b0d233b6",
+          "name": "Muffin Man",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19d564615b7260da75f03.JPG",
+          "description": "Students will learn repetition and patterns in a nursery rhyme."
+        },
+        {
+          "id": "60641a597b27bd6cf7f0e36d",
+          "name": "Star Light, Star Bright",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd01c0d518fe693b05db885.png",
+          "description": "Students will learn about making a wish on the first star."
+        },
+        {
+          "id": "60641a5ae22a795140b7a823",
+          "name": "Star Light, Star Bright",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd071ebdb470b9aec44de2f.png",
+          "description": "Students will learn about making a wish on the first star."
+        },
+        {
+          "id": "6087cf72e1f47ed91fb39562",
+          "name": "Row, Row, Row Your Boat",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19db1be7560f2019305b1.jpg",
+          "description": "Students will learn rhyming words and keywords in a nursery rhyme."
+        },
+        {
+          "id": "6087d00434ce8181317a2b9b",
+          "name": "Row, Row, Row Your Boat",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19edabe7560f2019305d1.jpg",
+          "description": "Students will learn rhyming words and keywords in a nursery rhyme."
+        },
+        {
+          "id": "6063bf79cf9dafb599c4cecf",
+          "name": "Rain, Rain, Go Away",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd0249f7eba6df7e916b726.png",
+          "description": "Students will learn the names of the Badanamu characters."
+        },
+        {
+          "id": "60641a5bf9ed665793f60df0",
+          "name": "Rain, Rain, Go Away",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd0253d74b07971df06e689.png",
+          "description": "Students will learn the names of the Badanamu characters."
+        }
+      ]
+    },
+    {
+      "id": "51541dde-83f1-4a8b-b667-093fa1477104",
+      "name": "Unit 22. Muffin Man",
+      "thumbnail": "",
+      "description": "",
+      "lesson_plans": [
+        {
+          "id": "606d143c74945ce9b0d233b6",
+          "name": "Muffin Man",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19d564615b7260da75f03.JPG",
+          "description": "Students will learn repetition and patterns in a nursery rhyme."
+        },
+        {
+          "id": "60641a597b27bd6cf7f0e36d",
+          "name": "Star Light, Star Bright",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd01c0d518fe693b05db885.png",
+          "description": "Students will learn about making a wish on the first star."
+        },
+        {
+          "id": "60641a5ae22a795140b7a823",
+          "name": "Star Light, Star Bright",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd071ebdb470b9aec44de2f.png",
+          "description": "Students will learn about making a wish on the first star."
+        },
+        {
+          "id": "6087cf72e1f47ed91fb39562",
+          "name": "Row, Row, Row Your Boat",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19db1be7560f2019305b1.jpg",
+          "description": "Students will learn rhyming words and keywords in a nursery rhyme."
+        },
+        {
+          "id": "6087d00434ce8181317a2b9b",
+          "name": "Row, Row, Row Your Boat",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19edabe7560f2019305d1.jpg",
+          "description": "Students will learn rhyming words and keywords in a nursery rhyme."
+        }
+      ]
+    },
+    {
+      "id": "db49451c-20e4-4432-90a7-6e9fc5cbe251",
+      "name": "Unit 23. Head, Shoulders, Knees, and Toes",
+      "thumbnail": "",
+      "description": "",
+      "lesson_plans": [
+        {
+          "id": "606d16724cdee0cde0eefabc",
+          "name": "Head, Shoulders, Knees, and Toes",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/6000eaa9367b014af681f930.png",
+          "description": "Students will learn the names of body parts."
+        },
+        {
+          "id": "5fd01b8719c96568d20ac4c5",
+          "name": "Teddy Bear, Teddy Bear, Say Goodnight",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fc584f9ec74c56216f3bec3.png",
+          "description": "Students will learn the steps that lead to bedtime."
+        },
+        {
+          "id": "606419680a770f2a0d9477db",
+          "name": "Teddy Bear, Teddy Bear, Say Goodnight",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fc5852445cdb5e3d0b01aa1.png",
+          "description": "Students will learn the steps that lead to bedtime."
+        },
+        {
+          "id": "606d13ee3402f28e4e934f43",
+          "name": "Muffin Man",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19c682f496458ab6e9b0c.JPG",
+          "description": "Students will learn repetition and patterns in a nursery rhyme."
+        },
+        {
+          "id": "606d143c74945ce9b0d233b6",
+          "name": "Muffin Man",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19d564615b7260da75f03.JPG",
+          "description": "Students will learn repetition and patterns in a nursery rhyme."
+        },
+        {
+          "id": "60641a597b27bd6cf7f0e36d",
+          "name": "Star Light, Star Bright",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd01c0d518fe693b05db885.png",
+          "description": "Students will learn about making a wish on the first star."
+        },
+        {
+          "id": "60641a5ae22a795140b7a823",
+          "name": "Star Light, Star Bright",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd071ebdb470b9aec44de2f.png",
+          "description": "Students will learn about making a wish on the first star."
+        },
+        {
+          "id": "6087cf72e1f47ed91fb39562",
+          "name": "Row, Row, Row Your Boat",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19db1be7560f2019305b1.jpg",
+          "description": "Students will learn rhyming words and keywords in a nursery rhyme."
+        },
+        {
+          "id": "6087d00434ce8181317a2b9b",
+          "name": "Row, Row, Row Your Boat",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19edabe7560f2019305d1.jpg",
+          "description": "Students will learn rhyming words and keywords in a nursery rhyme."
+        },
+        {
+          "id": "6063bf79cf9dafb599c4cecf",
+          "name": "Rain, Rain, Go Away",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd0249f7eba6df7e916b726.png",
+          "description": "Students will learn the names of the Badanamu characters."
+        },
+        {
+          "id": "60641a5bf9ed665793f60df0",
+          "name": "Rain, Rain, Go Away",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd0253d74b07971df06e689.png",
+          "description": "Students will learn the names of the Badanamu characters."
+        }
+      ]
+    },
+    {
+      "id": "457d6001-80a6-42d7-b490-cca168f074e0",
+      "name": "Unit 24. Star Light, Star Bright",
+      "thumbnail": "",
+      "description": "",
+      "lesson_plans": [
+        {
+          "id": "60641a597b27bd6cf7f0e36d",
+          "name": "Star Light, Star Bright",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd01c0d518fe693b05db885.png",
+          "description": "Students will learn about making a wish on the first star."
+        },
+        {
+          "id": "60641a5ae22a795140b7a823",
+          "name": "Star Light, Star Bright",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd071ebdb470b9aec44de2f.png",
+          "description": "Students will learn about making a wish on the first star."
+        },
+        {
+          "id": "6087cf72e1f47ed91fb39562",
+          "name": "Row, Row, Row Your Boat",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19db1be7560f2019305b1.jpg",
+          "description": "Students will learn rhyming words and keywords in a nursery rhyme."
+        },
+        {
+          "id": "6087d00434ce8181317a2b9b",
+          "name": "Row, Row, Row Your Boat",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19edabe7560f2019305d1.jpg",
+          "description": "Students will learn rhyming words and keywords in a nursery rhyme."
+        },
+        {
+          "id": "6063bf79cf9dafb599c4cecf",
+          "name": "Rain, Rain, Go Away",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd0249f7eba6df7e916b726.png",
+          "description": "Students will learn the names of the Badanamu characters."
+        },
+        {
+          "id": "60641a5bf9ed665793f60df0",
+          "name": "Rain, Rain, Go Away",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd0253d74b07971df06e689.png",
+          "description": "Students will learn the names of the Badanamu characters."
+        },
+        {
+          "id": "606d158ac8f274f8d2ad628d",
+          "name": "Head, Shoulders, Knees, and Toes",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fffa06efc637c985fc05cd1.png",
+          "description": "Students will learn the names of body parts."
+        },
+        {
+          "id": "606d16724cdee0cde0eefabc",
+          "name": "Head, Shoulders, Knees, and Toes",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/6000eaa9367b014af681f930.png",
+          "description": "Students will learn the names of body parts."
+        },
+        {
+          "id": "5fd01b8719c96568d20ac4c5",
+          "name": "Teddy Bear, Teddy Bear, Say Goodnight",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fc584f9ec74c56216f3bec3.png",
+          "description": "Students will learn the steps that lead to bedtime."
+        },
+        {
+          "id": "606419680a770f2a0d9477db",
+          "name": "Teddy Bear, Teddy Bear, Say Goodnight",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fc5852445cdb5e3d0b01aa1.png",
+          "description": "Students will learn the steps that lead to bedtime."
+        },
+        {
+          "id": "606d13ee3402f28e4e934f43",
+          "name": "Muffin Man",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19c682f496458ab6e9b0c.JPG",
+          "description": "Students will learn repetition and patterns in a nursery rhyme."
+        },
+        {
+          "id": "606d143c74945ce9b0d233b6",
+          "name": "Muffin Man",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19d564615b7260da75f03.JPG",
+          "description": "Students will learn repetition and patterns in a nursery rhyme."
+        }
+      ]
+    },
+    {
+      "id": "927fd968-be12-425f-aae3-ecc4506fdbc3",
+      "name": "Unit 25. Teddy Bear, Teddy Bear, Say Goodnight",
+      "thumbnail": "",
+      "description": "",
+      "lesson_plans": [
+        {
+          "id": "5fd01b8719c96568d20ac4c5",
+          "name": "Teddy Bear, Teddy Bear, Say Goodnight",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fc584f9ec74c56216f3bec3.png",
+          "description": "Students will learn the steps that lead to bedtime."
+        },
+        {
+          "id": "606419680a770f2a0d9477db",
+          "name": "Teddy Bear, Teddy Bear, Say Goodnight",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fc5852445cdb5e3d0b01aa1.png",
+          "description": "Students will learn the steps that lead to bedtime."
+        },
+        {
+          "id": "606d13ee3402f28e4e934f43",
+          "name": "Muffin Man",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19c682f496458ab6e9b0c.JPG",
+          "description": "Students will learn repetition and patterns in a nursery rhyme."
+        },
+        {
+          "id": "606d143c74945ce9b0d233b6",
+          "name": "Muffin Man",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19d564615b7260da75f03.JPG",
+          "description": "Students will learn repetition and patterns in a nursery rhyme."
+        },
+        {
+          "id": "60641a597b27bd6cf7f0e36d",
+          "name": "Star Light, Star Bright",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd01c0d518fe693b05db885.png",
+          "description": "Students will learn about making a wish on the first star."
+        },
+        {
+          "id": "60641a5ae22a795140b7a823",
+          "name": "Star Light, Star Bright",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd071ebdb470b9aec44de2f.png",
+          "description": "Students will learn about making a wish on the first star."
+        },
+        {
+          "id": "6087cf72e1f47ed91fb39562",
+          "name": "Row, Row, Row Your Boat",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19db1be7560f2019305b1.jpg",
+          "description": "Students will learn rhyming words and keywords in a nursery rhyme."
+        },
+        {
+          "id": "6087d00434ce8181317a2b9b",
+          "name": "Row, Row, Row Your Boat",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19edabe7560f2019305d1.jpg",
+          "description": "Students will learn rhyming words and keywords in a nursery rhyme."
+        },
+        {
+          "id": "6063bf79cf9dafb599c4cecf",
+          "name": "Rain, Rain, Go Away",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd0249f7eba6df7e916b726.png",
+          "description": "Students will learn the names of the Badanamu characters."
+        },
+        {
+          "id": "60641a5bf9ed665793f60df0",
+          "name": "Rain, Rain, Go Away",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd0253d74b07971df06e689.png",
+          "description": "Students will learn the names of the Badanamu characters."
+        }
+      ]
+    },
+    {
+      "id": "bf433f89-3e21-4668-bc10-7ecb96b6c657",
+      "name": "Unit 26. Teddy Bear, Teddy Bear, Say Goodnight",
+      "thumbnail": "",
+      "description": "",
+      "lesson_plans": [
+        {
+          "id": "606419680a770f2a0d9477db",
+          "name": "Teddy Bear, Teddy Bear, Say Goodnight",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fc5852445cdb5e3d0b01aa1.png",
+          "description": "Students will learn the steps that lead to bedtime."
+        },
+        {
+          "id": "606d13ee3402f28e4e934f43",
+          "name": "Muffin Man",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19c682f496458ab6e9b0c.JPG",
+          "description": "Students will learn repetition and patterns in a nursery rhyme."
+        },
+        {
+          "id": "606d143c74945ce9b0d233b6",
+          "name": "Muffin Man",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19d564615b7260da75f03.JPG",
+          "description": "Students will learn repetition and patterns in a nursery rhyme."
+        }
+      ]
+    },
+    {
+      "id": "6a01856d-7a35-4244-bdea-51dac03815f9",
+      "name": "Unit 27. Row, Row, Row Your Boat",
+      "thumbnail": "",
+      "description": "",
+      "lesson_plans": [
+        {
+          "id": "6087d00434ce8181317a2b9b",
+          "name": "Row, Row, Row Your Boat",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19edabe7560f2019305d1.jpg",
+          "description": "Students will learn rhyming words and keywords in a nursery rhyme."
+        },
+        {
+          "id": "6063bf79cf9dafb599c4cecf",
+          "name": "Rain, Rain, Go Away",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd0249f7eba6df7e916b726.png",
+          "description": "Students will learn the names of the Badanamu characters."
+        },
+        {
+          "id": "60641a5bf9ed665793f60df0",
+          "name": "Rain, Rain, Go Away",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd0253d74b07971df06e689.png",
+          "description": "Students will learn the names of the Badanamu characters."
+        },
+        {
+          "id": "606d158ac8f274f8d2ad628d",
+          "name": "Head, Shoulders, Knees, and Toes",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fffa06efc637c985fc05cd1.png",
+          "description": "Students will learn the names of body parts."
+        },
+        {
+          "id": "606d16724cdee0cde0eefabc",
+          "name": "Head, Shoulders, Knees, and Toes",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/6000eaa9367b014af681f930.png",
+          "description": "Students will learn the names of body parts."
+        },
+        {
+          "id": "5fd01b8719c96568d20ac4c5",
+          "name": "Teddy Bear, Teddy Bear, Say Goodnight",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fc584f9ec74c56216f3bec3.png",
+          "description": "Students will learn the steps that lead to bedtime."
+        },
+        {
+          "id": "606419680a770f2a0d9477db",
+          "name": "Teddy Bear, Teddy Bear, Say Goodnight",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fc5852445cdb5e3d0b01aa1.png",
+          "description": "Students will learn the steps that lead to bedtime."
+        },
+        {
+          "id": "606d13ee3402f28e4e934f43",
+          "name": "Muffin Man",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19c682f496458ab6e9b0c.JPG",
+          "description": "Students will learn repetition and patterns in a nursery rhyme."
+        }
+      ]
+    },
+    {
+      "id": "6c11d8ae-0673-4139-8796-7bf7450830e1",
+      "name": "Unit 28. Row, Row, Row Your Boat",
+      "thumbnail": "",
+      "description": "",
+      "lesson_plans": [
+        {
+          "id": "6087cf72e1f47ed91fb39562",
+          "name": "Row, Row, Row Your Boat",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19db1be7560f2019305b1.jpg",
+          "description": "Students will learn rhyming words and keywords in a nursery rhyme."
+        },
+        {
+          "id": "6087d00434ce8181317a2b9b",
+          "name": "Row, Row, Row Your Boat",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19edabe7560f2019305d1.jpg",
+          "description": "Students will learn rhyming words and keywords in a nursery rhyme."
+        },
+        {
+          "id": "6063bf79cf9dafb599c4cecf",
+          "name": "Rain, Rain, Go Away",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd0249f7eba6df7e916b726.png",
+          "description": "Students will learn the names of the Badanamu characters."
+        },
+        {
+          "id": "60641a5bf9ed665793f60df0",
+          "name": "Rain, Rain, Go Away",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd0253d74b07971df06e689.png",
+          "description": "Students will learn the names of the Badanamu characters."
+        },
+        {
+          "id": "606d158ac8f274f8d2ad628d",
+          "name": "Head, Shoulders, Knees, and Toes",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fffa06efc637c985fc05cd1.png",
+          "description": "Students will learn the names of body parts."
+        },
+        {
+          "id": "606d16724cdee0cde0eefabc",
+          "name": "Head, Shoulders, Knees, and Toes",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/6000eaa9367b014af681f930.png",
+          "description": "Students will learn the names of body parts."
+        },
+        {
+          "id": "5fd01b8719c96568d20ac4c5",
+          "name": "Teddy Bear, Teddy Bear, Say Goodnight",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fc584f9ec74c56216f3bec3.png",
+          "description": "Students will learn the steps that lead to bedtime."
+        },
+        {
+          "id": "606419680a770f2a0d9477db",
+          "name": "Teddy Bear, Teddy Bear, Say Goodnight",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fc5852445cdb5e3d0b01aa1.png",
+          "description": "Students will learn the steps that lead to bedtime."
+        },
+        {
+          "id": "606d13ee3402f28e4e934f43",
+          "name": "Muffin Man",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19c682f496458ab6e9b0c.JPG",
+          "description": "Students will learn repetition and patterns in a nursery rhyme."
+        },
+        {
+          "id": "606d143c74945ce9b0d233b6",
+          "name": "Muffin Man",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19d564615b7260da75f03.JPG",
+          "description": "Students will learn repetition and patterns in a nursery rhyme."
+        },
+        {
+          "id": "60641a597b27bd6cf7f0e36d",
+          "name": "Star Light, Star Bright",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd01c0d518fe693b05db885.png",
+          "description": "Students will learn about making a wish on the first star."
+        },
+        {
+          "id": "60641a5ae22a795140b7a823",
+          "name": "Star Light, Star Bright",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd071ebdb470b9aec44de2f.png",
+          "description": "Students will learn about making a wish on the first star."
+        }
+      ]
+    },
+    {
+      "id": "9c4379cd-bdb9-4f2f-82bc-f8e17a45a20c",
+      "name": "Unit 29. Rain, Rain, Go Away",
+      "thumbnail": "",
+      "description": "",
+      "lesson_plans": [
+        {
+          "id": "60641a5bf9ed665793f60df0",
+          "name": "Rain, Rain, Go Away",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd0253d74b07971df06e689.png",
+          "description": "Students will learn the names of the Badanamu characters."
+        },
+        {
+          "id": "606d158ac8f274f8d2ad628d",
+          "name": "Head, Shoulders, Knees, and Toes",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fffa06efc637c985fc05cd1.png",
+          "description": "Students will learn the names of body parts."
+        },
+        {
+          "id": "606d16724cdee0cde0eefabc",
+          "name": "Head, Shoulders, Knees, and Toes",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/6000eaa9367b014af681f930.png",
+          "description": "Students will learn the names of body parts."
+        },
+        {
+          "id": "5fd01b8719c96568d20ac4c5",
+          "name": "Teddy Bear, Teddy Bear, Say Goodnight",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fc584f9ec74c56216f3bec3.png",
+          "description": "Students will learn the steps that lead to bedtime."
+        },
+        {
+          "id": "606419680a770f2a0d9477db",
+          "name": "Teddy Bear, Teddy Bear, Say Goodnight",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fc5852445cdb5e3d0b01aa1.png",
+          "description": "Students will learn the steps that lead to bedtime."
+        },
+        {
+          "id": "606d13ee3402f28e4e934f43",
+          "name": "Muffin Man",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19c682f496458ab6e9b0c.JPG",
+          "description": "Students will learn repetition and patterns in a nursery rhyme."
+        },
+        {
+          "id": "606d143c74945ce9b0d233b6",
+          "name": "Muffin Man",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19d564615b7260da75f03.JPG",
+          "description": "Students will learn repetition and patterns in a nursery rhyme."
+        },
+        {
+          "id": "60641a597b27bd6cf7f0e36d",
+          "name": "Star Light, Star Bright",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd01c0d518fe693b05db885.png",
+          "description": "Students will learn about making a wish on the first star."
+        }
+      ]
+    },
+    {
+      "id": "f18ecd97-8b18-4277-b525-8a5987a3c14d",
+      "name": "Unit 30. Muffin Man",
+      "thumbnail": "",
+      "description": "",
+      "lesson_plans": [
+        {
+          "id": "606d13ee3402f28e4e934f43",
+          "name": "Muffin Man",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19c682f496458ab6e9b0c.JPG",
+          "description": "Students will learn repetition and patterns in a nursery rhyme."
+        },
+        {
+          "id": "606d143c74945ce9b0d233b6",
+          "name": "Muffin Man",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19d564615b7260da75f03.JPG",
+          "description": "Students will learn repetition and patterns in a nursery rhyme."
+        },
+        {
+          "id": "60641a597b27bd6cf7f0e36d",
+          "name": "Star Light, Star Bright",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd01c0d518fe693b05db885.png",
+          "description": "Students will learn about making a wish on the first star."
+        },
+        {
+          "id": "60641a5ae22a795140b7a823",
+          "name": "Star Light, Star Bright",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd071ebdb470b9aec44de2f.png",
+          "description": "Students will learn about making a wish on the first star."
+        },
+        {
+          "id": "6087cf72e1f47ed91fb39562",
+          "name": "Row, Row, Row Your Boat",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19db1be7560f2019305b1.jpg",
+          "description": "Students will learn rhyming words and keywords in a nursery rhyme."
+        },
+        {
+          "id": "6087d00434ce8181317a2b9b",
+          "name": "Row, Row, Row Your Boat",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19edabe7560f2019305d1.jpg",
+          "description": "Students will learn rhyming words and keywords in a nursery rhyme."
+        },
+        {
+          "id": "6063bf79cf9dafb599c4cecf",
+          "name": "Rain, Rain, Go Away",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd0249f7eba6df7e916b726.png",
+          "description": "Students will learn the names of the Badanamu characters."
+        },
+        {
+          "id": "60641a5bf9ed665793f60df0",
+          "name": "Rain, Rain, Go Away",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd0253d74b07971df06e689.png",
+          "description": "Students will learn the names of the Badanamu characters."
+        },
+        {
+          "id": "606d158ac8f274f8d2ad628d",
+          "name": "Head, Shoulders, Knees, and Toes",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fffa06efc637c985fc05cd1.png",
+          "description": "Students will learn the names of body parts."
+        },
+        {
+          "id": "606d16724cdee0cde0eefabc",
+          "name": "Head, Shoulders, Knees, and Toes",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/6000eaa9367b014af681f930.png",
+          "description": "Students will learn the names of body parts."
+        },
+        {
+          "id": "5fd01b8719c96568d20ac4c5",
+          "name": "Teddy Bear, Teddy Bear, Say Goodnight",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fc584f9ec74c56216f3bec3.png",
+          "description": "Students will learn the steps that lead to bedtime."
+        },
+        {
+          "id": "606419680a770f2a0d9477db",
+          "name": "Teddy Bear, Teddy Bear, Say Goodnight",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fc5852445cdb5e3d0b01aa1.png",
+          "description": "Students will learn the steps that lead to bedtime."
+        }
+      ]
+    },
+    {
+      "id": "d680efb1-8629-4365-ae06-4c0fc9dea252",
+      "name": "Unit 31. Rain, Rain, Go Away",
+      "thumbnail": "",
+      "description": "",
+      "lesson_plans": [
+        {
+          "id": "6063bf79cf9dafb599c4cecf",
+          "name": "Rain, Rain, Go Away",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd0249f7eba6df7e916b726.png",
+          "description": "Students will learn the names of the Badanamu characters."
+        },
+        {
+          "id": "60641a5bf9ed665793f60df0",
+          "name": "Rain, Rain, Go Away",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd0253d74b07971df06e689.png",
+          "description": "Students will learn the names of the Badanamu characters."
+        },
+        {
+          "id": "606d158ac8f274f8d2ad628d",
+          "name": "Head, Shoulders, Knees, and Toes",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fffa06efc637c985fc05cd1.png",
+          "description": "Students will learn the names of body parts."
+        },
+        {
+          "id": "606d16724cdee0cde0eefabc",
+          "name": "Head, Shoulders, Knees, and Toes",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/6000eaa9367b014af681f930.png",
+          "description": "Students will learn the names of body parts."
+        },
+        {
+          "id": "5fd01b8719c96568d20ac4c5",
+          "name": "Teddy Bear, Teddy Bear, Say Goodnight",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fc584f9ec74c56216f3bec3.png",
+          "description": "Students will learn the steps that lead to bedtime."
+        },
+        {
+          "id": "606419680a770f2a0d9477db",
+          "name": "Teddy Bear, Teddy Bear, Say Goodnight",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fc5852445cdb5e3d0b01aa1.png",
+          "description": "Students will learn the steps that lead to bedtime."
+        },
+        {
+          "id": "606d13ee3402f28e4e934f43",
+          "name": "Muffin Man",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19c682f496458ab6e9b0c.JPG",
+          "description": "Students will learn repetition and patterns in a nursery rhyme."
+        },
+        {
+          "id": "606d143c74945ce9b0d233b6",
+          "name": "Muffin Man",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19d564615b7260da75f03.JPG",
+          "description": "Students will learn repetition and patterns in a nursery rhyme."
+        },
+        {
+          "id": "60641a597b27bd6cf7f0e36d",
+          "name": "Star Light, Star Bright",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd01c0d518fe693b05db885.png",
+          "description": "Students will learn about making a wish on the first star."
+        }
+      ]
+    },
+    {
+      "id": "087f9134-e674-4391-9704-bdb85151e9ef",
+      "name": "Unit 32. Rain, Rain, Go Away",
+      "thumbnail": "",
+      "description": "",
+      "lesson_plans": [
+        {
+          "id": "60641a5bf9ed665793f60df0",
+          "name": "Rain, Rain, Go Away",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd0253d74b07971df06e689.png",
+          "description": "Students will learn the names of the Badanamu characters."
+        },
+        {
+          "id": "606d158ac8f274f8d2ad628d",
+          "name": "Head, Shoulders, Knees, and Toes",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fffa06efc637c985fc05cd1.png",
+          "description": "Students will learn the names of body parts."
+        },
+        {
+          "id": "606d16724cdee0cde0eefabc",
+          "name": "Head, Shoulders, Knees, and Toes",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/6000eaa9367b014af681f930.png",
+          "description": "Students will learn the names of body parts."
+        },
+        {
+          "id": "5fd01b8719c96568d20ac4c5",
+          "name": "Teddy Bear, Teddy Bear, Say Goodnight",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fc584f9ec74c56216f3bec3.png",
+          "description": "Students will learn the steps that lead to bedtime."
+        },
+        {
+          "id": "606419680a770f2a0d9477db",
+          "name": "Teddy Bear, Teddy Bear, Say Goodnight",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fc5852445cdb5e3d0b01aa1.png",
+          "description": "Students will learn the steps that lead to bedtime."
+        }
+      ]
+    },
+    {
+      "id": "bf418248-e6bb-4966-a3c9-54ebcaf436b2",
+      "name": "Unit 33. Muffin Man",
+      "thumbnail": "",
+      "description": "",
+      "lesson_plans": [
+        {
+          "id": "606d13ee3402f28e4e934f43",
+          "name": "Muffin Man",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19c682f496458ab6e9b0c.JPG",
+          "description": "Students will learn repetition and patterns in a nursery rhyme."
+        },
+        {
+          "id": "606d143c74945ce9b0d233b6",
+          "name": "Muffin Man",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19d564615b7260da75f03.JPG",
+          "description": "Students will learn repetition and patterns in a nursery rhyme."
+        },
+        {
+          "id": "60641a597b27bd6cf7f0e36d",
+          "name": "Star Light, Star Bright",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd01c0d518fe693b05db885.png",
+          "description": "Students will learn about making a wish on the first star."
+        },
+        {
+          "id": "60641a5ae22a795140b7a823",
+          "name": "Star Light, Star Bright",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd071ebdb470b9aec44de2f.png",
+          "description": "Students will learn about making a wish on the first star."
+        },
+        {
+          "id": "6087cf72e1f47ed91fb39562",
+          "name": "Row, Row, Row Your Boat",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19db1be7560f2019305b1.jpg",
+          "description": "Students will learn rhyming words and keywords in a nursery rhyme."
+        },
+        {
+          "id": "6087d00434ce8181317a2b9b",
+          "name": "Row, Row, Row Your Boat",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19edabe7560f2019305d1.jpg",
+          "description": "Students will learn rhyming words and keywords in a nursery rhyme."
+        },
+        {
+          "id": "6063bf79cf9dafb599c4cecf",
+          "name": "Rain, Rain, Go Away",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd0249f7eba6df7e916b726.png",
+          "description": "Students will learn the names of the Badanamu characters."
+        },
+        {
+          "id": "60641a5bf9ed665793f60df0",
+          "name": "Rain, Rain, Go Away",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd0253d74b07971df06e689.png",
+          "description": "Students will learn the names of the Badanamu characters."
+        },
+        {
+          "id": "606d158ac8f274f8d2ad628d",
+          "name": "Head, Shoulders, Knees, and Toes",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fffa06efc637c985fc05cd1.png",
+          "description": "Students will learn the names of body parts."
+        },
+        {
+          "id": "606d16724cdee0cde0eefabc",
+          "name": "Head, Shoulders, Knees, and Toes",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/6000eaa9367b014af681f930.png",
+          "description": "Students will learn the names of body parts."
+        },
+        {
+          "id": "5fd01b8719c96568d20ac4c5",
+          "name": "Teddy Bear, Teddy Bear, Say Goodnight",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fc584f9ec74c56216f3bec3.png",
+          "description": "Students will learn the steps that lead to bedtime."
+        }
+      ]
+    },
+    {
+      "id": "96137e87-0fc5-4351-b3c1-fc2a0a45bc08",
+      "name": "Unit 34. Rain, Rain, Go Away",
+      "thumbnail": "",
+      "description": "",
+      "lesson_plans": [
+        {
+          "id": "60641a5bf9ed665793f60df0",
+          "name": "Rain, Rain, Go Away",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd0253d74b07971df06e689.png",
+          "description": "Students will learn the names of the Badanamu characters."
+        },
+        {
+          "id": "606d158ac8f274f8d2ad628d",
+          "name": "Head, Shoulders, Knees, and Toes",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fffa06efc637c985fc05cd1.png",
+          "description": "Students will learn the names of body parts."
+        },
+        {
+          "id": "606d16724cdee0cde0eefabc",
+          "name": "Head, Shoulders, Knees, and Toes",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/6000eaa9367b014af681f930.png",
+          "description": "Students will learn the names of body parts."
+        },
+        {
+          "id": "5fd01b8719c96568d20ac4c5",
+          "name": "Teddy Bear, Teddy Bear, Say Goodnight",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fc584f9ec74c56216f3bec3.png",
+          "description": "Students will learn the steps that lead to bedtime."
+        },
+        {
+          "id": "606419680a770f2a0d9477db",
+          "name": "Teddy Bear, Teddy Bear, Say Goodnight",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fc5852445cdb5e3d0b01aa1.png",
+          "description": "Students will learn the steps that lead to bedtime."
+        },
+        {
+          "id": "606d13ee3402f28e4e934f43",
+          "name": "Muffin Man",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19c682f496458ab6e9b0c.JPG",
+          "description": "Students will learn repetition and patterns in a nursery rhyme."
+        },
+        {
+          "id": "606d143c74945ce9b0d233b6",
+          "name": "Muffin Man",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19d564615b7260da75f03.JPG",
+          "description": "Students will learn repetition and patterns in a nursery rhyme."
+        },
+        {
+          "id": "60641a597b27bd6cf7f0e36d",
+          "name": "Star Light, Star Bright",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd01c0d518fe693b05db885.png",
+          "description": "Students will learn about making a wish on the first star."
+        }
+      ]
+    },
+    {
+      "id": "26964457-a93a-4289-848b-6455cf2917e6",
+      "name": "Unit 35. Head, Shoulders, Knees, and Toes",
+      "thumbnail": "",
+      "description": "",
+      "lesson_plans": [
+        {
+          "id": "606d158ac8f274f8d2ad628d",
+          "name": "Head, Shoulders, Knees, and Toes",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fffa06efc637c985fc05cd1.png",
+          "description": "Students will learn the names of body parts."
+        },
+        {
+          "id": "606d16724cdee0cde0eefabc",
+          "name": "Head, Shoulders, Knees, and Toes",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/6000eaa9367b014af681f930.png",
+          "description": "Students will learn the names of body parts."
+        },
+        {
+          "id": "5fd01b8719c96568d20ac4c5",
+          "name": "Teddy Bear, Teddy Bear, Say Goodnight",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fc584f9ec74c56216f3bec3.png",
+          "description": "Students will learn the steps that lead to bedtime."
+        },
+        {
+          "id": "606419680a770f2a0d9477db",
+          "name": "Teddy Bear, Teddy Bear, Say Goodnight",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fc5852445cdb5e3d0b01aa1.png",
+          "description": "Students will learn the steps that lead to bedtime."
+        },
+        {
+          "id": "606d13ee3402f28e4e934f43",
+          "name": "Muffin Man",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19c682f496458ab6e9b0c.JPG",
+          "description": "Students will learn repetition and patterns in a nursery rhyme."
+        }
+      ]
+    },
+    {
+      "id": "5c81cef8-44de-4b4f-b2bb-4cae94676f97",
+      "name": "Unit 36. Rain, Rain, Go Away",
+      "thumbnail": "",
+      "description": "",
+      "lesson_plans": [
+        {
+          "id": "6063bf79cf9dafb599c4cecf",
+          "name": "Rain, Rain, Go Away",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd0249f7eba6df7e916b726.png",
+          "description": "Students will learn the names of the Badanamu characters."
+        },
+        {
+          "id": "60641a5bf9ed665793f60df0",
+          "name": "Rain, Rain, Go Away",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd0253d74b07971df06e689.png",
+          "description": "Students will learn the names of the Badanamu characters."
+        },
+        {
+          "id": "606d158ac8f274f8d2ad628d",
+          "name": "Head, Shoulders, Knees, and Toes",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fffa06efc637c985fc05cd1.png",
+          "description": "Students will learn the names of body parts."
+        },
+        {
+          "id": "606d16724cdee0cde0eefabc",
+          "name": "Head, Shoulders, Knees, and Toes",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/6000eaa9367b014af681f930.png",
+          "description": "Students will learn the names of body parts."
+        },
+        {
+          "id": "5fd01b8719c96568d20ac4c5",
+          "name": "Teddy Bear, Teddy Bear, Say Goodnight",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fc584f9ec74c56216f3bec3.png",
+          "description": "Students will learn the steps that lead to bedtime."
+        },
+        {
+          "id": "606419680a770f2a0d9477db",
+          "name": "Teddy Bear, Teddy Bear, Say Goodnight",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fc5852445cdb5e3d0b01aa1.png",
+          "description": "Students will learn the steps that lead to bedtime."
+        },
+        {
+          "id": "606d13ee3402f28e4e934f43",
+          "name": "Muffin Man",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19c682f496458ab6e9b0c.JPG",
+          "description": "Students will learn repetition and patterns in a nursery rhyme."
+        },
+        {
+          "id": "606d143c74945ce9b0d233b6",
+          "name": "Muffin Man",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19d564615b7260da75f03.JPG",
+          "description": "Students will learn repetition and patterns in a nursery rhyme."
+        },
+        {
+          "id": "60641a597b27bd6cf7f0e36d",
+          "name": "Star Light, Star Bright",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd01c0d518fe693b05db885.png",
+          "description": "Students will learn about making a wish on the first star."
+        },
+        {
+          "id": "60641a5ae22a795140b7a823",
+          "name": "Star Light, Star Bright",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd071ebdb470b9aec44de2f.png",
+          "description": "Students will learn about making a wish on the first star."
+        },
+        {
+          "id": "6087cf72e1f47ed91fb39562",
+          "name": "Row, Row, Row Your Boat",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19db1be7560f2019305b1.jpg",
+          "description": "Students will learn rhyming words and keywords in a nursery rhyme."
+        }
+      ]
+    },
+    {
+      "id": "e9c74512-0244-42cf-b307-1819cbdf5eb6",
+      "name": "Unit 37. Muffin Man",
+      "thumbnail": "",
+      "description": "",
+      "lesson_plans": [
+        {
+          "id": "606d13ee3402f28e4e934f43",
+          "name": "Muffin Man",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19c682f496458ab6e9b0c.JPG",
+          "description": "Students will learn repetition and patterns in a nursery rhyme."
+        },
+        {
+          "id": "606d143c74945ce9b0d233b6",
+          "name": "Muffin Man",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19d564615b7260da75f03.JPG",
+          "description": "Students will learn repetition and patterns in a nursery rhyme."
+        },
+        {
+          "id": "60641a597b27bd6cf7f0e36d",
+          "name": "Star Light, Star Bright",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd01c0d518fe693b05db885.png",
+          "description": "Students will learn about making a wish on the first star."
+        }
+      ]
+    },
+    {
+      "id": "ab93700a-d791-4ef0-934e-584176cb84e6",
+      "name": "Unit 38. Muffin Man",
+      "thumbnail": "",
+      "description": "",
+      "lesson_plans": [
+        {
+          "id": "606d143c74945ce9b0d233b6",
+          "name": "Muffin Man",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19d564615b7260da75f03.JPG",
+          "description": "Students will learn repetition and patterns in a nursery rhyme."
+        },
+        {
+          "id": "60641a597b27bd6cf7f0e36d",
+          "name": "Star Light, Star Bright",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd01c0d518fe693b05db885.png",
+          "description": "Students will learn about making a wish on the first star."
+        },
+        {
+          "id": "60641a5ae22a795140b7a823",
+          "name": "Star Light, Star Bright",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd071ebdb470b9aec44de2f.png",
+          "description": "Students will learn about making a wish on the first star."
+        },
+        {
+          "id": "6087cf72e1f47ed91fb39562",
+          "name": "Row, Row, Row Your Boat",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19db1be7560f2019305b1.jpg",
+          "description": "Students will learn rhyming words and keywords in a nursery rhyme."
+        },
+        {
+          "id": "6087d00434ce8181317a2b9b",
+          "name": "Row, Row, Row Your Boat",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19edabe7560f2019305d1.jpg",
+          "description": "Students will learn rhyming words and keywords in a nursery rhyme."
+        },
+        {
+          "id": "6063bf79cf9dafb599c4cecf",
+          "name": "Rain, Rain, Go Away",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd0249f7eba6df7e916b726.png",
+          "description": "Students will learn the names of the Badanamu characters."
+        },
+        {
+          "id": "60641a5bf9ed665793f60df0",
+          "name": "Rain, Rain, Go Away",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd0253d74b07971df06e689.png",
+          "description": "Students will learn the names of the Badanamu characters."
+        },
+        {
+          "id": "606d158ac8f274f8d2ad628d",
+          "name": "Head, Shoulders, Knees, and Toes",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fffa06efc637c985fc05cd1.png",
+          "description": "Students will learn the names of body parts."
+        },
+        {
+          "id": "606d16724cdee0cde0eefabc",
+          "name": "Head, Shoulders, Knees, and Toes",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/6000eaa9367b014af681f930.png",
+          "description": "Students will learn the names of body parts."
+        },
+        {
+          "id": "5fd01b8719c96568d20ac4c5",
+          "name": "Teddy Bear, Teddy Bear, Say Goodnight",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fc584f9ec74c56216f3bec3.png",
+          "description": "Students will learn the steps that lead to bedtime."
+        },
+        {
+          "id": "606419680a770f2a0d9477db",
+          "name": "Teddy Bear, Teddy Bear, Say Goodnight",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fc5852445cdb5e3d0b01aa1.png",
+          "description": "Students will learn the steps that lead to bedtime."
+        },
+        {
+          "id": "606d13ee3402f28e4e934f43",
+          "name": "Muffin Man",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19c682f496458ab6e9b0c.JPG",
+          "description": "Students will learn repetition and patterns in a nursery rhyme."
+        }
+      ]
+    },
+    {
+      "id": "f9d329ed-7a9f-4300-8311-8a1b73c8cc2b",
+      "name": "Unit 39. Teddy Bear, Teddy Bear, Say Goodnight",
+      "thumbnail": "",
+      "description": "",
+      "lesson_plans": [
+        {
+          "id": "5fd01b8719c96568d20ac4c5",
+          "name": "Teddy Bear, Teddy Bear, Say Goodnight",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fc584f9ec74c56216f3bec3.png",
+          "description": "Students will learn the steps that lead to bedtime."
+        },
+        {
+          "id": "606419680a770f2a0d9477db",
+          "name": "Teddy Bear, Teddy Bear, Say Goodnight",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fc5852445cdb5e3d0b01aa1.png",
+          "description": "Students will learn the steps that lead to bedtime."
+        },
+        {
+          "id": "606d13ee3402f28e4e934f43",
+          "name": "Muffin Man",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19c682f496458ab6e9b0c.JPG",
+          "description": "Students will learn repetition and patterns in a nursery rhyme."
+        },
+        {
+          "id": "606d143c74945ce9b0d233b6",
+          "name": "Muffin Man",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19d564615b7260da75f03.JPG",
+          "description": "Students will learn repetition and patterns in a nursery rhyme."
+        },
+        {
+          "id": "60641a597b27bd6cf7f0e36d",
+          "name": "Star Light, Star Bright",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd01c0d518fe693b05db885.png",
+          "description": "Students will learn about making a wish on the first star."
+        },
+        {
+          "id": "60641a5ae22a795140b7a823",
+          "name": "Star Light, Star Bright",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd071ebdb470b9aec44de2f.png",
+          "description": "Students will learn about making a wish on the first star."
+        },
+        {
+          "id": "6087cf72e1f47ed91fb39562",
+          "name": "Row, Row, Row Your Boat",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19db1be7560f2019305b1.jpg",
+          "description": "Students will learn rhyming words and keywords in a nursery rhyme."
+        },
+        {
+          "id": "6087d00434ce8181317a2b9b",
+          "name": "Row, Row, Row Your Boat",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19edabe7560f2019305d1.jpg",
+          "description": "Students will learn rhyming words and keywords in a nursery rhyme."
+        },
+        {
+          "id": "6063bf79cf9dafb599c4cecf",
+          "name": "Rain, Rain, Go Away",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd0249f7eba6df7e916b726.png",
+          "description": "Students will learn the names of the Badanamu characters."
+        },
+        {
+          "id": "60641a5bf9ed665793f60df0",
+          "name": "Rain, Rain, Go Away",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd0253d74b07971df06e689.png",
+          "description": "Students will learn the names of the Badanamu characters."
+        },
+        {
+          "id": "606d158ac8f274f8d2ad628d",
+          "name": "Head, Shoulders, Knees, and Toes",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fffa06efc637c985fc05cd1.png",
+          "description": "Students will learn the names of body parts."
+        }
+      ]
+    },
+    {
+      "id": "ef842685-490b-4701-9e3a-99b88c86244c",
+      "name": "Unit 40. Teddy Bear, Teddy Bear, Say Goodnight",
+      "thumbnail": "",
+      "description": "",
+      "lesson_plans": [
+        {
+          "id": "606419680a770f2a0d9477db",
+          "name": "Teddy Bear, Teddy Bear, Say Goodnight",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fc5852445cdb5e3d0b01aa1.png",
+          "description": "Students will learn the steps that lead to bedtime."
+        },
+        {
+          "id": "606d13ee3402f28e4e934f43",
+          "name": "Muffin Man",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19c682f496458ab6e9b0c.JPG",
+          "description": "Students will learn repetition and patterns in a nursery rhyme."
+        },
+        {
+          "id": "606d143c74945ce9b0d233b6",
+          "name": "Muffin Man",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19d564615b7260da75f03.JPG",
+          "description": "Students will learn repetition and patterns in a nursery rhyme."
+        }
+      ]
+    },
+    {
+      "id": "0f3d9061-ac4e-4bbd-83e9-3bd40e0991b1",
+      "name": "Unit 41. Rain, Rain, Go Away",
+      "thumbnail": "",
+      "description": "",
+      "lesson_plans": [
+        {
+          "id": "6063bf79cf9dafb599c4cecf",
+          "name": "Rain, Rain, Go Away",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd0249f7eba6df7e916b726.png",
+          "description": "Students will learn the names of the Badanamu characters."
+        },
+        {
+          "id": "60641a5bf9ed665793f60df0",
+          "name": "Rain, Rain, Go Away",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd0253d74b07971df06e689.png",
+          "description": "Students will learn the names of the Badanamu characters."
+        },
+        {
+          "id": "606d158ac8f274f8d2ad628d",
+          "name": "Head, Shoulders, Knees, and Toes",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fffa06efc637c985fc05cd1.png",
+          "description": "Students will learn the names of body parts."
+        },
+        {
+          "id": "606d16724cdee0cde0eefabc",
+          "name": "Head, Shoulders, Knees, and Toes",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/6000eaa9367b014af681f930.png",
+          "description": "Students will learn the names of body parts."
+        },
+        {
+          "id": "5fd01b8719c96568d20ac4c5",
+          "name": "Teddy Bear, Teddy Bear, Say Goodnight",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fc584f9ec74c56216f3bec3.png",
+          "description": "Students will learn the steps that lead to bedtime."
+        },
+        {
+          "id": "606419680a770f2a0d9477db",
+          "name": "Teddy Bear, Teddy Bear, Say Goodnight",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fc5852445cdb5e3d0b01aa1.png",
+          "description": "Students will learn the steps that lead to bedtime."
+        },
+        {
+          "id": "606d13ee3402f28e4e934f43",
+          "name": "Muffin Man",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19c682f496458ab6e9b0c.JPG",
+          "description": "Students will learn repetition and patterns in a nursery rhyme."
+        },
+        {
+          "id": "606d143c74945ce9b0d233b6",
+          "name": "Muffin Man",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19d564615b7260da75f03.JPG",
+          "description": "Students will learn repetition and patterns in a nursery rhyme."
+        },
+        {
+          "id": "60641a597b27bd6cf7f0e36d",
+          "name": "Star Light, Star Bright",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd01c0d518fe693b05db885.png",
+          "description": "Students will learn about making a wish on the first star."
+        },
+        {
+          "id": "60641a5ae22a795140b7a823",
+          "name": "Star Light, Star Bright",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd071ebdb470b9aec44de2f.png",
+          "description": "Students will learn about making a wish on the first star."
+        }
+      ]
+    },
+    {
+      "id": "0f0a90d0-1900-4d57-b4c3-961eeda62c55",
+      "name": "Unit 42. Muffin Man",
+      "thumbnail": "",
+      "description": "",
+      "lesson_plans": [
+        {
+          "id": "606d143c74945ce9b0d233b6",
+          "name": "Muffin Man",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19d564615b7260da75f03.JPG",
+          "description": "Students will learn repetition and patterns in a nursery rhyme."
+        },
+        {
+          "id": "60641a597b27bd6cf7f0e36d",
+          "name": "Star Light, Star Bright",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd01c0d518fe693b05db885.png",
+          "description": "Students will learn about making a wish on the first star."
+        },
+        {
+          "id": "60641a5ae22a795140b7a823",
+          "name": "Star Light, Star Bright",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd071ebdb470b9aec44de2f.png",
+          "description": "Students will learn about making a wish on the first star."
+        },
+        {
+          "id": "6087cf72e1f47ed91fb39562",
+          "name": "Row, Row, Row Your Boat",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19db1be7560f2019305b1.jpg",
+          "description": "Students will learn rhyming words and keywords in a nursery rhyme."
+        },
+        {
+          "id": "6087d00434ce8181317a2b9b",
+          "name": "Row, Row, Row Your Boat",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19edabe7560f2019305d1.jpg",
+          "description": "Students will learn rhyming words and keywords in a nursery rhyme."
+        },
+        {
+          "id": "6063bf79cf9dafb599c4cecf",
+          "name": "Rain, Rain, Go Away",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd0249f7eba6df7e916b726.png",
+          "description": "Students will learn the names of the Badanamu characters."
+        },
+        {
+          "id": "60641a5bf9ed665793f60df0",
+          "name": "Rain, Rain, Go Away",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd0253d74b07971df06e689.png",
+          "description": "Students will learn the names of the Badanamu characters."
+        },
+        {
+          "id": "606d158ac8f274f8d2ad628d",
+          "name": "Head, Shoulders, Knees, and Toes",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fffa06efc637c985fc05cd1.png",
+          "description": "Students will learn the names of body parts."
+        },
+        {
+          "id": "606d16724cdee0cde0eefabc",
+          "name": "Head, Shoulders, Knees, and Toes",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/6000eaa9367b014af681f930.png",
+          "description": "Students will learn the names of body parts."
+        },
+        {
+          "id": "5fd01b8719c96568d20ac4c5",
+          "name": "Teddy Bear, Teddy Bear, Say Goodnight",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fc584f9ec74c56216f3bec3.png",
+          "description": "Students will learn the steps that lead to bedtime."
+        },
+        {
+          "id": "606419680a770f2a0d9477db",
+          "name": "Teddy Bear, Teddy Bear, Say Goodnight",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fc5852445cdb5e3d0b01aa1.png",
+          "description": "Students will learn the steps that lead to bedtime."
+        },
+        {
+          "id": "606d13ee3402f28e4e934f43",
+          "name": "Muffin Man",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19c682f496458ab6e9b0c.JPG",
+          "description": "Students will learn repetition and patterns in a nursery rhyme."
+        }
+      ]
+    },
+    {
+      "id": "af40f65b-07f1-4b93-b32f-6f6b87fefe73",
+      "name": "Unit 43. Row, Row, Row Your Boat",
+      "thumbnail": "",
+      "description": "",
+      "lesson_plans": [
+        {
+          "id": "6087d00434ce8181317a2b9b",
+          "name": "Row, Row, Row Your Boat",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19edabe7560f2019305d1.jpg",
+          "description": "Students will learn rhyming words and keywords in a nursery rhyme."
+        },
+        {
+          "id": "6063bf79cf9dafb599c4cecf",
+          "name": "Rain, Rain, Go Away",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd0249f7eba6df7e916b726.png",
+          "description": "Students will learn the names of the Badanamu characters."
+        },
+        {
+          "id": "60641a5bf9ed665793f60df0",
+          "name": "Rain, Rain, Go Away",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd0253d74b07971df06e689.png",
+          "description": "Students will learn the names of the Badanamu characters."
+        },
+        {
+          "id": "606d158ac8f274f8d2ad628d",
+          "name": "Head, Shoulders, Knees, and Toes",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fffa06efc637c985fc05cd1.png",
+          "description": "Students will learn the names of body parts."
+        },
+        {
+          "id": "606d16724cdee0cde0eefabc",
+          "name": "Head, Shoulders, Knees, and Toes",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/6000eaa9367b014af681f930.png",
+          "description": "Students will learn the names of body parts."
+        },
+        {
+          "id": "5fd01b8719c96568d20ac4c5",
+          "name": "Teddy Bear, Teddy Bear, Say Goodnight",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fc584f9ec74c56216f3bec3.png",
+          "description": "Students will learn the steps that lead to bedtime."
+        },
+        {
+          "id": "606419680a770f2a0d9477db",
+          "name": "Teddy Bear, Teddy Bear, Say Goodnight",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fc5852445cdb5e3d0b01aa1.png",
+          "description": "Students will learn the steps that lead to bedtime."
+        },
+        {
+          "id": "606d13ee3402f28e4e934f43",
+          "name": "Muffin Man",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19c682f496458ab6e9b0c.JPG",
+          "description": "Students will learn repetition and patterns in a nursery rhyme."
+        },
+        {
+          "id": "606d143c74945ce9b0d233b6",
+          "name": "Muffin Man",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19d564615b7260da75f03.JPG",
+          "description": "Students will learn repetition and patterns in a nursery rhyme."
+        }
+      ]
+    },
+    {
+      "id": "e06b6dfe-5818-4ab8-bf7f-c78481e81275",
+      "name": "Unit 44. Row, Row, Row Your Boat",
+      "thumbnail": "",
+      "description": "",
+      "lesson_plans": [
+        {
+          "id": "6087cf72e1f47ed91fb39562",
+          "name": "Row, Row, Row Your Boat",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19db1be7560f2019305b1.jpg",
+          "description": "Students will learn rhyming words and keywords in a nursery rhyme."
+        },
+        {
+          "id": "6087d00434ce8181317a2b9b",
+          "name": "Row, Row, Row Your Boat",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19edabe7560f2019305d1.jpg",
+          "description": "Students will learn rhyming words and keywords in a nursery rhyme."
+        },
+        {
+          "id": "6063bf79cf9dafb599c4cecf",
+          "name": "Rain, Rain, Go Away",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd0249f7eba6df7e916b726.png",
+          "description": "Students will learn the names of the Badanamu characters."
+        },
+        {
+          "id": "60641a5bf9ed665793f60df0",
+          "name": "Rain, Rain, Go Away",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd0253d74b07971df06e689.png",
+          "description": "Students will learn the names of the Badanamu characters."
+        },
+        {
+          "id": "606d158ac8f274f8d2ad628d",
+          "name": "Head, Shoulders, Knees, and Toes",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fffa06efc637c985fc05cd1.png",
+          "description": "Students will learn the names of body parts."
+        },
+        {
+          "id": "606d16724cdee0cde0eefabc",
+          "name": "Head, Shoulders, Knees, and Toes",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/6000eaa9367b014af681f930.png",
+          "description": "Students will learn the names of body parts."
+        },
+        {
+          "id": "5fd01b8719c96568d20ac4c5",
+          "name": "Teddy Bear, Teddy Bear, Say Goodnight",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fc584f9ec74c56216f3bec3.png",
+          "description": "Students will learn the steps that lead to bedtime."
+        },
+        {
+          "id": "606419680a770f2a0d9477db",
+          "name": "Teddy Bear, Teddy Bear, Say Goodnight",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fc5852445cdb5e3d0b01aa1.png",
+          "description": "Students will learn the steps that lead to bedtime."
+        },
+        {
+          "id": "606d13ee3402f28e4e934f43",
+          "name": "Muffin Man",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19c682f496458ab6e9b0c.JPG",
+          "description": "Students will learn repetition and patterns in a nursery rhyme."
+        },
+        {
+          "id": "606d143c74945ce9b0d233b6",
+          "name": "Muffin Man",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19d564615b7260da75f03.JPG",
+          "description": "Students will learn repetition and patterns in a nursery rhyme."
+        },
+        {
+          "id": "60641a597b27bd6cf7f0e36d",
+          "name": "Star Light, Star Bright",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd01c0d518fe693b05db885.png",
+          "description": "Students will learn about making a wish on the first star."
+        }
+      ]
+    },
+    {
+      "id": "0bd66021-1dbb-4d48-9839-686119f3299a",
+      "name": "Unit 45. Teddy Bear, Teddy Bear, Say Goodnight",
+      "thumbnail": "",
+      "description": "",
+      "lesson_plans": [
+        {
+          "id": "606419680a770f2a0d9477db",
+          "name": "Teddy Bear, Teddy Bear, Say Goodnight",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fc5852445cdb5e3d0b01aa1.png",
+          "description": "Students will learn the steps that lead to bedtime."
+        },
+        {
+          "id": "606d13ee3402f28e4e934f43",
+          "name": "Muffin Man",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19c682f496458ab6e9b0c.JPG",
+          "description": "Students will learn repetition and patterns in a nursery rhyme."
+        },
+        {
+          "id": "606d143c74945ce9b0d233b6",
+          "name": "Muffin Man",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19d564615b7260da75f03.JPG",
+          "description": "Students will learn repetition and patterns in a nursery rhyme."
+        },
+        {
+          "id": "60641a597b27bd6cf7f0e36d",
+          "name": "Star Light, Star Bright",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd01c0d518fe693b05db885.png",
+          "description": "Students will learn about making a wish on the first star."
+        }
+      ]
+    },
+    {
+      "id": "30f6fce8-15c3-4595-b430-efc2be7a8b45",
+      "name": "Unit 46. Teddy Bear, Teddy Bear, Say Goodnight",
+      "thumbnail": "",
+      "description": "",
+      "lesson_plans": [
+        {
+          "id": "606419680a770f2a0d9477db",
+          "name": "Teddy Bear, Teddy Bear, Say Goodnight",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fc5852445cdb5e3d0b01aa1.png",
+          "description": "Students will learn the steps that lead to bedtime."
+        }
+      ]
+    },
+    {
+      "id": "c04d2b27-c9c1-4022-8d86-ed8927c69dc2",
+      "name": "Unit 47. Rain, Rain, Go Away",
+      "thumbnail": "",
+      "description": "",
+      "lesson_plans": [
+        {
+          "id": "60641a5bf9ed665793f60df0",
+          "name": "Rain, Rain, Go Away",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd0253d74b07971df06e689.png",
+          "description": "Students will learn the names of the Badanamu characters."
+        },
+        {
+          "id": "606d158ac8f274f8d2ad628d",
+          "name": "Head, Shoulders, Knees, and Toes",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fffa06efc637c985fc05cd1.png",
+          "description": "Students will learn the names of body parts."
+        },
+        {
+          "id": "606d16724cdee0cde0eefabc",
+          "name": "Head, Shoulders, Knees, and Toes",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/6000eaa9367b014af681f930.png",
+          "description": "Students will learn the names of body parts."
+        },
+        {
+          "id": "5fd01b8719c96568d20ac4c5",
+          "name": "Teddy Bear, Teddy Bear, Say Goodnight",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fc584f9ec74c56216f3bec3.png",
+          "description": "Students will learn the steps that lead to bedtime."
+        },
+        {
+          "id": "606419680a770f2a0d9477db",
+          "name": "Teddy Bear, Teddy Bear, Say Goodnight",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fc5852445cdb5e3d0b01aa1.png",
+          "description": "Students will learn the steps that lead to bedtime."
+        },
+        {
+          "id": "606d13ee3402f28e4e934f43",
+          "name": "Muffin Man",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19c682f496458ab6e9b0c.JPG",
+          "description": "Students will learn repetition and patterns in a nursery rhyme."
+        }
+      ]
+    },
+    {
+      "id": "41bd322d-33e0-4417-a016-979e1c6eb034",
+      "name": "Unit 48. Teddy Bear, Teddy Bear, Say Goodnight",
+      "thumbnail": "",
+      "description": "",
+      "lesson_plans": [
+        {
+          "id": "5fd01b8719c96568d20ac4c5",
+          "name": "Teddy Bear, Teddy Bear, Say Goodnight",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fc584f9ec74c56216f3bec3.png",
+          "description": "Students will learn the steps that lead to bedtime."
+        },
+        {
+          "id": "606419680a770f2a0d9477db",
+          "name": "Teddy Bear, Teddy Bear, Say Goodnight",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fc5852445cdb5e3d0b01aa1.png",
+          "description": "Students will learn the steps that lead to bedtime."
+        },
+        {
+          "id": "606d13ee3402f28e4e934f43",
+          "name": "Muffin Man",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19c682f496458ab6e9b0c.JPG",
+          "description": "Students will learn repetition and patterns in a nursery rhyme."
+        },
+        {
+          "id": "606d143c74945ce9b0d233b6",
+          "name": "Muffin Man",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19d564615b7260da75f03.JPG",
+          "description": "Students will learn repetition and patterns in a nursery rhyme."
+        },
+        {
+          "id": "60641a597b27bd6cf7f0e36d",
+          "name": "Star Light, Star Bright",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd01c0d518fe693b05db885.png",
+          "description": "Students will learn about making a wish on the first star."
+        },
+        {
+          "id": "60641a5ae22a795140b7a823",
+          "name": "Star Light, Star Bright",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd071ebdb470b9aec44de2f.png",
+          "description": "Students will learn about making a wish on the first star."
+        },
+        {
+          "id": "6087cf72e1f47ed91fb39562",
+          "name": "Row, Row, Row Your Boat",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19db1be7560f2019305b1.jpg",
+          "description": "Students will learn rhyming words and keywords in a nursery rhyme."
+        },
+        {
+          "id": "6087d00434ce8181317a2b9b",
+          "name": "Row, Row, Row Your Boat",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19edabe7560f2019305d1.jpg",
+          "description": "Students will learn rhyming words and keywords in a nursery rhyme."
+        }
+      ]
+    },
+    {
+      "id": "57cce146-43dc-4f6f-b933-6e49b245a8b4",
+      "name": "Unit 49. Row, Row, Row Your Boat",
+      "thumbnail": "",
+      "description": "",
+      "lesson_plans": [
+        {
+          "id": "6087d00434ce8181317a2b9b",
+          "name": "Row, Row, Row Your Boat",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19edabe7560f2019305d1.jpg",
+          "description": "Students will learn rhyming words and keywords in a nursery rhyme."
+        },
+        {
+          "id": "6063bf79cf9dafb599c4cecf",
+          "name": "Rain, Rain, Go Away",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd0249f7eba6df7e916b726.png",
+          "description": "Students will learn the names of the Badanamu characters."
+        },
+        {
+          "id": "60641a5bf9ed665793f60df0",
+          "name": "Rain, Rain, Go Away",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd0253d74b07971df06e689.png",
+          "description": "Students will learn the names of the Badanamu characters."
+        },
+        {
+          "id": "606d158ac8f274f8d2ad628d",
+          "name": "Head, Shoulders, Knees, and Toes",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fffa06efc637c985fc05cd1.png",
+          "description": "Students will learn the names of body parts."
+        },
+        {
+          "id": "606d16724cdee0cde0eefabc",
+          "name": "Head, Shoulders, Knees, and Toes",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/6000eaa9367b014af681f930.png",
+          "description": "Students will learn the names of body parts."
+        },
+        {
+          "id": "5fd01b8719c96568d20ac4c5",
+          "name": "Teddy Bear, Teddy Bear, Say Goodnight",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fc584f9ec74c56216f3bec3.png",
+          "description": "Students will learn the steps that lead to bedtime."
+        },
+        {
+          "id": "606419680a770f2a0d9477db",
+          "name": "Teddy Bear, Teddy Bear, Say Goodnight",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fc5852445cdb5e3d0b01aa1.png",
+          "description": "Students will learn the steps that lead to bedtime."
+        },
+        {
+          "id": "606d13ee3402f28e4e934f43",
+          "name": "Muffin Man",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19c682f496458ab6e9b0c.JPG",
+          "description": "Students will learn repetition and patterns in a nursery rhyme."
+        },
+        {
+          "id": "606d143c74945ce9b0d233b6",
+          "name": "Muffin Man",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19d564615b7260da75f03.JPG",
+          "description": "Students will learn repetition and patterns in a nursery rhyme."
+        }
+      ]
+    },
+    {
+      "id": "b4609f02-bd6c-4af6-bf35-b54b8959f08e",
+      "name": "Unit 50. Star Light, Star Bright",
+      "thumbnail": "",
+      "description": "",
+      "lesson_plans": [
+        {
+          "id": "60641a597b27bd6cf7f0e36d",
+          "name": "Star Light, Star Bright",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd01c0d518fe693b05db885.png",
+          "description": "Students will learn about making a wish on the first star."
+        },
+        {
+          "id": "60641a5ae22a795140b7a823",
+          "name": "Star Light, Star Bright",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fd071ebdb470b9aec44de2f.png",
+          "description": "Students will learn about making a wish on the first star."
+        },
+        {
+          "id": "6087cf72e1f47ed91fb39562",
+          "name": "Row, Row, Row Your Boat",
+          "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19db1be7560f2019305b1.jpg",
+          "description": "Students will learn rhyming words and keywords in a nursery rhyme."
+        }
+      ]
+    }
+  ]
+}

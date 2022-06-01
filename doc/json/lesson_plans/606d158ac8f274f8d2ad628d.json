@@ -1,108 +1,84 @@
 {
   "id": "606d158ac8f274f8d2ad628d",
-  "no": 3,
   "name": "Head, Shoulders, Knees, and Toes",
   "thumbnail": "https://res.kidsloop.live/thumbnail/5fffa06efc637c985fc05cd1.png",
   "description": "Students will learn the names of body parts.",
-  "content_id": "606d158ac8f274f8d2ad628d",
   "materials": [
     {
       "id": "5fcdba91ede9cb69737ea05c",
-      "no": 1,
       "name": "Head, Shoulders, Knees, and Toes - Video",
       "thumbnail": "https://res.kidsloop.live/thumbnail/EVFKRYFIP5AFKLDJUQQLFO5INHM5FCOEBRIZLZ4ZOGOVRYGZTZDA====.jpg",
       "description": "The Badanamu Buddies have a dance-off on the playground. Their aim is to teach body parts in a fun way.",
-      "content_id": "5fcdba91ede9cb69737ea05c",
       "data": "{\"source\": \"assets/a79065f427de00b84c2ffacc2f9824b9d67eea43a866b95b6afc038263d3239a2ad1be8ab6fb7bde5a004eebc4b7d4f2.mp4\", \"file_type\": 2, \"input_source\": 2}"
     },
     {
       "id": "6048755f50a3f995a6530026",
-      "no": 2,
       "name": "Parts of the Body Keywords",
       "thumbnail": "https://res.kidsloop.live/thumbnail/604875b7ee647e5c50d6cc5a.png",
       "description": "Learn the keywords: head, shoulders, knees, toes, eyes, ears, mouth, nose",
-      "content_id": "6048755f50a3f995a6530026",
       "data": "{\"source\": \"5ff7f4a41cee490012a21b7e\", \"file_type\": 5, \"input_source\": 1}"
     },
     {
       "id": "60482737db0522f0bf513a50",
-      "no": 3,
       "name": "Head, Shoulders, Knees, and Toes - Storybook",
       "thumbnail": "https://res.kidsloop.live/thumbnail/LATOWYNK3E3KGJQYG5YTJZYJM4J4ARQB7L2MFRWUQCLLDPFR2INQ====.jpg",
       "description": "The Badanamu Buddies have a dance-off on the playground. Their aim is to teach body parts in a fun way.",
-      "content_id": "60482737db0522f0bf513a50",
       "data": "{\"source\": \"5eddedf6414d5b43f8aeea29\", \"file_type\": 5, \"input_source\": 1}"
     },
     {
       "id": "5fcdba91ede9cb69737ea05c",
-      "no": 4,
       "name": "Head, Shoulders, Knees, and Toes - Video",
       "thumbnail": "https://res.kidsloop.live/thumbnail/EVFKRYFIP5AFKLDJUQQLFO5INHM5FCOEBRIZLZ4ZOGOVRYGZTZDA====.jpg",
       "description": "The Badanamu Buddies have a dance-off on the playground. Their aim is to teach body parts in a fun way.",
-      "content_id": "5fcdba91ede9cb69737ea05c",
       "data": "{\"source\": \"assets/a79065f427de00b84c2ffacc2f9824b9d67eea43a866b95b6afc038263d3239a2ad1be8ab6fb7bde5a004eebc4b7d4f2.mp4\", \"file_type\": 2, \"input_source\": 2}"
     },
     {
       "id": "604876272f0d7c979b98f71d",
-      "no": 5,
       "name": "Parts of the Body Keywords with Sounds",
       "thumbnail": "https://res.kidsloop.live/thumbnail/604876529f93d9c8391a9512.png",
       "description": "Practice and repeat the keywords: head, shoulders, knees, toes, eyes, ears, mouth, nose",
-      "content_id": "604876272f0d7c979b98f71d",
       "data": "{\"source\": \"5ff7f5bf44093e0012ecc675\", \"file_type\": 5, \"input_source\": 1}"
     },
     {
       "id": "604f131af6eb72cde0d52912",
-      "no": 6,
       "name": "Parts of the Body Memory Game 1",
       "thumbnail": "https://res.kidsloop.live/thumbnail/5ff7f686a86a5cf72357a056.jpg",
       "description": "Practice the keywords: ears, eyes, head, knees",
-      "content_id": "604f131af6eb72cde0d52912",
       "data": "{\"source\": \"5ff7f87044093e0012ecc677\", \"file_type\": 5, \"input_source\": 1}"
     },
     {
       "id": "604f134cb537cd06b390f8fa",
-      "no": 7,
       "name": "Parts of the Body Memory Game 2",
       "thumbnail": "https://res.kidsloop.live/thumbnail/5ff7f8bf31b99681404fb4c1.jpg",
       "description": "Practice the keywords: mouth, nose, shoulders, toes",
-      "content_id": "604f134cb537cd06b390f8fa",
       "data": "{\"source\": \"5ff7f9211cee490012a21b7f\", \"file_type\": 5, \"input_source\": 1}"
     },
     {
       "id": "604877057ece91acbb6b3b8e",
-      "no": 8,
       "name": "Parts of the Body Color",
       "thumbnail": "https://res.kidsloop.live/thumbnail/604877157ece91acbb6b3b9d.jpg",
       "description": "Color the picture and describe it. ",
-      "content_id": "604877057ece91acbb6b3b8e",
       "data": "{\"source\": \"5ff7fa141cee490012a21b81\", \"file_type\": 5, \"input_source\": 1}"
     },
     {
       "id": "604877dd2e7bce003adec6bc",
-      "no": 9,
       "name": "Parts of the Body Match",
       "thumbnail": "https://res.kidsloop.live/thumbnail/604877f32cb3145f535b12d8.jpg",
       "description": "Match the body parts of the characters.",
-      "content_id": "604877dd2e7bce003adec6bc",
       "data": "{\"source\": \"5ff7fac244093e0012ecc67a\", \"file_type\": 5, \"input_source\": 1}"
     },
     {
       "id": "60487e56d7d78244b56801da",
-      "no": 10,
       "name": "Parts of the Body Puzzle",
       "thumbnail": "https://res.kidsloop.live/thumbnail/60487e80bc5aa36cce5827f7.jpg",
       "description": "Finish the puzzle of the characters dancing. ",
-      "content_id": "60487e56d7d78244b56801da",
       "data": "{\"source\": \"5ff7fb721cee490012a21b82\", \"file_type\": 5, \"input_source\": 1}"
     },
     {
       "id": "5fcdba91ede9cb69737ea05c",
-      "no": 11,
       "name": "Head, Shoulders, Knees, and Toes - Video",
       "thumbnail": "https://res.kidsloop.live/thumbnail/EVFKRYFIP5AFKLDJUQQLFO5INHM5FCOEBRIZLZ4ZOGOVRYGZTZDA====.jpg",
       "description": "The Badanamu Buddies have a dance-off on the playground. Their aim is to teach body parts in a fun way.",
-      "content_id": "5fcdba91ede9cb69737ea05c",
       "data": "{\"source\": \"assets/a79065f427de00b84c2ffacc2f9824b9d67eea43a866b95b6afc038263d3239a2ad1be8ab6fb7bde5a004eebc4b7d4f2.mp4\", \"file_type\": 2, \"input_source\": 2}"
     }
   ]

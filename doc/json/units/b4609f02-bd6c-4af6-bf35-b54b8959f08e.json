@@ -1,0 +1,26 @@
+{
+  "id": "b4609f02-bd6c-4af6-bf35-b54b8959f08e",
+  "name": "Unit 50. Star Light, Star Bright",
+  "thumbnail": "",
+  "description": "",
+  "lesson_plans": [
+    {
+      "id": "60641a597b27bd6cf7f0e36d",
+      "name": "Star Light, Star Bright",
+      "thumbnail": "https://res.kidsloop.live/thumbnail/5fd01c0d518fe693b05db885.png",
+      "description": "Students will learn about making a wish on the first star."
+    },
+    {
+      "id": "60641a5ae22a795140b7a823",
+      "name": "Star Light, Star Bright",
+      "thumbnail": "https://res.kidsloop.live/thumbnail/5fd071ebdb470b9aec44de2f.png",
+      "description": "Students will learn about making a wish on the first star."
+    },
+    {
+      "id": "6087cf72e1f47ed91fb39562",
+      "name": "Row, Row, Row Your Boat",
+      "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19db1be7560f2019305b1.jpg",
+      "description": "Students will learn rhyming words and keywords in a nursery rhyme."
+    }
+  ]
+}

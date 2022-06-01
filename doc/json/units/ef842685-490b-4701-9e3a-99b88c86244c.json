@@ -1,0 +1,26 @@
+{
+  "id": "ef842685-490b-4701-9e3a-99b88c86244c",
+  "name": "Unit 40. Teddy Bear, Teddy Bear, Say Goodnight",
+  "thumbnail": "",
+  "description": "",
+  "lesson_plans": [
+    {
+      "id": "606419680a770f2a0d9477db",
+      "name": "Teddy Bear, Teddy Bear, Say Goodnight",
+      "thumbnail": "https://res.kidsloop.live/thumbnail/5fc5852445cdb5e3d0b01aa1.png",
+      "description": "Students will learn the steps that lead to bedtime."
+    },
+    {
+      "id": "606d13ee3402f28e4e934f43",
+      "name": "Muffin Man",
+      "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19c682f496458ab6e9b0c.JPG",
+      "description": "Students will learn repetition and patterns in a nursery rhyme."
+    },
+    {
+      "id": "606d143c74945ce9b0d233b6",
+      "name": "Muffin Man",
+      "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19d564615b7260da75f03.JPG",
+      "description": "Students will learn repetition and patterns in a nursery rhyme."
+    }
+  ]
+}

@@ -1,108 +1,84 @@
 {
   "id": "6087d00434ce8181317a2b9b",
-  "no": 4,
   "name": "Row, Row, Row Your Boat",
   "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19edabe7560f2019305d1.jpg",
   "description": "Students will learn rhyming words and keywords in a nursery rhyme.",
-  "content_id": "6087d00434ce8181317a2b9b",
   "materials": [
     {
       "id": "5fb32c5a55572f4ca745fd17",
-      "no": 1,
       "name": "Row, Row, Row Your Boat - Video",
       "thumbnail": "https://res.kidsloop.live/thumbnail/HKW54LVFEPBR4QUE5JY67WV3IRCJ4CWJVHWRNNQZRABVNPNXB7UQ====.jpg",
       "description": "The ducks go for a nice swim in the water. They are joined by the kittens and a bunch of buddies rowing boats gently down the stream.",
-      "content_id": "5fb32c5a55572f4ca745fd17",
       "data": "{\"source\": \"assets/75be45d6bd7c141578397e9ccf5788b45cc34ea18b4f15fb1e99eccd7d049aeb67487378db7cd8fc73c01a491e274cc2.mp4\", \"file_type\": 2, \"input_source\": 2}"
     },
     {
       "id": "60506af02e71b49e041bae3a",
-      "no": 2,
       "name": "Transportation (Boats) Keywords Poster",
       "thumbnail": "https://res.kidsloop.live/thumbnail/60506afa0096750d4946f812.jpg",
       "description": "Review the keywords: row, boat, stream, dream, gently, down, merrily",
-      "content_id": "60506af02e71b49e041bae3a",
       "data": "{\"source\": \"5f4dab0675bb96001235e79b\", \"file_type\": 5, \"input_source\": 1}"
     },
     {
       "id": "6048266cf94b5a304ff91795",
-      "no": 3,
       "name": "Row, Row, Row Your Boat - Storybook",
       "thumbnail": "https://res.kidsloop.live/thumbnail/QPL46U5T5CQD26M4USGUDRQKPMKANB47IYFBGD63OQEADOCVQHSQ====.png",
       "description": "The ducks go for a nice swim in the water. They are joined by the kittens and a bunch of buddies rowing boats gently down the stream.",
-      "content_id": "6048266cf94b5a304ff91795",
       "data": "{\"source\": \"5ee31b96414d5b5eb1aeeaa2\", \"file_type\": 5, \"input_source\": 1}"
     },
     {
       "id": "5fb32c5a55572f4ca745fd17",
-      "no": 4,
       "name": "Row, Row, Row Your Boat - Video",
       "thumbnail": "https://res.kidsloop.live/thumbnail/HKW54LVFEPBR4QUE5JY67WV3IRCJ4CWJVHWRNNQZRABVNPNXB7UQ====.jpg",
       "description": "The ducks go for a nice swim in the water. They are joined by the kittens and a bunch of buddies rowing boats gently down the stream.",
-      "content_id": "5fb32c5a55572f4ca745fd17",
       "data": "{\"source\": \"assets/75be45d6bd7c141578397e9ccf5788b45cc34ea18b4f15fb1e99eccd7d049aeb67487378db7cd8fc73c01a491e274cc2.mp4\", \"file_type\": 2, \"input_source\": 2}"
     },
     {
       "id": "60506b49e6410625a017f4d9",
-      "no": 5,
       "name": "Transportation (Boats) Keywords Poster with Sounds",
       "thumbnail": "https://res.kidsloop.live/thumbnail/60506b5be6410625a017f4e3.jpg",
       "description": "Review and repeat the keywords: row, boat, stream, dream, gently, down, merrily",
-      "content_id": "60506b49e6410625a017f4d9",
       "data": "{\"source\": \"5f4dabc275bb96001235e79c\", \"file_type\": 5, \"input_source\": 1}"
     },
     {
       "id": "5fb32c5a55572f4ca745fee9",
-      "no": 6,
       "name": "Transportation (Boats) Memory Game 1",
       "thumbnail": "https://res.kidsloop.live/thumbnail/DTKFPR6O5WD6U7OYBVN7OMTZ2WX5BXYE4SAWIWB6K44TWIRSRJHQ====.jpg",
       "description": "Practice the keywords: row, boat, stream",
-      "content_id": "5fb32c5a55572f4ca745fee9",
       "data": "{\"source\": \"5f4da91275bb96001235e796\", \"file_type\": 5, \"input_source\": 1}"
     },
     {
       "id": "5fb32c5a55572f4ca745feea",
-      "no": 7,
       "name": "Transportation (Boats) Memory Game 2",
       "thumbnail": "https://res.kidsloop.live/thumbnail/DTKFPR6O5WD6U7OYBVN7OMTZ2WX5BXYE4SAWIWB6K44TWIRSRJHQ====.jpg",
       "description": "Practice the keywords: dream, gently, down, merrily",
-      "content_id": "5fb32c5a55572f4ca745feea",
       "data": "{\"source\": \"5f4da97875bb96001235e797\", \"file_type\": 5, \"input_source\": 1}"
     },
     {
       "id": "60506bf75e8caf7fb923b53b",
-      "no": 8,
       "name": "Transportation (Boats) Identify Sounds",
       "thumbnail": "https://res.kidsloop.live/thumbnail/60506c20a41c2fffd9201236.jpg",
       "description": "Identify the common rhyming sound /eam/.",
-      "content_id": "60506bf75e8caf7fb923b53b",
       "data": "{\"source\": \"5f4dac3475bb96001235e79d\", \"file_type\": 5, \"input_source\": 1}"
     },
     {
       "id": "60506ca1580e1ccb4fd84001",
-      "no": 9,
       "name": "Transportation (Boats) Color",
       "thumbnail": "https://res.kidsloop.live/thumbnail/60506d3e2a18c1625e3897ae.jpg",
       "description": "Color the picture and describe it. ",
-      "content_id": "60506ca1580e1ccb4fd84001",
       "data": "{\"source\": \"5f4dac8075bb96001235e79e\", \"file_type\": 5, \"input_source\": 1}"
     },
     {
       "id": "60506d9be33c8a3381b8480e",
-      "no": 10,
       "name": "Transportation (Boats) Scene",
       "thumbnail": "https://res.kidsloop.live/thumbnail/60506daca41c2fffd920126c.jpg",
       "description": "Move the characters and objects to finish the scene.",
-      "content_id": "60506d9be33c8a3381b8480e",
       "data": "{\"source\": \"5f4dad2f75bb96001235e79f\", \"file_type\": 5, \"input_source\": 1}"
     },
     {
       "id": "5fb32c5a55572f4ca745fd5f",
-      "no": 11,
       "name": "Row, Row, Row Your Boat - Song",
       "thumbnail": "https://res.kidsloop.live/thumbnail/DBD2GM2LVPX3QHVQBTLCNRJJR6UZR52APR3T6NTAG53FMACKB6VQ====.png",
       "description": "The ducks go for a nice swim in the water. They are joined by the kittens and a bunch of buddies rowing boats gently down the stream.",
-      "content_id": "5fb32c5a55572f4ca745fd5f",
       "data": "{\"source\": \"assets/9b509958b33d5960422b3094a56c34f036bea8fd5c3ed3c4acd1170216c7eb25540783b340a8de9a8c0ac09efc650483.mp3\", \"file_type\": 3, \"input_source\": 2}"
     }
   ]

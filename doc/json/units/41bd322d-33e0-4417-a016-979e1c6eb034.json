@@ -1,0 +1,56 @@
+{
+  "id": "41bd322d-33e0-4417-a016-979e1c6eb034",
+  "name": "Unit 48. Teddy Bear, Teddy Bear, Say Goodnight",
+  "thumbnail": "",
+  "description": "",
+  "lesson_plans": [
+    {
+      "id": "5fd01b8719c96568d20ac4c5",
+      "name": "Teddy Bear, Teddy Bear, Say Goodnight",
+      "thumbnail": "https://res.kidsloop.live/thumbnail/5fc584f9ec74c56216f3bec3.png",
+      "description": "Students will learn the steps that lead to bedtime."
+    },
+    {
+      "id": "606419680a770f2a0d9477db",
+      "name": "Teddy Bear, Teddy Bear, Say Goodnight",
+      "thumbnail": "https://res.kidsloop.live/thumbnail/5fc5852445cdb5e3d0b01aa1.png",
+      "description": "Students will learn the steps that lead to bedtime."
+    },
+    {
+      "id": "606d13ee3402f28e4e934f43",
+      "name": "Muffin Man",
+      "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19c682f496458ab6e9b0c.JPG",
+      "description": "Students will learn repetition and patterns in a nursery rhyme."
+    },
+    {
+      "id": "606d143c74945ce9b0d233b6",
+      "name": "Muffin Man",
+      "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19d564615b7260da75f03.JPG",
+      "description": "Students will learn repetition and patterns in a nursery rhyme."
+    },
+    {
+      "id": "60641a597b27bd6cf7f0e36d",
+      "name": "Star Light, Star Bright",
+      "thumbnail": "https://res.kidsloop.live/thumbnail/5fd01c0d518fe693b05db885.png",
+      "description": "Students will learn about making a wish on the first star."
+    },
+    {
+      "id": "60641a5ae22a795140b7a823",
+      "name": "Star Light, Star Bright",
+      "thumbnail": "https://res.kidsloop.live/thumbnail/5fd071ebdb470b9aec44de2f.png",
+      "description": "Students will learn about making a wish on the first star."
+    },
+    {
+      "id": "6087cf72e1f47ed91fb39562",
+      "name": "Row, Row, Row Your Boat",
+      "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19db1be7560f2019305b1.jpg",
+      "description": "Students will learn rhyming words and keywords in a nursery rhyme."
+    },
+    {
+      "id": "6087d00434ce8181317a2b9b",
+      "name": "Row, Row, Row Your Boat",
+      "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19edabe7560f2019305d1.jpg",
+      "description": "Students will learn rhyming words and keywords in a nursery rhyme."
+    }
+  ]
+}

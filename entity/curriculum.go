@@ -2,7 +2,6 @@ package entity
 
 type BaseField struct {
 	ID          string `json:"id"`
-	No          int    `json:"no,omitempty"`
 	Name        string `json:"name"`
 	Thumbnail   string `json:"thumbnail"`
 	Description string `json:"description"`
@@ -24,7 +23,7 @@ type Level struct {
 
 type LessonPlan struct {
 	BaseField
-	ContentID string      `json:"content_id"`
+	ContentID string      `json:"content_id,omitempty"`
 	Materials []*Material `json:"materials"`
 }
 
@@ -35,6 +34,6 @@ type Unit struct {
 
 type Material struct {
 	BaseField
-	ContentID string `json:"content_id"`
+	ContentID string `json:"content_id,omitempty"`
 	Data      string `json:"data"`
 }

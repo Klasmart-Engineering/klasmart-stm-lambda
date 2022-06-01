@@ -1,0 +1,38 @@
+{
+  "id": "01e1d984-bfd7-468f-9994-62b68fd6f713",
+  "name": "Unit 10. Row, Row, Row Your Boat",
+  "thumbnail": "",
+  "description": "",
+  "lesson_plans": [
+    {
+      "id": "6087cf72e1f47ed91fb39562",
+      "name": "Row, Row, Row Your Boat",
+      "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19db1be7560f2019305b1.jpg",
+      "description": "Students will learn rhyming words and keywords in a nursery rhyme."
+    },
+    {
+      "id": "6087d00434ce8181317a2b9b",
+      "name": "Row, Row, Row Your Boat",
+      "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19edabe7560f2019305d1.jpg",
+      "description": "Students will learn rhyming words and keywords in a nursery rhyme."
+    },
+    {
+      "id": "6063bf79cf9dafb599c4cecf",
+      "name": "Rain, Rain, Go Away",
+      "thumbnail": "https://res.kidsloop.live/thumbnail/5fd0249f7eba6df7e916b726.png",
+      "description": "Students will learn the names of the Badanamu characters."
+    },
+    {
+      "id": "60641a5bf9ed665793f60df0",
+      "name": "Rain, Rain, Go Away",
+      "thumbnail": "https://res.kidsloop.live/thumbnail/5fd0253d74b07971df06e689.png",
+      "description": "Students will learn the names of the Badanamu characters."
+    },
+    {
+      "id": "606d158ac8f274f8d2ad628d",
+      "name": "Head, Shoulders, Knees, and Toes",
+      "thumbnail": "https://res.kidsloop.live/thumbnail/5fffa06efc637c985fc05cd1.png",
+      "description": "Students will learn the names of body parts."
+    }
+  ]
+}

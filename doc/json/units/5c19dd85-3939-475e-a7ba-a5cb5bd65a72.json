@@ -1,0 +1,50 @@
+{
+  "id": "5c19dd85-3939-475e-a7ba-a5cb5bd65a72",
+  "name": "Unit 7. Star Light, Star Bright",
+  "thumbnail": "",
+  "description": "",
+  "lesson_plans": [
+    {
+      "id": "60641a597b27bd6cf7f0e36d",
+      "name": "Star Light, Star Bright",
+      "thumbnail": "https://res.kidsloop.live/thumbnail/5fd01c0d518fe693b05db885.png",
+      "description": "Students will learn about making a wish on the first star."
+    },
+    {
+      "id": "60641a5ae22a795140b7a823",
+      "name": "Star Light, Star Bright",
+      "thumbnail": "https://res.kidsloop.live/thumbnail/5fd071ebdb470b9aec44de2f.png",
+      "description": "Students will learn about making a wish on the first star."
+    },
+    {
+      "id": "6087cf72e1f47ed91fb39562",
+      "name": "Row, Row, Row Your Boat",
+      "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19db1be7560f2019305b1.jpg",
+      "description": "Students will learn rhyming words and keywords in a nursery rhyme."
+    },
+    {
+      "id": "6087d00434ce8181317a2b9b",
+      "name": "Row, Row, Row Your Boat",
+      "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19edabe7560f2019305d1.jpg",
+      "description": "Students will learn rhyming words and keywords in a nursery rhyme."
+    },
+    {
+      "id": "6063bf79cf9dafb599c4cecf",
+      "name": "Rain, Rain, Go Away",
+      "thumbnail": "https://res.kidsloop.live/thumbnail/5fd0249f7eba6df7e916b726.png",
+      "description": "Students will learn the names of the Badanamu characters."
+    },
+    {
+      "id": "60641a5bf9ed665793f60df0",
+      "name": "Rain, Rain, Go Away",
+      "thumbnail": "https://res.kidsloop.live/thumbnail/5fd0253d74b07971df06e689.png",
+      "description": "Students will learn the names of the Badanamu characters."
+    },
+    {
+      "id": "606d158ac8f274f8d2ad628d",
+      "name": "Head, Shoulders, Knees, and Toes",
+      "thumbnail": "https://res.kidsloop.live/thumbnail/5fffa06efc637c985fc05cd1.png",
+      "description": "Students will learn the names of body parts."
+    }
+  ]
+}

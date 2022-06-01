@@ -1,0 +1,38 @@
+{
+  "id": "51541dde-83f1-4a8b-b667-093fa1477104",
+  "name": "Unit 22. Muffin Man",
+  "thumbnail": "",
+  "description": "",
+  "lesson_plans": [
+    {
+      "id": "606d143c74945ce9b0d233b6",
+      "name": "Muffin Man",
+      "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19d564615b7260da75f03.JPG",
+      "description": "Students will learn repetition and patterns in a nursery rhyme."
+    },
+    {
+      "id": "60641a597b27bd6cf7f0e36d",
+      "name": "Star Light, Star Bright",
+      "thumbnail": "https://res.kidsloop.live/thumbnail/5fd01c0d518fe693b05db885.png",
+      "description": "Students will learn about making a wish on the first star."
+    },
+    {
+      "id": "60641a5ae22a795140b7a823",
+      "name": "Star Light, Star Bright",
+      "thumbnail": "https://res.kidsloop.live/thumbnail/5fd071ebdb470b9aec44de2f.png",
+      "description": "Students will learn about making a wish on the first star."
+    },
+    {
+      "id": "6087cf72e1f47ed91fb39562",
+      "name": "Row, Row, Row Your Boat",
+      "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19db1be7560f2019305b1.jpg",
+      "description": "Students will learn rhyming words and keywords in a nursery rhyme."
+    },
+    {
+      "id": "6087d00434ce8181317a2b9b",
+      "name": "Row, Row, Row Your Boat",
+      "thumbnail": "https://res.kidsloop.live/thumbnail/5fe19edabe7560f2019305d1.jpg",
+      "description": "Students will learn rhyming words and keywords in a nursery rhyme."
+    }
+  ]
+}
