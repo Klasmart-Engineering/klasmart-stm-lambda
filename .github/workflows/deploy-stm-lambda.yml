@@ -52,7 +52,5 @@ jobs:
 
     - name: Package and update lambda
       run: |
-        ls -la
         zip ${FUNCTION_NAME}.zip main
-        ls -la
-#        aws lambda update-function-code --function-name ${{ env.FUNCTION_NAME }} --zip-file fileb://${FUNCTION_NAME}.zip
+        aws lambda update-function-code --function-name ${{ env.FUNCTION_NAME }} --zip-file fileb://${FUNCTION_NAME}.zip
