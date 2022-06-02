@@ -3,7 +3,7 @@ name: Deploy STM To Lambda
 on:
   push:
     branches:
-      - byron-action
+      - main
 env:
   AWS_REGION: ap-northeast-2
   FUNCTION_NAME: stm_prerender
@@ -50,7 +50,7 @@ jobs:
         aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY_ALPHA_DEV }}
         aws-region: ${{ env.AWS_REGION }}
 
-    - name: Package and update lambda
+    - name: package and update lambda
       run: |
         zip ${FUNCTION_NAME}.zip main
         aws lambda update-function-code --function-name ${{ env.FUNCTION_NAME }} --zip-file fileb://${FUNCTION_NAME}.zip
