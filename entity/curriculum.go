@@ -7,33 +7,34 @@ type BaseField struct {
 	Description string `json:"description"`
 }
 
-type CurriculumLevels struct {
-	ID    string   `json:"id"`
-	Units []string `json:"units"`
-}
-
 type Curriculum struct {
 	BaseField
-	Levels []*CurriculumLevels `json:"levels"`
 }
 
 type Level struct {
 	BaseField
+	CurriculumID string `json:"curriculum_id"`
 }
 
-type LessonPlan struct {
-	BaseField
-	ContentID string      `json:"content_id,omitempty"`
-	Materials []*Material `json:"materials"`
+type LevelUnitRelation struct {
+	LevelID string `json:"level_id"`
+	UnitID  string `json:"unit_id"`
 }
 
 type Unit struct {
 	BaseField
-	LessonPlans []*LessonPlan `json:"lesson_plans"`
+}
+
+type UnitLessonPlanRelation struct {
+	UnitID       string `json:"unit_id"`
+	LessonPlanID string `json:"lesson_plan_id"`
+}
+type LessonPlan struct {
+	BaseField
+	Materials []*Material `json:"materials"`
 }
 
 type Material struct {
 	BaseField
-	ContentID string `json:"content_id,omitempty"`
-	Data      string `json:"data"`
+	Data string `json:"data"`
 }

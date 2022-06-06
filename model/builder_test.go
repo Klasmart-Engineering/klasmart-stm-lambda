@@ -6,7 +6,6 @@ import (
 	"fmt"
 	"kidsloop-stm-lambda/entity"
 	"os"
-	"strconv"
 	"testing"
 )
 
@@ -34,7 +33,6 @@ func TestCSV(t *testing.T) {
 		}
 		var curriculum entity.Curriculum
 		curriculum.ID = row[0]
-		curriculum.No, _ = strconv.Atoi(row[1])
 		curriculum.Thumbnail = row[2]
 		curriculum.Description = row[3]
 		curriculums = append(curriculums, &curriculum)

@@ -4,6 +4,7 @@ import (
 	"context"
 	"github.com/KL-Engineering/common-log/log"
 	"github.com/KL-Engineering/tracecontext"
+	"kidsloop-stm-lambda/config"
 )
 
 func initLogger() {
@@ -31,6 +32,7 @@ func initLogger() {
 }
 func main() {
 	ctx := context.Background()
+	config.LoadEnvConfig(ctx)
 	initLogger()
 	log.Info(ctx, ">>>>>>>>>> stm build start >>>>>>>>>>>>")
 	log.Info(ctx, "<<<<<<<<<< stm build ended <<<<<<<<<<<<")
