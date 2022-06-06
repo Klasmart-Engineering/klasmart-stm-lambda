@@ -10,7 +10,7 @@ env:
   AWS_REGION: ap-northeast-2
   FUNCTION_NAME: stm_prerender
   GIT_TOKEN: ${{ secrets.PACKAGES_TOKEN }}
-  LD_S3_BUCKET: ${{ secrets.LD_S3_BUCKET }}
+  BUCKET_KEYS: ${{ secrets.BUCKET_KEYS }}
 
 jobs:
   build-to-lambda:
@@ -54,7 +54,7 @@ jobs:
 
     - name: package and update lambda
       run: |
-        aws s3 cp s3://kidsloop-alpha-stm-keys/keys/ ./ --recursive --sse aws:kms
+        aws s3 cp s3://$BUCKET_KEYS/keys/ ./ --recursive --sse aws:kms
         ls -la
         zip ${FUNCTION_NAME}.zip main internal_private_key
         aws lambda update-function-code --function-name ${{ env.FUNCTION_NAME }} --zip-file fileb://${FUNCTION_NAME}.zip
