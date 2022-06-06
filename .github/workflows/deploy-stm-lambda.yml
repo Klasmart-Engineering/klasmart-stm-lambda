@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - byron-action
+  workflow_dispatch:
+
 env:
   AWS_REGION: ap-northeast-2
   FUNCTION_NAME: stm_prerender
