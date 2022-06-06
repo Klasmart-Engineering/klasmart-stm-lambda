@@ -3,7 +3,7 @@ name: Deploy STM To Lambda
 on:
   push:
     branches:
-      - byron-action
+      - main
   workflow_dispatch:
 
 env:
