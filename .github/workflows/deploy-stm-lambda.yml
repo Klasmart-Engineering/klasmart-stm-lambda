@@ -4,11 +4,13 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:
+
 env:
   AWS_REGION: ap-northeast-2
   FUNCTION_NAME: stm_prerender
   GIT_TOKEN: ${{ secrets.PACKAGES_TOKEN }}
-  LD_S3_BUCKET: ${{ secrets.LD_S3_BUCKET }}
+  BUCKET_KEYS: ${{ secrets.BUCKET_KEYS }}
 
 jobs:
   build-to-lambda:
@@ -52,5 +54,6 @@ jobs:
 
     - name: package and update lambda
       run: |
-        zip ${FUNCTION_NAME}.zip main
+        aws s3 cp s3://$BUCKET_KEYS/keys/ ./ --recursive --sse aws:kms
+        zip ${FUNCTION_NAME}.zip main internal_private_key
         aws lambda update-function-code --function-name ${{ env.FUNCTION_NAME }} --zip-file fileb://${FUNCTION_NAME}.zip
