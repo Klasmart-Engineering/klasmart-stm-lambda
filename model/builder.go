@@ -2,13 +2,13 @@ package model
 
 import (
 	"context"
-	"encoding/csv"
 	"encoding/json"
-	"fmt"
 	"github.com/KL-Engineering/common-log/log"
+	"io/ioutil"
 	"kidsloop-stm-lambda/entity"
+	"kidsloop-stm-lambda/utils"
 	"os"
-	"strconv"
+	"strings"
 )
 
 type IBuilder interface {
@@ -18,115 +18,182 @@ type IBuilder interface {
 type Builder struct {
 }
 
-func (Builder) curriculums(ctx context.Context, input interface{}) ([]*entity.Curriculum, error) {
-	csvFile, err := os.Open("../doc/csv/curriculum.csv")
-	if err != nil {
-		log.Error(ctx, "curriculums",
-			log.Err(err),
-			log.Any("input", input))
-		return nil, err
-	}
-	defer csvFile.Close()
-	csvReader := csv.NewReader(csvFile)
-
-	rows, err := csvReader.ReadAll() // `rows` is of type [][]string
-	if err != nil {
-		log.Error(ctx, "curriculums",
-			log.Err(err),
-			log.Any("input", input))
-		return nil, err
-	}
-	if len(rows) == 0 {
-		log.Warn(ctx, "curriculums: empty",
-			log.Any("input", input))
-		return []*entity.Curriculum{}, nil
-	}
-	curriculums := make([]*entity.Curriculum, 0, len(rows)-1)
-	for i, row := range rows {
-		if i == 0 {
-			log.Warn(ctx, "curriculums: empty",
-				log.Any("input", input),
-				log.Strings("row:", row))
-			continue
-		}
-		var curriculum entity.Curriculum
-		curriculum.ID = row[0]
-		curriculum.No, _ = strconv.Atoi(row[1])
-		curriculum.Thumbnail = row[2]
-		curriculum.Description = row[3]
-		curriculums = append(curriculums, &curriculum)
-	}
-	return curriculums, nil
-}
-
-func (b Builder) levels(ctx context.Context, input interface{}, output interface{}) (map[string][]*entity.Level, error) {
-	csvFile, err := os.Open("../doc/csv/level.csv")
-	if err != nil {
-		log.Error(ctx, "levels",
-			log.Err(err),
-			log.Any("input", input))
-		return nil, err
-	}
-	defer csvFile.Close()
-	csvReader := csv.NewReader(csvFile)
-
-	rows, err := csvReader.ReadAll() // `rows` is of type [][]string
-	if err != nil {
-		log.Error(ctx, "curriculums",
-			log.Err(err),
-			log.Any("input", input))
-		return nil, err
-	}
-	if len(rows) == 0 {
-		log.Warn(ctx, "curriculums: empty",
-			log.Any("input", input))
-		return nil, nil
-	}
-	levelMap := make(map[string][]*entity.Level)
-	for i, row := range rows {
-		if i == 0 {
-			log.Warn(ctx, "curriculums: empty",
-				log.Any("input", input),
-				log.Strings("row:", row))
-			continue
-		}
-		var level entity.Level
-		level.ID = row[0]
-		level.No, _ = strconv.Atoi(row[1])
-		level.Thumbnail = row[2]
-		level.Description = row[3]
-		if len(row) == 5 {
-			continue
-		}
-		for _, curriculum := range row[5:len(row)] {
-			levelMap[curriculum] = append(levelMap[curriculum], &level)
-		}
-	}
-	return levelMap, nil
-}
-
-func (b Builder) units(ctx context.Context, input interface{}, output interface{}) () {
-
+func (b Builder) getLessonPlans(ctx context.Context, IDs []string) (map[string]*entity.LessonPlan, error) {
+	return GetContentProvider(ctx).MapContents(ctx, IDs)
 }
 
 func (b Builder) Build(ctx context.Context, input interface{}, output interface{}) error {
-	// 1.get change data from s3
-	// 2.get data from kidsloop2
-	// 3.build to json
-	curriculums, err := b.curriculums(ctx, input)
+	csvCurriculums, err := GetCSVReader(ctx).Curriculums(ctx)
 	if err != nil {
-		log.Error(ctx, "Build: curriculums failed",
-			log.Err(err),
-			log.Any("input", input))
+		log.Error(ctx, "curriculums", log.Err(err))
 		return err
 	}
-	curriculumsJson, err := json.Marshal(curriculums)
+	csvLevels, err := GetCSVReader(ctx).Levels(ctx)
 	if err != nil {
-		log.Error(ctx, "Build: Marshal failed",
-			log.Err(err),
-			log.Any("input", input))
+		log.Error(ctx, "levels", log.Err(err))
 		return err
 	}
-	fmt.Println("curriculum:", string(curriculumsJson))
+	csvUnits, err := GetCSVReader(ctx).Units(ctx)
+	if err != nil {
+		log.Error(ctx, "units", log.Err(err))
+		return err
+	}
+	csvLevelUnit, err := GetCSVReader(ctx).LevelUnitRelation(ctx)
+	if err != nil {
+		log.Error(ctx, "level unit relation", log.Err(err))
+		return err
+	}
+	csvUnitLessonPlan, err := GetCSVReader(ctx).UnitLessonPlanRelation(ctx)
+	if err != nil {
+		log.Error(ctx, "unit lesson_plan relation", log.Err(err))
+		return err
+	}
+
+	var lessonPlanIDs []string
+	unitIDKeyLessonPlanIDMap := make(map[string][]string)
+	for _, ul := range csvUnitLessonPlan {
+		lessonPlanIDs = append(lessonPlanIDs, ul.LessonPlanID)
+		unitIDKeyLessonPlanIDMap[ul.UnitID] = append(unitIDKeyLessonPlanIDMap[ul.UnitID], ul.LessonPlanID)
+	}
+	lessonPlanIDs = utils.SliceDeduplicationExcludeEmpty(lessonPlanIDs)
+	lessonPlanMap, err := b.getLessonPlans(ctx, lessonPlanIDs)
+	if err != nil {
+		log.Error(ctx, "lesson_plans", log.Err(err), log.Strings("ids", lessonPlanIDs))
+		return err
+	}
+
+	unitMap := make(map[string]*entity.Unit)
+	for _, u := range csvUnits {
+		if _, ok := unitMap[u.ID]; ok {
+			continue
+		}
+		unit := entity.Unit{BaseField: u.BaseField}
+		for _, l := range unitIDKeyLessonPlanIDMap[u.ID] {
+			unit.LessonPlans = append(unit.LessonPlans, &lessonPlanMap[l].BaseField)
+		}
+		unitMap[u.ID] = &unit
+	}
+
+	leveIDKeyUnitIDMap := make(map[string][]string)
+	for _, lur := range csvLevelUnit {
+		leveIDKeyUnitIDMap[lur.LevelID] = append(leveIDKeyUnitIDMap[lur.LevelID], lur.UnitID)
+	}
+
+	curriculumIDKeyLevel := make(map[string][]*entity.BaseField)
+	levelMap := make(map[string]*entity.Level)
+	for _, l := range csvLevels {
+		if _, ok := levelMap[l.ID]; ok {
+			continue
+		}
+
+		curriculumIDKeyLevel[l.CurriculumID] = append(curriculumIDKeyLevel[l.CurriculumID], &l.BaseField)
+
+		level := entity.Level{BaseField: l.BaseField}
+		level.Units = make([]*entity.Unit, len(leveIDKeyUnitIDMap[l.ID]))
+		for i, u := range leveIDKeyUnitIDMap[l.ID] {
+			if unitMap[u] == nil {
+				log.Error(ctx, "unit not exists", log.String("unit", u))
+				return entity.ErrRecordNotExist
+			}
+			level.Units[i] = unitMap[u]
+		}
+		levelMap[l.ID] = &level
+	}
+
+	curriculums := make([]*entity.Curriculum, len(csvCurriculums))
+	for i, c := range csvCurriculums {
+		curriculum := entity.Curriculum{BaseField: c.BaseField}
+		curriculum.Levels = curriculumIDKeyLevel[c.ID]
+		curriculums[i] = &curriculum
+	}
+
+	err = b.uploadCurriculums(ctx, curriculums)
+	if err != nil {
+		log.Error(ctx, "upload curriculums", log.Err(err))
+		return err
+	}
+	err = b.uploadLevels(ctx, levelMap)
+	if err != nil {
+		log.Error(ctx, "upload levels", log.Err(err))
+		return err
+	}
+	err = b.uploadUnits(ctx, unitMap)
+	if err != nil {
+		log.Error(ctx, "upload units", log.Err(err))
+		return err
+	}
+	err = b.uploadLessonPlan(ctx, lessonPlanMap)
+	if err != nil {
+		log.Error(ctx, "upload lesson_plan", log.Err(err))
+		return err
+	}
+	return nil
+}
+
+var mockDir = "/Users/yanghui/kidsloop/kidsloop-stm-lambda/doc/json2"
+
+func (b Builder) uploadCurriculums(ctx context.Context, curriculums []*entity.Curriculum) error {
+	data, err := json.Marshal(curriculums)
+	if err != nil {
+		log.Error(ctx, "marshal curriculums", log.Err(err), log.Any("curriculums", curriculums))
+		return err
+	}
+	filename := strings.Join([]string{mockDir, entity.CurriculumJSONKey}, "/")
+	err = ioutil.WriteFile(filename, data, os.ModePerm)
+	if err != nil {
+		log.Error(ctx, "write curriculums file", log.Err(err), log.String("data", string(data)))
+		return err
+	}
+	return nil
+}
+
+func (b Builder) uploadLevels(ctx context.Context, levelMap map[string]*entity.Level) error {
+	for k, v := range levelMap {
+		data, err := json.Marshal(v)
+		if err != nil {
+			log.Error(ctx, "marshal level", log.Err(err), log.Any("level", v))
+			return err
+		}
+		filename := strings.Join([]string{mockDir, entity.LevelsJSONKey, k + ".json"}, "/")
+		err = ioutil.WriteFile(filename, data, os.ModePerm)
+		if err != nil {
+			log.Error(ctx, "write level file", log.Err(err), log.String("data", string(data)))
+			return err
+		}
+	}
+	return nil
+}
+
+func (b Builder) uploadUnits(ctx context.Context, unitMap map[string]*entity.Unit) error {
+	for k, v := range unitMap {
+		data, err := json.Marshal(v)
+		if err != nil {
+			log.Error(ctx, "marshal unit", log.Err(err), log.Any("unit", v))
+			return err
+		}
+		filename := strings.Join([]string{mockDir, entity.UnitsJSONKey, k + ".json"}, "/")
+		err = ioutil.WriteFile(filename, data, os.ModePerm)
+		if err != nil {
+			log.Error(ctx, "write unit file", log.Err(err), log.String("data", string(data)))
+			return err
+		}
+	}
+	return nil
+}
+
+func (b Builder) uploadLessonPlan(ctx context.Context, lessonPlanMap map[string]*entity.LessonPlan) error {
+	for k, v := range lessonPlanMap {
+		data, err := json.Marshal(v)
+		if err != nil {
+			log.Error(ctx, "marshal lesson_plan", log.Err(err), log.Any("lesson_plan", v))
+			return err
+		}
+		filename := strings.Join([]string{mockDir, entity.LessonPlansJSONKey, k + ".json"}, "/")
+		err = ioutil.WriteFile(filename, data, os.ModePerm)
+		if err != nil {
+			log.Error(ctx, "write lesson_plan file", log.Err(err), log.String("data", string(data)))
+			return err
+		}
+	}
 	return nil
 }

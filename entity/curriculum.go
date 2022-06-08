@@ -7,28 +7,44 @@ type BaseField struct {
 	Description string `json:"description"`
 }
 
-type Curriculum struct {
+type CSVCurriculum struct {
 	BaseField
 }
 
-type Level struct {
+type CSVLevel struct {
 	BaseField
 	CurriculumID string `json:"curriculum_id"`
 }
 
-type LevelUnitRelation struct {
+type CSVLevelUnitRelation struct {
 	LevelID string `json:"level_id"`
 	UnitID  string `json:"unit_id"`
 }
 
-type Unit struct {
+type CSVUnit struct {
 	BaseField
 }
 
-type UnitLessonPlanRelation struct {
+type CSVUnitLessonPlanRelation struct {
 	UnitID       string `json:"unit_id"`
 	LessonPlanID string `json:"lesson_plan_id"`
 }
+
+type Curriculum struct {
+	BaseField
+	Levels []*BaseField `json:"levels"`
+}
+
+type Level struct {
+	BaseField
+	Units []*Unit `json:"units"`
+}
+
+type Unit struct {
+	BaseField
+	LessonPlans []*BaseField `json:"lesson_plans"`
+}
+
 type LessonPlan struct {
 	BaseField
 	Materials []*Material `json:"materials"`

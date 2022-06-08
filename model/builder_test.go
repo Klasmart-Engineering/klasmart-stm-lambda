@@ -1,6 +1,7 @@
 package model
 
 import (
+	"context"
 	"encoding/csv"
 	"encoding/json"
 	"fmt"
@@ -40,4 +41,13 @@ func TestCSV(t *testing.T) {
 
 	result, err := json.Marshal(curriculums)
 	fmt.Println("result:", string(result))
+}
+
+func TestBuilder(t *testing.T) {
+	ctx := context.Background()
+	csvBuilder := new(Builder)
+	err := csvBuilder.Build(ctx, nil, nil)
+	if err != nil {
+		t.Fatal(err)
+	}
 }
