@@ -9,6 +9,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/s3"
 	"kidsloop-stm-lambda/config"
+	"kidsloop-stm-lambda/entity"
 )
 
 func initLogger() {
@@ -45,22 +46,24 @@ func main() {
 }
 
 func LambdaHandler(ctx context.Context) (int, error) {
-	var invokeCount = 0
-	var myObjects []*s3.Object
+	//var invokeCount = 0
+	//var myObjects []*s3.Object
 
 	svc := s3.New(session.New())
-	input := &s3.ListObjectsV2Input{
+	//input := &s3.ListObjectsV2Input{
+	//	Bucket: aws.String(config.Get().SourceS3.Bucket),
+	//}
+	input := &s3.GetObjectInput{
 		Bucket: aws.String(config.Get().SourceS3.Bucket),
+		Key:    aws.String(entity.CurriculumCSV),
 	}
-	result, err := svc.ListObjectsV2(input)
+	result, err := svc.GetObject(input)
+	//result, err := svc.ListObjectsV2(input)
 	if err != nil {
 		log.Error(ctx, "list objects", log.Err(err))
 		return 0, err
 	}
-	myObjects = result.Contents
-	invokeCount = invokeCount + 1
 	log.Info(ctx, "lambda handler",
-		log.Any("objects", myObjects),
-		log.Int("count", invokeCount))
-	return invokeCount, nil
+		log.String("result", result.String()))
+	return 0, nil
 }
