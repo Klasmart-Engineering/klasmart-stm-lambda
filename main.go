@@ -8,6 +8,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/s3"
+	"io/ioutil"
 	"kidsloop-stm-lambda/config"
 	"kidsloop-stm-lambda/entity"
 )
@@ -63,7 +64,13 @@ func LambdaHandler(ctx context.Context) (int, error) {
 		log.Error(ctx, "list objects", log.Err(err))
 		return 0, err
 	}
+	data, err := ioutil.ReadAll(result.Body)
+	if err != nil {
+		log.Error(ctx, "read data", log.Err(err))
+		return 0, err
+	}
+	defer result.Body.Close()
 	log.Info(ctx, "lambda handler",
-		log.String("result", result.String()))
+		log.String("data", string(data)))
 	return 0, nil
 }
