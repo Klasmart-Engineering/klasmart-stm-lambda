@@ -2,7 +2,6 @@ package main
 
 import (
 	"context"
-	"fmt"
 	"github.com/KL-Engineering/common-log/log"
 	"github.com/KL-Engineering/tracecontext"
 	"github.com/aws/aws-lambda-go/lambda"
@@ -45,20 +44,23 @@ func main() {
 	log.Info(ctx, "<<<<<<<<<< stm build ended <<<<<<<<<<<<")
 }
 
-var invokeCount = 0
-var myObjects []*s3.Object
+func LambdaHandler(ctx context.Context) (int, error) {
+	var invokeCount = 0
+	var myObjects []*s3.Object
 
-func init() {
 	svc := s3.New(session.New())
 	input := &s3.ListObjectsV2Input{
-		Bucket: aws.String("kidsloop-alpha-stm-data-intent-turtle"),
+		Bucket: aws.String(config.Get().SourceS3.Bucket),
 	}
-	result, _ := svc.ListObjectsV2(input)
+	result, err := svc.ListObjectsV2(input)
+	if err != nil {
+		log.Error(ctx, "list objects", log.Err(err))
+		return 0, err
+	}
 	myObjects = result.Contents
-}
-
-func LambdaHandler() (int, error) {
 	invokeCount = invokeCount + 1
-	fmt.Print(myObjects)
+	log.Info(ctx, "lambda handler",
+		log.Any("objects", myObjects),
+		log.Int("count", invokeCount))
 	return invokeCount, nil
 }
