@@ -5,12 +5,8 @@ import (
 	"github.com/KL-Engineering/common-log/log"
 	"github.com/KL-Engineering/tracecontext"
 	"github.com/aws/aws-lambda-go/lambda"
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/session"
-	"github.com/aws/aws-sdk-go/service/s3"
-	"io/ioutil"
 	"kidsloop-stm-lambda/config"
-	"kidsloop-stm-lambda/entity"
+	"kidsloop-stm-lambda/model"
 )
 
 func initLogger() {
@@ -46,31 +42,13 @@ func main() {
 	log.Info(ctx, "<<<<<<<<<< stm build ended <<<<<<<<<<<<")
 }
 
-func LambdaHandler(ctx context.Context) (int, error) {
-	//var invokeCount = 0
-	//var myObjects []*s3.Object
-
-	svc := s3.New(session.New())
-	//input := &s3.ListObjectsV2Input{
-	//	Bucket: aws.String(config.Get().SourceS3.Bucket),
-	//}
-	input := &s3.GetObjectInput{
-		Bucket: aws.String(config.Get().SourceS3.Bucket),
-		Key:    aws.String(entity.CurriculumCSV),
-	}
-	result, err := svc.GetObject(input)
-	//result, err := svc.ListObjectsV2(input)
+func LambdaHandler(ctx context.Context) error {
+	result, err := model.GetCSVReader(ctx).Curriculums(ctx)
 	if err != nil {
-		log.Error(ctx, "list objects", log.Err(err))
-		return 0, err
+		log.Error(ctx, "csv read", log.Err(err))
+		return err
 	}
-	data, err := ioutil.ReadAll(result.Body)
-	if err != nil {
-		log.Error(ctx, "read data", log.Err(err))
-		return 0, err
-	}
-	defer result.Body.Close()
-	log.Info(ctx, "lambda handler",
-		log.String("data", string(data)))
-	return 0, nil
+	log.Info(ctx, "csv read",
+		log.Any("result", result))
+	return nil
 }
