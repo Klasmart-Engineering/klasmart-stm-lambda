@@ -66,6 +66,10 @@ func (b Builder) Build(ctx context.Context, input interface{}, output interface{
 		}
 		unit := entity.Unit{BaseField: u.BaseField}
 		for _, l := range unitIDKeyLessonPlanIDMap[u.ID] {
+			if _, ok := lessonPlanMap[l]; !ok {
+				log.Warn(ctx, "lesson_plan not exist", log.String("lesson_plan", l))
+				continue
+			}
 			unit.LessonPlans = append(unit.LessonPlans, &lessonPlanMap[l].BaseField)
 		}
 		unitMap[u.ID] = &unit
