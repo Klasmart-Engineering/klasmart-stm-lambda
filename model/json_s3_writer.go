@@ -26,7 +26,7 @@ func (jsonS3 JsonS3Writer) writeData(ctx context.Context, key string, data inter
 
 	input := s3.PutObjectInput{
 		Bucket: jsonS3.bucket,
-		Key:    aws.String(""),
+		Key:    aws.String(key),
 		Body:   aws.ReadSeekCloser(bytes.NewBuffer(buff)),
 	}
 	result, err := jsonS3.svc.PutObject(&input)
