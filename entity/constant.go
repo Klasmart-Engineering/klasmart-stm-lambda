@@ -21,4 +21,5 @@ const (
 
 const (
 	JsonContentType = "application/json"
+	TextContentType = "text/plain"
 )

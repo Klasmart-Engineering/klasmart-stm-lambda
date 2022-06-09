@@ -18,7 +18,7 @@ type JsonS3Writer struct {
 }
 
 func (jsonS3 JsonS3Writer) writeData(ctx context.Context, key string, data interface{}) error {
-	buff, err := json.Marshal(data)
+	buf, err := json.Marshal(data)
 	if err != nil {
 		log.Error(ctx, "marshal data", log.Err(err), log.String("key", key), log.Any("data", data))
 		return err
@@ -28,7 +28,8 @@ func (jsonS3 JsonS3Writer) writeData(ctx context.Context, key string, data inter
 		Bucket:      jsonS3.bucket,
 		Key:         aws.String(key),
 		ContentType: aws.String(entity.JsonContentType),
-		Body:        aws.ReadSeekCloser(bytes.NewBuffer(buff)),
+		Body:        bytes.NewReader(buf),
+		//Body:        aws.ReadSeekCloser(bytes.NewBuffer(buff)),
 	}
 	result, err := jsonS3.svc.PutObject(&input)
 	if err != nil {
@@ -36,7 +37,7 @@ func (jsonS3 JsonS3Writer) writeData(ctx context.Context, key string, data inter
 			log.Err(err),
 			log.String("bucket", *jsonS3.bucket),
 			log.String("key", key),
-			log.String("data", string(buff)))
+			log.String("data", string(buf)))
 		return err
 	}
 	log.Info(ctx, "put object", log.String("key", key), log.String("result", result.GoString()))
