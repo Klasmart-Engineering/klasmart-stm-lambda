@@ -5,18 +5,19 @@ import (
 	"github.com/KL-Engineering/common-log/log"
 	"kidsloop-stm-lambda/entity"
 	"kidsloop-stm-lambda/utils"
+	"sync"
 )
 
 type IBuilder interface {
-	Build(input interface{}, output interface{}) error
+	Build(ctx context.Context, input interface{}, output interface{}) error
 }
 
 type Builder struct {
 }
 
-func (b Builder) getLessonPlans(ctx context.Context, IDs []string) (map[string]*entity.LessonPlan, error) {
-	return GetContentProvider(ctx).MapContents(ctx, IDs)
-}
+//func (b Builder) getLessonPlans(ctx context.Context, IDs []string) (map[string]*entity.LessonPlan, error) {
+//	return GetContentProvider(ctx).MapContents(ctx, IDs)
+//}
 
 func (b Builder) Build(ctx context.Context, input interface{}, output interface{}) error {
 	csvCurriculums, err := GetCSVReader(ctx).Curriculums(ctx)
@@ -52,7 +53,7 @@ func (b Builder) Build(ctx context.Context, input interface{}, output interface{
 		unitIDKeyLessonPlanIDMap[ul.UnitID] = append(unitIDKeyLessonPlanIDMap[ul.UnitID], ul.LessonPlanID)
 	}
 	lessonPlanIDs = utils.SliceDeduplicationExcludeEmpty(lessonPlanIDs)
-	lessonPlanMap, err := b.getLessonPlans(ctx, lessonPlanIDs)
+	lessonPlanMap, err := GetContentProvider(ctx).MapContents(ctx, lessonPlanIDs)
 	if err != nil {
 		log.Error(ctx, "lesson_plans", log.Err(err), log.Strings("ids", lessonPlanIDs))
 		return err
@@ -124,4 +125,16 @@ func (b Builder) Build(ctx context.Context, input interface{}, output interface{
 		return err
 	}
 	return nil
+}
+
+var (
+	_builder     IBuilder
+	_builderOnce sync.Once
+)
+
+func GetBuilder(ctx context.Context) IBuilder {
+	_builderOnce.Do(func() {
+		_builder = &Builder{}
+	})
+	return _builder
 }

@@ -43,12 +43,11 @@ func main() {
 }
 
 func LambdaHandler(ctx context.Context) error {
-	result, err := model.GetCSVReader(ctx).Curriculums(ctx)
+	//result, err := model.GetCSVReader(ctx).Curriculums(ctx)
+	err := model.GetBuilder(ctx).Build(ctx, nil, nil)
 	if err != nil {
 		log.Error(ctx, "csv read", log.Err(err))
 		return err
 	}
-	log.Info(ctx, "csv read",
-		log.Any("result", result))
 	return nil
 }
