@@ -7,7 +7,6 @@ import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/s3"
 	"kidsloop-stm-lambda/entity"
-	"strings"
 )
 
 type CSVS3Reader struct {
@@ -40,7 +39,7 @@ func (csvS3 CSVS3Reader) getData(ctx context.Context, key string) ([][]string, e
 }
 
 func (csvS3 CSVS3Reader) Curriculums(ctx context.Context) ([]*entity.CSVCurriculum, error) {
-	rows, err := csvS3.getData(ctx, strings.Join([]string{csvDir, entity.CurriculumCSV}, "/"))
+	rows, err := csvS3.getData(ctx, entity.CurriculumCSV)
 	if err != nil {
 		log.Error(ctx, "curriculum rows", log.Err(err))
 		return nil, err
@@ -63,7 +62,7 @@ func (csvS3 CSVS3Reader) Curriculums(ctx context.Context) ([]*entity.CSVCurricul
 }
 
 func (csvS3 CSVS3Reader) Levels(ctx context.Context) ([]*entity.CSVLevel, error) {
-	rows, err := csvS3.getData(ctx, strings.Join([]string{csvDir, entity.LevelCSV}, "/"))
+	rows, err := csvS3.getData(ctx, entity.LevelCSV)
 	if err != nil {
 		log.Error(ctx, "level rows", log.Err(err))
 		return nil, err
@@ -85,7 +84,7 @@ func (csvS3 CSVS3Reader) Levels(ctx context.Context) ([]*entity.CSVLevel, error)
 	return levels, nil
 }
 func (csvS3 CSVS3Reader) Units(ctx context.Context) ([]*entity.CSVUnit, error) {
-	rows, err := csvS3.getData(ctx, strings.Join([]string{csvDir, entity.UnitCSV}, "/"))
+	rows, err := csvS3.getData(ctx, entity.UnitCSV)
 	if err != nil {
 		log.Error(ctx, "unit rows", log.Err(err))
 		return nil, err
@@ -107,7 +106,7 @@ func (csvS3 CSVS3Reader) Units(ctx context.Context) ([]*entity.CSVUnit, error) {
 	return units, nil
 }
 func (csvS3 CSVS3Reader) LevelUnitRelation(ctx context.Context) ([]*entity.CSVLevelUnitRelation, error) {
-	rows, err := csvS3.getData(ctx, strings.Join([]string{csvDir, entity.LevelUnitCSV}, "/"))
+	rows, err := csvS3.getData(ctx, entity.LevelUnitCSV)
 	if err != nil {
 		log.Error(ctx, "level unit relation rows", log.Err(err))
 		return nil, err
@@ -127,7 +126,7 @@ func (csvS3 CSVS3Reader) LevelUnitRelation(ctx context.Context) ([]*entity.CSVLe
 	return relations, nil
 }
 func (csvS3 CSVS3Reader) UnitLessonPlanRelation(ctx context.Context) ([]*entity.CSVUnitLessonPlanRelation, error) {
-	rows, err := csvS3.getData(ctx, strings.Join([]string{csvDir, entity.UnitLessonPlanCSV}, "/"))
+	rows, err := csvS3.getData(ctx, entity.UnitLessonPlanCSV)
 	if err != nil {
 		log.Error(ctx, "unit lesson_plan relation rows", log.Err(err))
 		return nil, err

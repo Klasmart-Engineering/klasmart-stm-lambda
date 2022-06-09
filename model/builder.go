@@ -2,13 +2,9 @@ package model
 
 import (
 	"context"
-	"encoding/json"
 	"github.com/KL-Engineering/common-log/log"
-	"io/ioutil"
 	"kidsloop-stm-lambda/entity"
 	"kidsloop-stm-lambda/utils"
-	"os"
-	"strings"
 )
 
 type IBuilder interface {
@@ -107,93 +103,25 @@ func (b Builder) Build(ctx context.Context, input interface{}, output interface{
 		curriculums[i] = &curriculum
 	}
 
-	err = b.uploadCurriculums(ctx, curriculums)
+	err = GetJsonWriter(ctx).Curriculums(ctx, curriculums)
 	if err != nil {
 		log.Error(ctx, "upload curriculums", log.Err(err))
 		return err
 	}
-	err = b.uploadLevels(ctx, levelMap)
+	err = GetJsonWriter(ctx).Levels(ctx, levelMap)
 	if err != nil {
 		log.Error(ctx, "upload levels", log.Err(err))
 		return err
 	}
-	err = b.uploadUnits(ctx, unitMap)
+	err = GetJsonWriter(ctx).Units(ctx, unitMap)
 	if err != nil {
 		log.Error(ctx, "upload units", log.Err(err))
 		return err
 	}
-	err = b.uploadLessonPlan(ctx, lessonPlanMap)
+	err = GetJsonWriter(ctx).LessonPlan(ctx, lessonPlanMap)
 	if err != nil {
 		log.Error(ctx, "upload lesson_plan", log.Err(err))
 		return err
-	}
-	return nil
-}
-
-var mockDir = "/Users/yanghui/kidsloop/kidsloop-stm-lambda/doc/json2"
-
-func (b Builder) uploadCurriculums(ctx context.Context, curriculums []*entity.Curriculum) error {
-	data, err := json.Marshal(curriculums)
-	if err != nil {
-		log.Error(ctx, "marshal curriculums", log.Err(err), log.Any("curriculums", curriculums))
-		return err
-	}
-	filename := strings.Join([]string{mockDir, entity.CurriculumJSONKey}, "/")
-	err = ioutil.WriteFile(filename, data, os.ModePerm)
-	if err != nil {
-		log.Error(ctx, "write curriculums file", log.Err(err), log.String("data", string(data)))
-		return err
-	}
-	return nil
-}
-
-func (b Builder) uploadLevels(ctx context.Context, levelMap map[string]*entity.Level) error {
-	for k, v := range levelMap {
-		data, err := json.Marshal(v)
-		if err != nil {
-			log.Error(ctx, "marshal level", log.Err(err), log.Any("level", v))
-			return err
-		}
-		filename := strings.Join([]string{mockDir, entity.LevelsJSONKey, k + ".json"}, "/")
-		err = ioutil.WriteFile(filename, data, os.ModePerm)
-		if err != nil {
-			log.Error(ctx, "write level file", log.Err(err), log.String("data", string(data)))
-			return err
-		}
-	}
-	return nil
-}
-
-func (b Builder) uploadUnits(ctx context.Context, unitMap map[string]*entity.Unit) error {
-	for k, v := range unitMap {
-		data, err := json.Marshal(v)
-		if err != nil {
-			log.Error(ctx, "marshal unit", log.Err(err), log.Any("unit", v))
-			return err
-		}
-		filename := strings.Join([]string{mockDir, entity.UnitsJSONKey, k + ".json"}, "/")
-		err = ioutil.WriteFile(filename, data, os.ModePerm)
-		if err != nil {
-			log.Error(ctx, "write unit file", log.Err(err), log.String("data", string(data)))
-			return err
-		}
-	}
-	return nil
-}
-
-func (b Builder) uploadLessonPlan(ctx context.Context, lessonPlanMap map[string]*entity.LessonPlan) error {
-	for k, v := range lessonPlanMap {
-		data, err := json.Marshal(v)
-		if err != nil {
-			log.Error(ctx, "marshal lesson_plan", log.Err(err), log.Any("lesson_plan", v))
-			return err
-		}
-		filename := strings.Join([]string{mockDir, entity.LessonPlansJSONKey, k + ".json"}, "/")
-		err = ioutil.WriteFile(filename, data, os.ModePerm)
-		if err != nil {
-			log.Error(ctx, "write lesson_plan file", log.Err(err), log.String("data", string(data)))
-			return err
-		}
 	}
 	return nil
 }

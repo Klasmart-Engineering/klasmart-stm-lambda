@@ -14,9 +14,9 @@ type IContent interface {
 	MapContents(ctx context.Context, IDs []string) (map[string]*entity.LessonPlan, error)
 }
 
-type ContentProvider struct{}
+type LocalContent struct{}
 
-func (cp ContentProvider) MapContents(ctx context.Context, IDs []string) (map[string]*entity.LessonPlan, error) {
+func (localContent LocalContent) MapContents(ctx context.Context, IDs []string) (map[string]*entity.LessonPlan, error) {
 	dir := "/Users/yanghui/kidsloop/kidsloop-stm-lambda/doc/json/lesson_plans"
 	result := make(map[string]*entity.LessonPlan)
 	for _, id := range IDs {
@@ -36,6 +36,13 @@ func (cp ContentProvider) MapContents(ctx context.Context, IDs []string) (map[st
 	return result, nil
 }
 
+type KidsloopProvider struct{}
+
+func (kidsloopProvider KidsloopProvider) MapContents(ctx context.Context, IDs []string) (map[string]*entity.LessonPlan, error) {
+	// TODO: http request
+	return map[string]*entity.LessonPlan{}, nil
+}
+
 var (
 	_contentProvider IContent
 	_contentOnce     sync.Once
@@ -43,7 +50,8 @@ var (
 
 func GetContentProvider(ctx context.Context) IContent {
 	_contentOnce.Do(func() {
-		_contentProvider = &ContentProvider{}
+		//_contentProvider = &LocalContent{}
+		_contentProvider = &KidsloopProvider{}
 	})
 	return _contentProvider
 }
