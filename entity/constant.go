@@ -18,3 +18,7 @@ const (
 	UnitsJSONKey       = "units"
 	LessonPlansJSONKey = "lesson_plans"
 )
+
+const (
+	JsonContentType = "application/json"
+)
