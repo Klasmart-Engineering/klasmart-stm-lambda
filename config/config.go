@@ -33,7 +33,7 @@ func LoadEnvConfig(ctx context.Context) {
 	config.CloudFrontEndpoint = os.Getenv("cloud_front_endpoint")
 	config.H5pEndpoint = os.Getenv("h5p_endpoint")
 
-	privateKeyData, err := ioutil.ReadFile(os.Getenv("internal_private_key_path"))
+	privateKeyData, err := ioutil.ReadFile(os.Getenv("stm_private_key_path"))
 	if err != nil {
 		log.Panic(ctx, "reade private key file", log.Err(err))
 	}
