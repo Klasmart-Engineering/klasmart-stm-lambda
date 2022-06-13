@@ -3,10 +3,6 @@ package entity
 import "time"
 
 const (
-	InternalPrivateKey = "./internal_private_key"
-)
-
-const (
 	CurriculumCSV     = "curriculums.csv"
 	LevelUnitCSV      = "level_unit.csv"
 	LevelCSV          = "levels.csv"
