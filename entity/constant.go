@@ -1,5 +1,7 @@
 package entity
 
+import "time"
+
 const (
 	InternalPrivateKey = "./internal_private_key"
 )
@@ -22,4 +24,9 @@ const (
 const (
 	JsonContentType = "application/json"
 	TextContentType = "text/plain"
+)
+
+const (
+	TokenValidityPeriod = 24 * time.Hour
+	TokenRefreshBefore  = 1 * time.Hour
 )
