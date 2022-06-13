@@ -1,9 +1,5 @@
 package entity
 
-type IDSlice struct {
-	IDs []string `json:"ids"`
-}
-
 type BaseField struct {
 	ID          string `json:"id"`
 	Name        string `json:"name"`
