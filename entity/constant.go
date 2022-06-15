@@ -1,8 +1,6 @@
 package entity
 
-const (
-	InternalPrivateKey = "./internal_private_key"
-)
+import "time"
 
 const (
 	CurriculumCSV     = "curriculums.csv"
@@ -22,4 +20,9 @@ const (
 const (
 	JsonContentType = "application/json"
 	TextContentType = "text/plain"
+)
+
+const (
+	TokenValidityPeriod = 24 * time.Hour
+	TokenRefreshBefore  = 1 * time.Hour
 )
