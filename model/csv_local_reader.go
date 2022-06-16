@@ -9,9 +9,9 @@ import (
 	"strings"
 )
 
-type CSVLocalReader struct{}
-
-var csvDir = "/Users/yanghui/kidsloop/kidsloop-stm-lambda/doc/csv"
+type CSVLocalReader struct {
+	dir string
+}
 
 func (locCSV CSVLocalReader) getData(ctx context.Context, filePath string) ([][]string, error) {
 	csvFile, err := os.Open(filePath)
@@ -35,7 +35,7 @@ func (locCSV CSVLocalReader) getData(ctx context.Context, filePath string) ([][]
 }
 
 func (locCSV CSVLocalReader) Curriculums(ctx context.Context) ([]*entity.CSVCurriculum, error) {
-	rows, err := locCSV.getData(ctx, strings.Join([]string{csvDir, entity.CurriculumCSV}, "/"))
+	rows, err := locCSV.getData(ctx, strings.Join([]string{locCSV.dir, entity.CurriculumCSV}, "/"))
 	if err != nil {
 		log.Error(ctx, "curriculum rows", log.Err(err))
 		return nil, err
@@ -58,7 +58,7 @@ func (locCSV CSVLocalReader) Curriculums(ctx context.Context) ([]*entity.CSVCurr
 }
 
 func (locCSV CSVLocalReader) Levels(ctx context.Context) ([]*entity.CSVLevel, error) {
-	rows, err := locCSV.getData(ctx, strings.Join([]string{csvDir, entity.LevelCSV}, "/"))
+	rows, err := locCSV.getData(ctx, strings.Join([]string{locCSV.dir, entity.LevelCSV}, "/"))
 	if err != nil {
 		log.Error(ctx, "level rows", log.Err(err))
 		return nil, err
@@ -80,7 +80,7 @@ func (locCSV CSVLocalReader) Levels(ctx context.Context) ([]*entity.CSVLevel, er
 	return levels, nil
 }
 func (locCSV CSVLocalReader) Units(ctx context.Context) ([]*entity.CSVUnit, error) {
-	rows, err := locCSV.getData(ctx, strings.Join([]string{csvDir, entity.UnitCSV}, "/"))
+	rows, err := locCSV.getData(ctx, strings.Join([]string{locCSV.dir, entity.UnitCSV}, "/"))
 	if err != nil {
 		log.Error(ctx, "unit rows", log.Err(err))
 		return nil, err
@@ -102,7 +102,7 @@ func (locCSV CSVLocalReader) Units(ctx context.Context) ([]*entity.CSVUnit, erro
 	return units, nil
 }
 func (locCSV CSVLocalReader) LevelUnitRelation(ctx context.Context) ([]*entity.CSVLevelUnitRelation, error) {
-	rows, err := locCSV.getData(ctx, strings.Join([]string{csvDir, entity.LevelUnitCSV}, "/"))
+	rows, err := locCSV.getData(ctx, strings.Join([]string{locCSV.dir, entity.LevelUnitCSV}, "/"))
 	if err != nil {
 		log.Error(ctx, "level unit relation rows", log.Err(err))
 		return nil, err
@@ -122,7 +122,7 @@ func (locCSV CSVLocalReader) LevelUnitRelation(ctx context.Context) ([]*entity.C
 	return relations, nil
 }
 func (locCSV CSVLocalReader) UnitLessonPlanRelation(ctx context.Context) ([]*entity.CSVUnitLessonPlanRelation, error) {
-	rows, err := locCSV.getData(ctx, strings.Join([]string{csvDir, entity.UnitLessonPlanCSV}, "/"))
+	rows, err := locCSV.getData(ctx, strings.Join([]string{locCSV.dir, entity.UnitLessonPlanCSV}, "/"))
 	if err != nil {
 		log.Error(ctx, "unit lesson_plan relation rows", log.Err(err))
 		return nil, err

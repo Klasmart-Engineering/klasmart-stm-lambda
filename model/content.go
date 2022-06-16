@@ -149,7 +149,11 @@ func mustKidsloopProvider(ctx context.Context) *KidsloopProvider {
 
 func GetContentProvider(ctx context.Context) IContent {
 	_contentOnce.Do(func() {
-		_contentProvider = mustKidsloopProvider(ctx)
+		if config.Get().LocalSource.UseLocalSource {
+			_contentProvider = &LocalContent{}
+		} else {
+			_contentProvider = mustKidsloopProvider(ctx)
+		}
 	})
 	return _contentProvider
 }

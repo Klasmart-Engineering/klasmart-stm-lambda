@@ -24,10 +24,16 @@ var (
 
 func GetJsonWriter(ctx context.Context) IJsonWrite {
 	_jsonWriterOnce.Do(func() {
-		_jsonWriter = &JsonS3Writer{
-			svc:    s3.New(session.New()),
-			bucket: aws.String(config.Get().DestinationS3.Bucket),
-			prefix: "test",
+		if config.Get().LocalSource.UseLocalSource {
+			_jsonWriter = &LocalJsonWriter{
+				dir: config.Get().LocalSource.JSONDir,
+			}
+		} else {
+			_jsonWriter = &JsonS3Writer{
+				svc:    s3.New(session.New()),
+				bucket: aws.String(config.Get().DestinationS3.Bucket),
+				prefix: config.Get().DestinationS3.Prefix,
+			}
 		}
 	})
 	return _jsonWriter

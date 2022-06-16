@@ -15,10 +15,6 @@ type IBuilder interface {
 type Builder struct {
 }
 
-//func (b Builder) getLessonPlans(ctx context.Context, IDs []string) (map[string]*entity.LessonPlan, error) {
-//	return GetContentProvider(ctx).MapContents(ctx, IDs)
-//}
-
 func (b Builder) Build(ctx context.Context, input interface{}, output interface{}) error {
 	csvCurriculums, err := GetCSVReader(ctx).Curriculums(ctx)
 	if err != nil {
@@ -126,6 +122,12 @@ func (b Builder) Build(ctx context.Context, input interface{}, output interface{
 	err = GetJsonWriter(ctx).LessonPlan(ctx, lessonPlanMap)
 	if err != nil {
 		log.Error(ctx, "upload lesson_plan", log.Err(err))
+		return err
+	}
+
+	err = GetContentDeliveryNetwork(ctx).RefreshAll(ctx)
+	if err != nil {
+		log.Error(ctx, "refresh all", log.Err(err))
 		return err
 	}
 	return nil
