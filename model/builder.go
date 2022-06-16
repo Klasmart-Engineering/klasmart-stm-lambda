@@ -3,6 +3,7 @@ package model
 import (
 	"context"
 	"github.com/KL-Engineering/common-log/log"
+	"kidsloop-stm-lambda/config"
 	"kidsloop-stm-lambda/entity"
 	"kidsloop-stm-lambda/utils"
 	"sync"
@@ -125,10 +126,12 @@ func (b Builder) Build(ctx context.Context, input interface{}, output interface{
 		return err
 	}
 
-	err = GetContentDeliveryNetwork(ctx).RefreshAll(ctx)
-	if err != nil {
-		log.Error(ctx, "refresh all", log.Err(err))
-		return err
+	if !config.Get().LocalSource.UseLocalSource {
+		err = GetContentDeliveryNetwork(ctx).RefreshAll(ctx)
+		if err != nil {
+			log.Error(ctx, "refresh all", log.Err(err))
+			return err
+		}
 	}
 	return nil
 }
