@@ -83,20 +83,26 @@ func (kidsloopProvider *KidsloopProvider) MapContents(ctx context.Context, IDs [
 		log.Error(ctx, "marshal ids", log.Err(err), log.Strings("ids", IDs))
 		return nil, err
 	}
-	requestUrl := config.Get().CmsEndpoint + "/v1/internal/stm/contents"
-	request, err := http.NewRequest(http.MethodGet, requestUrl, bytes.NewBuffer(body))
-	cookie := http.Cookie{
-		Name:  "access",
-		Value: kidsloopProvider.session,
+	requestUrl := config.Get().CmsEndpoint + "internal/stm/contents"
+	request, err := http.NewRequest(http.MethodPost, requestUrl, bytes.NewReader(body))
+	if err != nil {
+		log.Error(ctx, "new request",
+			log.Err(err),
+			log.String("url", requestUrl),
+			log.String("body", string(body)))
+		return nil, err
 	}
-	request.AddCookie(&cookie)
+	request.AddCookie(&http.Cookie{Name: "access", Value: kidsloopProvider.session})
 	response, err := kidsloopProvider.httpClient.Do(request)
 	if err != nil {
 		log.Error(ctx, "do http", log.Err(err), log.Strings("ids", IDs))
 		return nil, err
 	}
 	if response.StatusCode != http.StatusOK {
-		log.Error(ctx, "http status is not ok", log.Int("status", response.StatusCode), log.Strings("ids", IDs))
+		log.Error(ctx, "http status is not ok",
+			log.Int("status", response.StatusCode),
+			log.Any("header", response.Header),
+			log.Strings("ids", IDs))
 		return nil, entity.ErrHttpStatusNotOk
 	}
 	data, err := ioutil.ReadAll(response.Body)

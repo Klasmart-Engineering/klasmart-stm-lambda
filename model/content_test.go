@@ -14,7 +14,7 @@ func TestKidsloopProvider_MapContents(t *testing.T) {
 		"6257868a9456ed3fc792b775",
 		"624419aace8e2cbaa66ca0f8",
 	}
-	result, err := GetContentProvider(ctx).MapContents(ctx, IDs)
+	result, err := mustKidsloopProvider(ctx).MapContents(ctx, IDs)
 	if err != nil {
 		t.Fatal(err)
 	}
