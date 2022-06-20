@@ -10,7 +10,6 @@ import (
 	"kidsloop-stm-lambda/config"
 	"kidsloop-stm-lambda/entity"
 	"net/http"
-	"path"
 	"strings"
 	"sync"
 	"time"
@@ -84,7 +83,7 @@ func (kidsloopProvider *KidsloopProvider) MapContents(ctx context.Context, IDs [
 		log.Error(ctx, "marshal ids", log.Err(err), log.Strings("ids", IDs))
 		return nil, err
 	}
-	requestUrl := path.Join(config.Get().CmsEndpoint, "internal/stm/contents")
+	requestUrl := config.Get().CmsEndpoint + "internal/stm/contents"
 	request, err := http.NewRequest(http.MethodPost, requestUrl, bytes.NewReader(body))
 	if err != nil {
 		log.Error(ctx, "new request",
