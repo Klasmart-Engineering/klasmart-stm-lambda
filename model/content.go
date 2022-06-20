@@ -95,14 +95,21 @@ func (kidsloopProvider *KidsloopProvider) MapContents(ctx context.Context, IDs [
 	request.AddCookie(&http.Cookie{Name: "access", Value: kidsloopProvider.session})
 	response, err := kidsloopProvider.httpClient.Do(request)
 	if err != nil {
-		log.Error(ctx, "do http", log.Err(err), log.Strings("ids", IDs))
+		log.Error(ctx, "do http", log.Err(err),
+			log.String("method", http.MethodPost),
+			log.String("url", requestUrl),
+			log.String("access", kidsloopProvider.session),
+			log.Strings("ids", IDs))
 		return nil, err
 	}
 	if response.StatusCode != http.StatusOK {
 		log.Error(ctx, "http status is not ok",
 			log.Int("status", response.StatusCode),
 			log.Any("header", response.Header),
-			log.Strings("ids", IDs))
+			log.Strings("ids", IDs),
+			log.String("method", http.MethodPost),
+			log.String("url", requestUrl),
+			log.String("access", kidsloopProvider.session))
 		return nil, entity.ErrHttpStatusNotOk
 	}
 	data, err := ioutil.ReadAll(response.Body)
