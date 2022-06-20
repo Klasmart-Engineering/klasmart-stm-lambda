@@ -6,6 +6,7 @@ import (
 	"github.com/golang-jwt/jwt"
 	"io/ioutil"
 	"os"
+	"strconv"
 )
 
 type LocalSourceConfig struct {
@@ -40,7 +41,7 @@ type Config struct {
 var config = &Config{}
 
 func LoadEnvConfig(ctx context.Context) {
-	config.LocalSource.UseLocalSource = os.Getenv("use_local_source") == "true"
+	config.LocalSource.UseLocalSource, _ = strconv.ParseBool(os.Getenv("use_local_source"))
 	config.LocalSource.CSVDir = os.Getenv("local_csv_dir")
 	config.LocalSource.JSONDir = os.Getenv("local_json_dir")
 	config.SourceS3.Region = os.Getenv("source_bucket_region")
