@@ -96,7 +96,7 @@ func (kidsloopProvider *KidsloopProvider) MapContents(ctx context.Context, IDs [
 	response, err := kidsloopProvider.httpClient.Do(request)
 	if err != nil {
 		log.Error(ctx, "do http", log.Err(err),
-			log.String("method", http.MethodPost),
+			log.String("method", request.Method),
 			log.String("url", requestUrl),
 			log.String("access", kidsloopProvider.session),
 			log.Strings("ids", IDs))
@@ -107,7 +107,7 @@ func (kidsloopProvider *KidsloopProvider) MapContents(ctx context.Context, IDs [
 			log.Int("status", response.StatusCode),
 			log.Any("header", response.Header),
 			log.Strings("ids", IDs),
-			log.String("method", http.MethodPost),
+			log.String("method", request.Method),
 			log.String("url", requestUrl),
 			log.String("access", kidsloopProvider.session))
 		return nil, entity.ErrHttpStatusNotOk
