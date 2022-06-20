@@ -121,18 +121,18 @@ insert into cms_contents(
 -- )
 
 
-select  * from cms_contents where id in (
-     '5fd01b8719c96568d20ac4c5',
-     '6063bf79cf9dafb599c4cecf',
-     '606419680a770f2a0d9477db',
-     '60641a597b27bd6cf7f0e36d',
-     '60641a5ae22a795140b7a823',
-     '60641a5bf9ed665793f60df0',
-     '606d13ee3402f28e4e934f43',
-     '606d143c74945ce9b0d233b6',
-     '606d158ac8f274f8d2ad628d',
-     '606d16724cdee0cde0eefabc',
-     '6087cf72e1f47ed91fb39562',
-     '6087d00434ce8181317a2b9b',
-     '62aa998d3dd24f61688ae910'
-)
+-- select  * from cms_contents where id in (
+--      '5fd01b8719c96568d20ac4c5',
+--      '6063bf79cf9dafb599c4cecf',
+--      '606419680a770f2a0d9477db',
+--      '60641a597b27bd6cf7f0e36d',
+--      '60641a5ae22a795140b7a823',
+--      '60641a5bf9ed665793f60df0',
+--      '606d13ee3402f28e4e934f43',
+--      '606d143c74945ce9b0d233b6',
+--      '606d158ac8f274f8d2ad628d',
+--      '606d16724cdee0cde0eefabc',
+--      '6087cf72e1f47ed91fb39562',
+--      '6087d00434ce8181317a2b9b',
+--      '62aa998d3dd24f61688ae910'
+-- )
