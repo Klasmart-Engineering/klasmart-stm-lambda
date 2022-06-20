@@ -46,7 +46,7 @@ func LambdaHandler(ctx context.Context) error {
 	//result, err := model.GetCSVReader(ctx).Curriculums(ctx)
 	err := model.GetBuilder(ctx).Build(ctx, nil, nil)
 	if err != nil {
-		log.Error(ctx, "csv read", log.Err(err))
+		log.Error(ctx, "json build", log.Err(err))
 		return err
 	}
 	return nil

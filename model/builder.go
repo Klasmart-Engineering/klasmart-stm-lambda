@@ -3,6 +3,7 @@ package model
 import (
 	"context"
 	"github.com/KL-Engineering/common-log/log"
+	"kidsloop-stm-lambda/config"
 	"kidsloop-stm-lambda/entity"
 	"kidsloop-stm-lambda/utils"
 	"sync"
@@ -14,10 +15,6 @@ type IBuilder interface {
 
 type Builder struct {
 }
-
-//func (b Builder) getLessonPlans(ctx context.Context, IDs []string) (map[string]*entity.LessonPlan, error) {
-//	return GetContentProvider(ctx).MapContents(ctx, IDs)
-//}
 
 func (b Builder) Build(ctx context.Context, input interface{}, output interface{}) error {
 	csvCurriculums, err := GetCSVReader(ctx).Curriculums(ctx)
@@ -127,6 +124,14 @@ func (b Builder) Build(ctx context.Context, input interface{}, output interface{
 	if err != nil {
 		log.Error(ctx, "upload lesson_plan", log.Err(err))
 		return err
+	}
+
+	if !config.Get().LocalSource.UseLocalSource {
+		err = GetContentDeliveryNetwork(ctx).RefreshAll(ctx)
+		if err != nil {
+			log.Error(ctx, "refresh all", log.Err(err))
+			return err
+		}
 	}
 	return nil
 }

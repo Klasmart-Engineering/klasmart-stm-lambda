@@ -25,10 +25,15 @@ var (
 
 func GetCSVReader(ctx context.Context) ICSVRead {
 	_csvReaderOnce.Do(func() {
-		//_csvReader = &CSVLocalReader{}
-		_csvReader = &CSVS3Reader{
-			svc:    s3.New(session.New()),
-			bucket: aws.String(config.Get().SourceS3.Bucket),
+		if config.Get().LocalSource.UseLocalSource {
+			_csvReader = &CSVLocalReader{
+				dir: config.Get().LocalSource.CSVDir,
+			}
+		} else {
+			_csvReader = &CSVS3Reader{
+				svc:    s3.New(session.New()),
+				bucket: aws.String(config.Get().SourceS3.Bucket),
+			}
 		}
 	})
 	return _csvReader

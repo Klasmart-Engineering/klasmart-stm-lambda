@@ -5,6 +5,7 @@ import (
 	"encoding/csv"
 	"encoding/json"
 	"fmt"
+	"kidsloop-stm-lambda/config"
 	"kidsloop-stm-lambda/entity"
 	"os"
 	"testing"
@@ -45,6 +46,7 @@ func TestCSV(t *testing.T) {
 
 func TestBuilder(t *testing.T) {
 	ctx := context.Background()
+	config.LoadEnvConfig(ctx)
 	csvBuilder := new(Builder)
 	err := csvBuilder.Build(ctx, nil, nil)
 	if err != nil {

@@ -1,0 +1,43 @@
+{
+  "id": "62aa998d3dd24f61688ae910",
+  "name": "Premium Activity Samples",
+  "thumbnail": "https://badanamu-app-web.s3.ap-northeast-2.amazonaws.com/esl/stm_poc/thumbnails/stm_img_premium.png",
+  "description": "Students will learn the steps that lead to bedtime.",
+  "materials": [
+    {
+      "id": "62aa998d3dd24f61688ae911",
+      "name": "Tracing Words",
+      "thumbnail": "https://badanamu-app-web.s3.ap-northeast-2.amazonaws.com/esl/stm_poc/thumbnails/09_genius_tracingwords.png",
+      "description": "",
+      "data": "{\"source\": \"https://badanamu-app-web.s3.ap-northeast-2.amazonaws.com/esl/stm_poc/09_genius_tracingwords/index.html\", \"file_type\": 100, \"input_source\": 100}"
+    },
+    {
+      "id": "62aa998d3dd24f61688ae912",
+      "name": "Sticker Quiz (Shapes)",
+      "thumbnail": "https://badanamu-app-web.s3.ap-northeast-2.amazonaws.com/esl/stm_poc/thumbnails/01_genius_stickerquiz_shapes.png",
+      "description": "",
+      "data": "{\"source\": \"https://badanamu-app-web.s3.ap-northeast-2.amazonaws.com/esl/stm_poc/01_genius_stickerquizshapes/index.html\", \"file_type\": 100, \"input_source\": 100}"
+    },
+    {
+      "id": "62aa998d3dd24f61688ae913",
+      "name": "Blend Syllables",
+      "thumbnail": "https://badanamu-app-web.s3.ap-northeast-2.amazonaws.com/esl/stm_poc/thumbnails/08_genius_blendsyllables.png",
+      "description": "",
+      "data": "{\"source\": \"https://badanamu-app-web.s3.ap-northeast-2.amazonaws.com/esl/stm_poc/08_genius_blendsyllables/index.html\", \"file_type\": 100, \"input_source\": 100}"
+    },
+    {
+      "id": "62aa998d3dd24f61688ae914",
+      "name": "Memory Game",
+      "thumbnail": "https://badanamu-app-web.s3.ap-northeast-2.amazonaws.com/esl/stm_poc/thumbnails/11_sound_memorygame.png",
+      "description": "",
+      "data": "{\"source\": \"https://badanamu-app-web.s3.ap-northeast-2.amazonaws.com/esl/stm_poc/11_sound_memorygame/index.html\", \"file_type\": 100, \"input_source\": 100}"
+    },
+    {
+      "id": "62aa998d3dd24f61688ae915",
+      "name": "Tap an Ecco",
+      "thumbnail": "https://badanamu-app-web.s3.ap-northeast-2.amazonaws.com/esl/stm_poc/thumbnails/10_read_tapanecco.png",
+      "description": "",
+      "data": "{\"source\": \"https://badanamu-app-web.s3.ap-northeast-2.amazonaws.com/esl/stm_poc/10_read_tapanecco/index.html\", \"file_type\": 100, \"input_source\": 100}"
+    }
+  ]
+}
