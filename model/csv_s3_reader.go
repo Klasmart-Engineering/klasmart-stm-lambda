@@ -48,15 +48,20 @@ func (csvS3 CSVS3Reader) Curriculums(ctx context.Context) ([]*entity.CSVCurricul
 		log.Info(ctx, "curriculum zero rows", log.Err(err))
 		return []*entity.CSVCurriculum{}, nil
 	}
-	curriculums := make([]*entity.CSVCurriculum, len(rows)-1)
+	exists := make(map[string]bool)
+	var curriculums []*entity.CSVCurriculum
 	for i, r := range rows[1:] {
+		if exists[r[0]] {
+			log.Info(ctx, "curriculum already exists", log.Int("index", i), log.Strings("curriculum", r))
+			continue
+		}
 		base := entity.BaseField{
 			ID:          r[0],
 			Name:        r[1],
 			Thumbnail:   r[2],
 			Description: r[3],
 		}
-		curriculums[i] = &entity.CSVCurriculum{BaseField: base}
+		curriculums = append(curriculums, &entity.CSVCurriculum{BaseField: base})
 	}
 	return curriculums, nil
 }
@@ -71,15 +76,20 @@ func (csvS3 CSVS3Reader) Levels(ctx context.Context) ([]*entity.CSVLevel, error)
 		log.Info(ctx, "level zero rows", log.Err(err))
 		return []*entity.CSVLevel{}, nil
 	}
-	levels := make([]*entity.CSVLevel, len(rows)-1)
+	exists := make(map[string]bool)
+	var levels []*entity.CSVLevel
 	for i, r := range rows[1:] {
+		if exists[r[0]] {
+			log.Info(ctx, "level already exists", log.Int("index", i), log.Strings("level", r))
+			continue
+		}
 		base := entity.BaseField{
 			ID:          r[0],
 			Name:        r[1],
 			Thumbnail:   r[2],
 			Description: r[3],
 		}
-		levels[i] = &entity.CSVLevel{BaseField: base, CurriculumID: r[4]}
+		levels = append(levels, &entity.CSVLevel{BaseField: base, CurriculumID: r[4]})
 	}
 	return levels, nil
 }
@@ -93,15 +103,20 @@ func (csvS3 CSVS3Reader) Units(ctx context.Context) ([]*entity.CSVUnit, error) {
 		log.Info(ctx, "unit zero rows", log.Err(err))
 		return []*entity.CSVUnit{}, nil
 	}
-	units := make([]*entity.CSVUnit, len(rows)-1)
+	exists := make(map[string]bool)
+	var units []*entity.CSVUnit
 	for i, r := range rows[1:] {
+		if exists[r[0]] {
+			log.Info(ctx, "unit already exists", log.Int("index", i), log.Strings("unit", r))
+			continue
+		}
 		base := entity.BaseField{
 			ID:          r[0],
 			Name:        r[1],
 			Thumbnail:   r[2],
 			Description: r[3],
 		}
-		units[i] = &entity.CSVUnit{BaseField: base}
+		units = append(units, &entity.CSVUnit{BaseField: base})
 	}
 	return units, nil
 }
